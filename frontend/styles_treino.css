@@ -168,3 +168,90 @@ body {
 .btn-primary:hover {
     background-color: #16a34a;
 }
+
+/*seção de treinos*/
+.workout-container {
+            margin-bottom: 40px;
+        }
+        
+        .workout-day {
+            background-color: var(--white);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+        
+        .day-header {
+            background-color: var(--primary-color);
+            color: var(--white);
+            padding: 15px 20px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .day-header h2 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        
+        .workout-type {
+            background-color: var(--primary-light);
+            color: var(--primary-color);
+            padding: 10px 20px;
+            font-weight: 500;
+        }
+        
+        .exercise-list {
+            padding: 0;
+            list-style: none;
+        }
+        
+        .exercise-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .exercise-item:last-child {
+            border-bottom: none;
+        }
+        
+        .exercise-info {
+            flex: 1;
+        }
+        
+        .exercise-name {
+            font-weight: 500;
+            margin: 0 0 5px 0;
+            color: var(--text-dark);
+        }
+        
+        .exercise-sets {
+            color: var(--text-light);
+            font-size: 14px;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background-color: var(--primary-color);
+            border-radius: 3px;
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+        
+        .day-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        
+        .day-content.active {
+            max-height: 1000px;
+        }
+        
