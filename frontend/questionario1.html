@@ -4,16 +4,36 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Formulário</title>
+        <style>
+            .vazio{
+                border: 0;
+                text-decoration: 0;
+                padding: 20px;
+            }
+            
+            a.color-br{
+                text-decoration: none;
+                color: white;
+                background-color: green;
+                padding: green;
+                padding: 12px;
+                margin-bottom: auto;
+            }
+            a.color-pt{
+                text-decoration: none;
+                color: black;
+            }
+        </style>
     </head>
     <body>
-        <a href="index.html">Home</a>
+        <a href="home.html">Home</a>
         <h1>Vamos Criar Seu Plano Personalizado</h1>
         <p>Responder algumas perguntas para que nossa IA possa criar o plano de fitness e nutrição perfeito para você.</p>
 
         <h6>Etapa 1 de 5</h6>
         <h5>20% Completo</h5>
-        <h2>Informações Básicas</h2>
         <form>
+            <h2>Informações Básicas</h2>
             <div>
                 <label for="nome">Nome Completo</label>
                 <br>
@@ -49,7 +69,7 @@
                 <br>
                 <input type="number" min="0" placeholder="kg">
             </div>
-            <button><a href="formulario2.html">Próximo </a></button>
+            <button class="vazio"><a href="questionario2.html" class="color-br">Próximo</a></button>
         </form>    
     </body>
 </html>
