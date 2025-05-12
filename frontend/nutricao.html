@@ -3,21 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles_home.css">
     <link rel="stylesheet" href="styles_nutricao.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
-    <!-- Ícones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <title>Nutrição</title>
+    <title>Nutrição - VitaAI</title>
 </head>
-
 <body>
     <div class="container">
-
-        <!---barra lateral-->
+        <!-- Barra lateral -->
         <aside class="sidebar">
             <div class="logo">
-                <div class="logo-icon"></div>
-                <p>FitJourney</p>
+                <img src="img/Logo_VitaAI.svg" alt="VitaAI Logo">
+                <span>VitaAI</span>
             </div>
 
             <nav class="menu">
@@ -29,9 +27,9 @@
                         </a>
                     </li>
                     <li>
-                        <a href="questionario1.html">
+                        <a href="progresso.html">
                             <i class="far fa-calendar-alt"></i>
-                            <span>Questionário</span>
+                            <span>Progresso</span>
                         </a>
                     </li>
                     <li class="active">
@@ -50,22 +48,1338 @@
             </nav>
         </aside>
 
-        <!--conteudo principal-->
+        <!-- Conteúdo principal -->
         <main class="main-content">
             <header class="top-bar">
-                <h1>Nutrição</h1>
+                <h1>Plano Nutricional</h1>
                 <div class="user-profile">
                     <i class="fas fa-user"></i>
                 </div>
             </header>
-            
+
             <div class="welcome-section">
                 <div class="welcome-text">
-                    <h2>Alimentação e Dietas</h2>
-                    <p>Esse e o seu plano de Alimentação e Dieta</p>
+                    <h2>Plano Alimentar Semanal</h2>
+                    <p>Segue a seguir seu plano nutricional personalizado</p>
+                </div>
+            </div>
+
+            <div class="nutrition-container">
+                <div class="week-selector">
+                    <button class="week-btn active">Segunda</button>
+                    <button class="week-btn">Terça</button>
+                    <button class="week-btn">Quarta</button>
+                    <button class="week-btn">Quinta</button>
+                    <button class="week-btn">Sexta</button>
+                    <button class="week-btn">Sábado</button>
+                    <button class="week-btn">Domingo</button>
+                </div>
+
+                <div class="meals-container">
+                    <!-- Conteúdo para Segunda-feira -->
+                    <div class="day-content" id="segunda">
+                        <!-- Café da Manhã -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-sun"></i>
+                                <h3>Café da Manhã</h3>
+                                <span class="meal-time">7:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">Omelete de claras com espinafre e tomate + 1 fatia de pão integral + 1 colher de chá de azeite</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>320 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>22g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>25g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>14g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Lanche da Manhã -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-coffee"></i>
+                                <h3>Lanche da Manhã</h3>
+                                <span class="meal-time">10:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">Iogurte grego natural (150g) + 1 colher de sopa de granola sem açúcar + 1/2 banana</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>210 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>15g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>25g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>5g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Almoço -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-utensils"></i>
+                                <h3>Almoço</h3>
+                                <span class="meal-time">13:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">150g de peito de frango grelhado + 1/2 xícara de arroz integral + 1 xícara de legumes cozidos no vapor + salada verde à vontade com 1 colher de sopa de azeite</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>420 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>35g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>30g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>16g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Lanche da Tarde -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-apple-alt"></i>
+                                <h3>Lanche da Tarde</h3>
+                                <span class="meal-time">16:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">1 maçã média + 12 amêndoas</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>170 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>4g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>20g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>9g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Jantar -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-moon"></i>
+                                <h3>Jantar</h3>
+                                <span class="meal-time">19:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">150g de peixe assado + 1 batata doce média assada + salada de folhas verdes e tomate com 1 colher de chá de azeite</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>380 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>30g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>35g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>12g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Ceia -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-mug-hot"></i>
+                                <h3>Ceia (Opcional)</h3>
+                                <span class="meal-time">21:30</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">1 xícara de chá de camomila ou erva-cidreira + 1 colher de sopa de whey protein</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>60 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>12g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>2g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>0.5g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Conteúdo para Terça-feira -->
+                    <div class="day-content" id="terça" style="display: none;">
+                        <!-- Café da Manhã -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-sun"></i>
+                                <h3>Café da Manhã</h3>
+                                <span class="meal-time">7:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">Tapioca (2 colheres de sopa) com 1 ovo e 1 clara mexidos + 1 fatia de queijo branco</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>300 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>20g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>20g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>14g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Lanche da Manhã -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-coffee"></i>
+                                <h3>Lanche da Manhã</h3>
+                                <span class="meal-time">10:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">1 iogurte natural + 1 colher de sopa de aveia</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>190 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>10g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>22g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>6g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Almoço -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-utensils"></i>
+                                <h3>Almoço</h3>
+                                <span class="meal-time">13:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">120g de patinho moído grelhado + 1/2 xícara de arroz integral + 1/2 concha de feijão + salada de alface e cenoura com azeite</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>450 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>32g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>35g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>16g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Lanche da Tarde -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-apple-alt"></i>
+                                <h3>Lanche da Tarde</h3>
+                                <span class="meal-time">16:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">1 banana + 1 colher de sopa de pasta de amendoim</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>210 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>4g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>27g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>11g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Jantar -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-moon"></i>
+                                <h3>Jantar</h3>
+                                <span class="meal-time">19:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">Omelete com 2 ovos, espinafre, cebola e tomate + 1 fatia de pão integral</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>350 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>24g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>22g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>18g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Ceia -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-mug-hot"></i>
+                                <h3>Ceia (Opcional)</h3>
+                                <span class="meal-time">21:30</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">1 scoop de whey em água</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>100 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>20g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>2g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>1g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Conteúdo para Quarta-feira -->
+                    <div class="day-content" id="quarta" style="display: none;">
+                        <!-- Café da Manhã -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-sun"></i>
+                                <h3>Café da Manhã</h3>
+                                <span class="meal-time">7:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">Vitamina com 200ml de leite desnatado + 1 banana + 1 colher de aveia + 1 scoop de whey</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>330 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>26g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>30g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>8g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Lanche da Manhã -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-coffee"></i>
+                                <h3>Lanche da Manhã</h3>
+                                <span class="meal-time">10:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">Mix de castanhas (15g) + 1 tangerina</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>160 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>3g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>14g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>10g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Almoço -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-utensils"></i>
+                                <h3>Almoço</h3>
+                                <span class="meal-time">13:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">120g de filé de frango grelhado + 1/2 xícara de quinoa + legumes no vapor + salada verde</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>410 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>34g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>28g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>14g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Lanche da Tarde -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-apple-alt"></i>
+                                <h3>Lanche da Tarde</h3>
+                                <span class="meal-time">16:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">Iogurte proteico + 1 colher de chia</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>200 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>15g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>12g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>8g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Jantar -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-moon"></i>
+                                <h3>Jantar</h3>
+                                <span class="meal-time">19:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">Omelete com 3 claras e 1 ovo + abobrinha grelhada + 1 torrada integral</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>320 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>22g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>18g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>14g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Ceia -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-mug-hot"></i>
+                                <h3>Ceia (Opcional)</h3>
+                                <span class="meal-time">21:30</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">Chá de camomila + 1 fatia de queijo branco</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>80 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>7g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>1g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>5g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Conteúdo para Quinta-feira -->
+                    <div class="day-content" id="quinta" style="display: none;">
+                        <!-- Café da Manhã -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-sun"></i>
+                                <h3>Café da Manhã</h3>
+                                <span class="meal-time">7:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">Pão integral com 1 ovo mexido e 1 fatia de peito de peru + café sem açúcar</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>310 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>20g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>25g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>13g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Lanche da Manhã -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-coffee"></i>
+                                <h3>Lanche da Manhã</h3>
+                                <span class="meal-time">10:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">1 maçã + 1 colher de sopa de pasta de amendoim</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>200 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>4g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>22g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>10g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Almoço -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-utensils"></i>
+                                <h3>Almoço</h3>
+                                <span class="meal-time">13:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">120g de tilápia grelhada + purê de mandioquinha + salada de agrião com azeite</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>430 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>32g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>35g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>14g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Lanche da Tarde -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-apple-alt"></i>
+                                <h3>Lanche da Tarde</h3>
+                                <span class="meal-time">16:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">1 potinho de iogurte + 1 colher de sopa de granola sem açúcar</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>180 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>10g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>18g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>6g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Jantar -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-moon"></i>
+                                <h3>Jantar</h3>
+                                <span class="meal-time">19:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">Sopa de legumes com carne magra (150ml) + 1 fatia de pão integral</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>350 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>28g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>26g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>12g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Ceia -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-mug-hot"></i>
+                                <h3>Ceia (Opcional)</h3>
+                                <span class="meal-time">21:30</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">1 scoop de caseína ou whey + água</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>100 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>20g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>1g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>1g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Conteúdo para Sexta-feira -->
+                    <div class="day-content" id="sexta" style="display: none;">
+                        <!-- Café da Manhã -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-sun"></i>
+                                <h3>Café da Manhã</h3>
+                                <span class="meal-time">7:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">Ovos mexidos (2 ovos) com tomate + 1 fatia de pão integral + 1 colher de chá de azeite</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>330 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>18g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>20g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>18g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Lanche da Manhã -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-coffee"></i>
+                                <h3>Lanche da Manhã</h3>
+                                <span class="meal-time">10:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">1 banana + 10 castanhas de caju</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>210 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>4g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>24g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>12g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Almoço -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-utensils"></i>
+                                <h3>Almoço</h3>
+                                <span class="meal-time">13:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">150g de frango ao curry + 1/2 xícara de arroz integral + legumes salteados</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>440 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>35g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>30g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>15g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Lanche da Tarde -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-apple-alt"></i>
+                                <h3>Lanche da Tarde</h3>
+                                <span class="meal-time">16:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">1 barra proteica ou shake de whey</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>190 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>20g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>10g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>7g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Jantar -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-moon"></i>
+                                <h3>Jantar</h3>
+                                <span class="meal-time">19:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">Salada com ovo cozido (2 unidades), alface, cenoura, pepino e 1 colher de sopa de azeite</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>300 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>20g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>10g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>20g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Ceia -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-mug-hot"></i>
+                                <h3>Ceia (Opcional)</h3>
+                                <span class="meal-time">21:30</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">Leite desnatado quente + canela</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>80 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>8g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>8g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>2g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Conteúdo para Sábado -->
+                    <div class="day-content" id="sábado" style="display: none;">
+                        <!-- Café da Manhã -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-sun"></i>
+                                <h3>Café da Manhã</h3>
+                                <span class="meal-time">8:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">Crepioca (1 ovo + 2 colheres de goma de tapioca) recheada com frango desfiado</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>340 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>22g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>22g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>15g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Lanche da Manhã -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-coffee"></i>
+                                <h3>Lanche da Manhã</h3>
+                                <span class="meal-time">11:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">1 pera + 1 colher de sementes de girassol</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>180 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>4g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>24g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>8g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Almoço -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-utensils"></i>
+                                <h3>Almoço</h3>
+                                <span class="meal-time">14:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">Carne assada magra (120g) + 1/2 xícara de arroz integral + salada de couve com azeite</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>440 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>30g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>30g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>18g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Lanche da Tarde -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-apple-alt"></i>
+                                <h3>Lanche da Tarde</h3>
+                                <span class="meal-time">17:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">Iogurte + morangos + 1 colher de granola</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>190 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>10g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>20g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>6g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Jantar -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-moon"></i>
+                                <h3>Jantar</h3>
+                                <span class="meal-time">20:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">Sopa de frango com legumes + 1 torrada integral</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>310 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>25g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>22g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>10g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Ceia -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-mug-hot"></i>
+                                <h3>Ceia (Opcional)</h3>
+                                <span class="meal-time">22:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">1 scoop de whey + água</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>100 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>20g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>1g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>1g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Conteúdo para Domingo -->
+                    <div class="day-content" id="domingo" style="display: none;">
+                        <!-- Café da Manhã -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-sun"></i>
+                                <h3>Café da Manhã</h3>
+                                <span class="meal-time">8:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">Panqueca de aveia (2 ovos + 2 colheres de aveia) com 1 colher de mel</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>320 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>18g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>28g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>12g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Lanche da Manhã -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-coffee"></i>
+                                <h3>Lanche da Manhã</h3>
+                                <span class="meal-time">11:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">1 maçã + 1 colher de pasta de amendoim</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>200 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>4g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>22g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>10g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Almoço -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-utensils"></i>
+                                <h3>Almoço</h3>
+                                <span class="meal-time">14:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">Frango grelhado (120g) + 1/2 xícara de arroz integral + salada de alface, tomate e pepino</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>420 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>32g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>28g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>15g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Lanche da Tarde -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-apple-alt"></i>
+                                <h3>Lanche da Tarde</h3>
+                                <span class="meal-time">17:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">1 copo de iogurte com 1 colher de granola</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>180 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>10g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>18g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>6g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Jantar -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-moon"></i>
+                                <h3>Jantar</h3>
+                                <span class="meal-time">20:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">Omelete com 2 ovos, espinafre e queijo + 1 fatia de pão integral</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>340 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>24g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>22g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>18g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Ceia -->
+                        <div class="meal-card">
+                            <div class="meal-header">
+                                <i class="fas fa-mug-hot"></i>
+                                <h3>Ceia (Opcional)</h3>
+                                <span class="meal-time">22:00</span>
+                            </div>
+                            <div class="meal-content">
+                                <p class="meal-description">1 scoop de whey + água</p>
+                                <div class="nutrition-info">
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>100 kcal</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>20g proteína</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>1g carboidratos</span>
+                                    </div>
+                                    <div class="nutrition-item">
+                                        <i class="fas fa-oil-can"></i>
+                                        <span>1g gorduras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
     </div>
+
+    <script>
+        document.querySelectorAll('.week-btn').forEach(button => {
+            button.addEventListener('click', () => {
+                document.querySelectorAll('.week-btn').forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+
+                document.querySelectorAll('.day-content').forEach(content => {
+                    content.style.display = 'none';
+                });
+
+                const dayId = button.textContent.toLowerCase();
+                document.getElementById(dayId).style.display = 'block';
+            });
+        });
+
+        window.addEventListener('load', () => {
+            const segundaBtn = document.querySelector('.week-btn');
+            segundaBtn.click();
+        });
+    </script>
 </body>
 </html>
