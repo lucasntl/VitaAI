@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles_home.css">
     <link rel="stylesheet" href="styles_treino.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
     <!-- Ícones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <title>Treinos</title>
+    <title>Treinos - VitaAI</title>
 </head>
 
 <body>
@@ -16,8 +17,8 @@
         <!---barra lateral-->
         <aside class="sidebar">
             <div class="logo">
-                <div class="logo-icon"></div>
-                <p>FitJourney</p>
+                <img src="img/Logo_VitaAI.svg" alt="VitaAI Logo">
+                <span>VitaAI</span>
             </div>
 
             <nav class="menu">
@@ -29,9 +30,9 @@
                         </a>
                     </li>
                     <li>
-                        <a href="questionario1.html">
+                        <a href="progresso.html">
                             <i class="far fa-calendar-alt"></i>
-                            <span>Questionário</span>
+                            <span>Progresso</span>
                         </a>
                     </li>
                     <li>
@@ -67,409 +68,379 @@
             </div>
             
             <div class="workout-container">
-                <!-- Segunda-Feira -->
-                <div class="workout-day" id="segunda">
-                    <div class="day-header" onclick="toggleDay('segunda')">
-                        <h2>Segunda-Feira</h2>
-                        <div>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                    </div>
-                    <div class="day-content">
-                        <div class="workout-type">
-                            <h3>Treino de Costas</h3>
-                        </div>
-                        <ul class="exercise-list">
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Puxada Frontal</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Pulley Articulado</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Remada Curvada</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Remada Cavalinho</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Remada Unilateral</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Pullover Polia</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Fly Inverso</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Barra Fixa</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Remada Baixa</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Prancha</h4>
-                                    <p class="exercise-sets">3x30seg</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="week-selector">
+                    <button class="week-btn active">Segunda</button>
+                    <button class="week-btn">Terça</button>
+                    <button class="week-btn">Quarta</button>
+                    <button class="week-btn">Quinta</button>
+                    <button class="week-btn">Sexta</button>
+                    <button class="week-btn">Sábado</button>
+                    <button class="week-btn">Domingo</button>
                 </div>
 
-                <!-- Terça-Feira -->
-                <div class="workout-day" id="terca">
-                    <div class="day-header" onclick="toggleDay('terca')">
-                        <h2>Terça-Feira</h2>
-                        <div>
-                            <i class="fas fa-chevron-down"></i>
+                <div class="workouts-container">
+                    <!-- Segunda-Feira -->
+                    <div class="day-content" id="segunda">
+                        <div class="workout-card">
+                            <div class="workout-header">
+                                <i class="fas fa-dumbbell"></i>
+                                <h3>Peito e Tríceps</h3>
+                                <span class="workout-time">60 min</span>
+                            </div>
+                            <div class="workout-content">
+                                <ul class="exercise-list">
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Supino Reto</h4>
+                                            <p class="exercise-sets">4x10</p>
+                                        </div>
+                                    </li>
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Supino Inclinado</h4>
+                                            <p class="exercise-sets">3x10</p>
+                                        </div>
+                                    </li>
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Crucifixo com Halteres</h4>
+                                            <p class="exercise-sets">3x12</p>
+                                        </div>
+                                    </li>
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Tríceps Pulley</h4>
+                                            <p class="exercise-sets">3x12</p>
+                                        </div>
+                                    </li>
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Tríceps Banco</h4>
+                                            <p class="exercise-sets">3x15</p>
+                                        </div>
+                                    </li>
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Flexão de Braço</h4>
+                                            <p class="exercise-sets">3x até a falha</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="day-content">
-                        <div class="workout-type">
-                            <h3>Treino de Peito</h3>
-                        </div>
-                        <ul class="exercise-list">
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Supino Reto</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Supino Inclinado</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Crucifixo</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Crossover</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Peck Deck</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Flexão</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Tríceps Corda</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Tríceps Francês</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Tríceps Testa</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Abdominal</h4>
-                                    <p class="exercise-sets">3x15</p>
-                                </div>                     
-                            </li>
-                        </ul>
-                    </div>
-                </div>
 
-                <!-- Quarta-Feira -->
-                <div class="workout-day" id="quarta">
-                    <div class="day-header" onclick="toggleDay('quarta')">
-                        <h2>Quarta-Feira</h2>
-                        <div>
-                            <i class="fas fa-chevron-down"></i>
+                    <!-- Terça-Feira -->
+                    <div class="day-content" id="terça" style="display: none;">
+                        <div class="workout-card">
+                            <div class="workout-header">
+                                <i class="fas fa-dumbbell"></i>
+                                <h3>Costas e Bíceps</h3>
+                                <span class="workout-time">60 min</span>
+                            </div>
+                            <div class="workout-content">
+                                <ul class="exercise-list">
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Puxada Frontal na Barra</h4>
+                                            <p class="exercise-sets">4x10</p>
+                                        </div>
+                                    </li>
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Remada Baixa</h4>
+                                            <p class="exercise-sets">3x12</p>
+                                        </div>
+                                    </li>
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Remada Unilateral com Halteres</h4>
+                                            <p class="exercise-sets">3x10</p>
+                                        </div>
+                                    </li>
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Rosca Direta com Barra</h4>
+                                            <p class="exercise-sets">3x12</p>
+                                        </div>
+                                    </li>
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Rosca Alternada</h4>
+                                            <p class="exercise-sets">3x12</p>
+                                        </div>
+                                    </li>
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Encolhimento de Ombros</h4>
+                                            <p class="exercise-sets">3x15</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="day-content">
-                        <div class="workout-type">
-                            <h3>Treino de Pernas</h3>
-                        </div>
-                        <ul class="exercise-list">
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Agachamento</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Leg Press</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Cadeira Extensora</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Cadeira Flexora</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Stiff</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Panturrilha em Pé</h4>
-                                    <p class="exercise-sets">3x15</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Panturrilha Sentado</h4>
-                                    <p class="exercise-sets">3x15</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Adução</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Abdução</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>       
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Abdominal Infra</h4>
-                                    <p class="exercise-sets">3x15</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Quinta-Feira -->
-                <div class="workout-day" id="quinta">
-                    <div class="day-header" onclick="toggleDay('quinta')">
-                        <h2>Quinta-Feira</h2>
-                        <div>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                    </div>
-                    <div class="day-content">
-                        <div class="workout-type">
-                            <h3>Treino de Ombro</h3>
-                        </div>
-                        <ul class="exercise-list">
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Desenvolvimento</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Elevação Lateral</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Elevação Frontal</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Face Pull</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Encolhimento</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Rosca Direta</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Rosca Alternada</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Rosca Martelo</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>                             
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Rosca Scott</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>                               
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Abdominal Oblíquo</h4>
-                                    <p class="exercise-sets">3x15</p>
-                                </div>
-                              
-                            </li>
-                        </ul>
-                    </div>
-                </div>
 
-                <!-- Sexta-Feira -->
-                <div class="workout-day" id="sexta">
-                    <div class="day-header" onclick="toggleDay('sexta')">
-                        <h2>Sexta-Feira</h2>
-                        <div>
-                            <i class="fas fa-chevron-down"></i>
+                    <!-- Quarta-Feira -->
+                    <div class="day-content" id="quarta" style="display: none;">
+                        <div class="workout-card">
+                            <div class="workout-header">
+                                <i class="fas fa-dumbbell"></i>
+                                <h3>Pernas (ênfase em quadríceps e glúteos)</h3>
+                                <span class="workout-time">60 min</span>
+                            </div>
+                            <div class="workout-content">
+                                <ul class="exercise-list">
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Agachamento Livre</h4>
+                                            <p class="exercise-sets">4x10</p>
+                                        </div>
+                                    </li>
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Leg Press</h4>
+                                            <p class="exercise-sets">3x12</p>
+                                        </div>
+                                    </li>
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Cadeira Extensora</h4>
+                                            <p class="exercise-sets">3x12</p>
+                                        </div>
+                                    </li>
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Afundo com Halteres</h4>
+                                            <p class="exercise-sets">3x10 por perna</p>
+                                        </div>
+                                    </li>
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Elevação de Quadril</h4>
+                                            <p class="exercise-sets">3x15</p>
+                                        </div>
+                                    </li>
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Panturrilha em Pé</h4>
+                                            <p class="exercise-sets">3x20</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="day-content">
-                        <div class="workout-type">
-                            <h3>Treino Full Body</h3>
+
+                    <!-- Quinta-Feira -->
+                    <div class="day-content" id="quinta" style="display: none;">
+                        <div class="workout-card">
+                            <div class="workout-header">
+                                <i class="fas fa-dumbbell"></i>
+                                <h3>Ombros e Abdômen</h3>
+                                <span class="workout-time">60 min</span>
+                            </div>
+                            <div class="workout-content">
+                                <ul class="exercise-list">
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Elevação Lateral</h4>
+                                            <p class="exercise-sets">4x12</p>
+                                        </div>
+                                    </li>
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Desenvolvimento com Halteres</h4>
+                                            <p class="exercise-sets">3x10</p>
+                                        </div>
+                                    </li>
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Elevação Frontal</h4>
+                                            <p class="exercise-sets">3x12</p>
+                                        </div>
+                                    </li>
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Encolhimento com Halteres</h4>
+                                            <p class="exercise-sets">3x15</p>
+                                        </div>
+                                    </li>
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Prancha</h4>
+                                            <p class="exercise-sets">3x 45 segundos</p>
+                                        </div>
+                                    </li>
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Abdominal Infra</h4>
+                                            <p class="exercise-sets">3x15</p>
+                                        </div>
+                                    </li>
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Abdominal Oblíquo</h4>
+                                            <p class="exercise-sets">3x20 (10 cada lado)</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                        <ul class="exercise-list">
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Agachamento</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Supino Reto</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Puxada Frontal</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Desenvolvimento</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Rosca Direta</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Tríceps Corda</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Leg Press</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div> 
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Remada Baixa</h4>
-                                    <p class="exercise-sets">3x12</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Panturrilha</h4>
-                                    <p class="exercise-sets">3x15</p>
-                                </div>
-                            </li>
-                            <li class="exercise-item">
-                                <div class="exercise-info">
-                                    <h4 class="exercise-name">Abdominal</h4>
-                                    <p class="exercise-sets">3x15</p>
-                                </div>
-                            </li>
-                        </ul>
+                    </div>
+
+                    <!-- Sexta-Feira -->
+                    <div class="day-content" id="sexta" style="display: none;">
+                        <div class="workout-card">
+                            <div class="workout-header">
+                                <i class="fas fa-dumbbell"></i>
+                                <h3>Full Body (Corpo todo e funcional)</h3>
+                                <span class="workout-time">45 min</span>
+                            </div>
+                            <div class="workout-content">
+                                <p class="circuit-info">Circuito (repetir 3x com 1 minuto de descanso entre cada circuito):</p>
+                                <ul class="exercise-list">
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Burpees</h4>
+                                            <p class="exercise-sets">10 repetições</p>
+                                        </div>
+                                    </li>
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Agachamento com Salto</h4>
+                                            <p class="exercise-sets">15 repetições</p>
+                                        </div>
+                                    </li>
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Flexão de Braço</h4>
+                                            <p class="exercise-sets">10 repetições</p>
+                                        </div>
+                                    </li>
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Abdominal Canivete</h4>
+                                            <p class="exercise-sets">15 repetições</p>
+                                        </div>
+                                    </li>
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Corrida Estacionária</h4>
+                                            <p class="exercise-sets">1 minuto</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sábado -->
+                    <div class="day-content" id="sábado" style="display: none;">
+                        <div class="workout-card">
+                            <div class="workout-header">
+                                <i class="fas fa-running"></i>
+                                <h3>Cardio e Abdômen Leve</h3>
+                                <span class="workout-time">60 min</span>
+                            </div>
+                            <div class="workout-content">
+                                <ul class="exercise-list">
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Caminhada Rápida ou Corrida Leve</h4>
+                                            <p class="exercise-sets">30 a 45 minutos</p>
+                                        </div>
+                                    </li>
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Abdominal Reto</h4>
+                                            <p class="exercise-sets">3x20</p>
+                                        </div>
+                                    </li>
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Abdominal Oblíquo</h4>
+                                            <p class="exercise-sets">3x20 (10 cada lado)</p>
+                                        </div>
+                                    </li>
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Prancha</h4>
+                                            <p class="exercise-sets">3x 1 minuto</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Domingo -->
+                    <div class="day-content" id="domingo" style="display: none;">
+                        <div class="workout-card">
+                            <div class="workout-header">
+                                <i class="fas fa-spa"></i>
+                                <h3>Alongamento e Mobilidade</h3>
+                                <span class="workout-time">50 min</span>
+                            </div>
+                            <div class="workout-content">
+                                <ul class="exercise-list">
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Caminhada Leve ou Passeio de Bike</h4>
+                                            <p class="exercise-sets">30 minutos</p>
+                                        </div>
+                                    </li>
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Sessão de Alongamento Geral</h4>
+                                            <p class="exercise-sets">20 minutos</p>
+                                        </div>
+                                    </li>
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Yoga ou Mobilidade Articular</h4>
+                                            <p class="exercise-sets">Opcional</p>
+                                        </div>
+                                    </li>
+                                    <li class="exercise-item">
+                                        <div class="exercise-info">
+                                            <h4 class="exercise-name">Respiração Profunda e Relaxamento</h4>
+                                            <p class="exercise-sets">10 minutos</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </main>
     </div>
      <script>
-        // Função para alternar a visibilidade do conteúdo do dia
-        function toggleDay(dayId) {
-            const dayContent = document.querySelector(`#${dayId} .day-content`);
-            const chevron = document.querySelector(`#${dayId} .day-header i`);
-            
-            if (dayContent.classList.contains('active')) {
-                dayContent.classList.remove('active');
-                chevron.classList.remove('fa-chevron-up');
-                chevron.classList.add('fa-chevron-down');
-            } else {
-                dayContent.classList.add('active');
-                chevron.classList.remove('fa-chevron-down');
-                chevron.classList.add('fa-chevron-up');
-            }
-        }
+        // Função para alternar entre os dias da semana
+        document.querySelectorAll('.week-btn').forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                document.querySelectorAll('.week-btn').forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                button.classList.add('active');
+
+                // Hide all day contents
+                document.querySelectorAll('.day-content').forEach(content => {
+                    content.style.display = 'none';
+                });
+
+                // Show the selected day content
+                const dayId = button.textContent.toLowerCase();
+                document.getElementById(dayId).style.display = 'block';
+            });
+        });
+
+        // Carregar segunda-feira por padrão ao entrar na página
+        window.addEventListener('load', () => {
+            const segundaBtn = document.querySelector('.week-btn');
+            segundaBtn.click();
+        });
     </script>
 </body>
 </html>
