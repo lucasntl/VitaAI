@@ -5,14 +5,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background-color: #f5f6fa;
+}
+
 .container {
     display: flex;
     min-height: 100vh;
-}
-
-body {
-    background-color: var(--bg-light);
-    color: var(--text-dark);
 }
 
 :root {
@@ -30,37 +29,32 @@ body {
 /* Barra lateral */
 .sidebar {
     width: 250px;
-    background-color: var(--white);
+    background-color: white;
+    color: #2c3e50;
     padding: 20px;
-    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.05);
     position: fixed;
     height: 100vh;
-    overflow-y: auto;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
 }
 
 .logo {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
-    padding: 10px;
+    gap: 10px;
+    margin-bottom: 40px;
 }
 
 .logo-icon {
-    width: 36px;
-    height: 36px;
-    background-color: var(--primary-color);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 10px;
-    color: var(--white);
+    width: 40px;
+    height: 40px;
+    background-color: #22c55e;
+    border-radius: 10px;
 }
 
-.logo h2 {
-    color: var(--primary-color);
-    font-size: 18px;
+.logo p {
+    font-size: 1.5rem;
     font-weight: 600;
+    color: #2c3e50;
 }
 
 .menu ul {
@@ -68,53 +62,41 @@ body {
 }
 
 .menu li {
-    margin-bottom: 5px;
-    border-radius: var(--border-radius);
+    margin-bottom: 10px;
 }
 
-.menu li.active {
-    background-color: var(--primary-light);
-}
-
-.menu li a {
+.menu a {
     display: flex;
     align-items: center;
-    padding: 12px 15px;
-    color: var(--text-light);
+    gap: 10px;
+    color: #2c3e50;
     text-decoration: none;
-    transition: all 0.3s;
+    padding: 12px;
+    border-radius: 8px;
 }
 
 .menu li.active a {
-    color: var(--primary-color);
-    font-weight: 500;
+    background-color: #22c55e;
+    color: white;
 }
 
-.menu li a:hover {
-    background-color: var(--primary-light);
-    border-radius: var(--border-radius);
-}
-
-.menu li i {
-    margin-right: 10px;
-    font-size: 18px;
-    width: 24px;
-    text-align: center;
+.menu i {
+    width: 20px;
 }
 
 
 /* Conteúdo principal */
 .main-content {
     flex: 1;
-    padding: 20px 30px;
     margin-left: 250px;
+    padding: 20px;
 }
 
 .top-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .top-bar h1 {
@@ -126,13 +108,12 @@ body {
 .user-profile {
     width: 40px;
     height: 40px;
-    background-color: var(--primary-light);
+    background-color: #22c55e;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--primary-color);
-    cursor: pointer;
+    color: white;
 }
 
 .welcome-section {
@@ -162,96 +143,246 @@ body {
     border-radius: var(--border-radius);
     font-weight: 500;
     cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.btn-primary:hover {
-    background-color: #16a34a;
 }
 
 /*seção de treinos*/
 .workout-container {
-            margin-bottom: 40px;
-        }
-        
-        .workout-day {
-            background-color: var(--white);
-            border-radius: var(--border-radius);
-            box-shadow: var(--shadow);
-            margin-bottom: 20px;
-            overflow: hidden;
-        }
-        
-        .day-header {
-            background-color: var(--primary-color);
-            color: var(--white);
-            padding: 15px 20px;
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        .day-header h2 {
-            margin: 0;
-            font-size: 18px;
-            font-weight: 600;
-        }
-        
-        .workout-type {
-            background-color: var(--primary-light);
-            color: var(--primary-color);
-            padding: 10px 20px;
-            font-weight: 500;
-        }
-        
-        .exercise-list {
-            padding: 0;
-            list-style: none;
-        }
-        
-        .exercise-item {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 15px 20px;
-            border-bottom: 1px solid #f0f0f0;
-        }
-        
-        .exercise-item:last-child {
-            border-bottom: none;
-        }
-        
-        .exercise-info {
-            flex: 1;
-        }
-        
-        .exercise-name {
-            font-weight: 500;
-            margin: 0 0 5px 0;
-            color: var(--text-dark);
-        }
-        
-        .exercise-sets {
-            color: var(--text-light);
-            font-size: 14px;
-        }
-        
-        .progress-fill {
-            height: 100%;
-            background-color: var(--primary-color);
-            border-radius: 3px;
-            width: 0%;
-            transition: width 0.3s ease;
-        }
-        
-        .day-content {
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.3s ease;
-        }
-        
-        .day-content.active {
-            max-height: 1000px;
-        }
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.week-selector {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #22c55e #f5f6fa;
+}
+
+.week-selector::-webkit-scrollbar {
+    height: 6px;
+}
+
+.week-selector::-webkit-scrollbar-track {
+    background: #f5f6fa;
+    border-radius: 3px;
+}
+
+.week-selector::-webkit-scrollbar-thumb {
+    background-color: #22c55e;
+    border-radius: 3px;
+}
+
+.week-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #f5f6fa;
+    border-radius: 8px;
+    cursor: pointer;
+    white-space: nowrap;
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.week-btn.active {
+    background-color: #22c55e;
+    color: white;
+}
+
+/* Workout Cards */
+.workouts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.workout-card {
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.workout-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.workout-header i {
+    font-size: 1.8rem;
+    color: #22c55e;
+    background-color: #dcfce7;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.workout-header h3 {
+    flex: 1;
+    font-size: 1.3rem;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.workout-time {
+    background-color: #22c55e;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.workout-content {
+    padding-left: 45px;
+}
+
+.circuit-info {
+    color: #2c3e50;
+    font-weight: 500;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #dcfce7;
+    border-radius: 8px;
+    font-size: 0.95rem;
+}
+
+.exercise-list {
+    list-style: none;
+    padding: 0;
+}
+
+.exercise-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.exercise-item:last-child {
+    border-bottom: none;
+}
+
+.exercise-info {
+    flex: 1;
+}
+
+.exercise-name {
+    font-weight: 500;
+    color: #2c3e50;
+    margin-bottom: 4px;
+    font-size: 1rem;
+}
+
+.exercise-sets {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+/* Day Content Styles */
+.day-content {
+    display: none;
+}
+
+.day-content.active {
+    display: block;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 70px;
+        padding: 20px 10px;
+    }
+
+    .logo p, .menu span {
+        display: none;
+    }
+
+    .main-content {
+        margin-left: 70px;
+    }
+
+    .workout-content {
+        padding-left: 20px;
+    }
+
+    .workout-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .workout-time {
+        align-self: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+    .week-selector {
+        padding-bottom: 5px;
+    }
+
+    .week-btn {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+
+    .workout-header i {
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+
+    .workout-header h3 {
+        font-size: 1.1rem;
+    }
+
+    .exercise-name {
+        font-size: 0.95rem;
+    }
+
+    .exercise-sets {
+        font-size: 0.85rem;
+    }
+}
+
+.complete-btn {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+}
+
+.complete-btn i {
+    font-size: 1.2rem;
+}
+
+.complete-btn.completed {
+    background-color: #16a34a;
+}
+
+.complete-btn.completed i {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .workout-header {
+        flex-wrap: wrap;
+    }
+}
         
