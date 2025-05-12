@@ -50,6 +50,29 @@ nav {
     color: var(--text-color);
     text-decoration: none;
     margin-left: -2rem;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo img {
+    height: 33px;
+    width: auto;
+    display: block;
+    margin-top: 2px;
+}
+
+.logo span {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 2px;
+}
+
+/* Remove the text-based logo */
+.logo::before {
+    display: none;
 }
 
 .nav-links {
@@ -64,11 +87,6 @@ nav {
     text-decoration: none;
     color: var(--text-color);
     font-weight: 500;
-    transition: color 0.2s ease;
-}
-
-.nav-links a:hover {
-    color: var(--primary-color);
 }
 
 .btn-login {
@@ -77,15 +95,26 @@ nav {
     padding: 0.75rem 1.5rem;
     border-radius: 5px;
     font-weight: 600;
-    transition: all 0.2s ease;
 }
 
-.btn-login:hover {
-    background-color: var(--secondary-color);
-    transform: translateY(-1px);
+.cta-button {
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
 }
 
-/* Hero Section */
+.cta-button.primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.cta-button.secondary {
+    background-color: transparent;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+}
+
 .hero {
     padding: 8rem 5% 5rem;
     display: grid;
@@ -127,34 +156,6 @@ nav {
     margin-bottom: 3rem;
 }
 
-.cta-button {
-    padding: 1rem 2rem;
-    border-radius: 5px;
-    font-weight: 600;
-    text-decoration: none;
-    transition: all 0.2s ease;
-}
-
-.cta-button.primary {
-    background-color: var(--primary-color);
-    color: white;
-}
-
-.cta-button.primary:hover {
-    background-color: var(--secondary-color);
-    transform: translateY(-1px);
-}
-
-.cta-button.secondary {
-    background-color: transparent;
-    color: var(--text-color);
-    border: 1px solid var(--text-color);
-}
-
-.cta-button.secondary:hover {
-    background-color: rgba(0, 0, 0, 0.05);
-}
-
 .hero-image {
     position: relative;
 }
@@ -164,14 +165,7 @@ nav {
     height: 500px;
     background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    animation: morph 8s ease-in-out infinite;
     opacity: 0.1;
-}
-
-@keyframes morph {
-    0% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
-    50% { border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%; }
-    100% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
 }
 
 /* Features Section */
@@ -208,12 +202,6 @@ nav {
     padding: 2.5rem;
     border-radius: 10px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-}
-
-.feature-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
 .feature-icon {
@@ -278,12 +266,6 @@ nav {
     border-radius: 10px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
     position: relative;
-    transition: all 0.3s ease;
-}
-
-.step-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
 .step-number {
@@ -344,12 +326,6 @@ nav {
     padding: 2.5rem;
     border-radius: 10px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-}
-
-.testimonial-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
 .testimonial-card h4 {
@@ -402,16 +378,6 @@ nav {
     width: 200%;
     height: 200%;
     background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);
-    animation: rotate 30s linear infinite;
-}
-
-@keyframes rotate {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
 }
 
 .cta-content {
@@ -439,13 +405,6 @@ nav {
     background-color: white;
     color: var(--primary-color);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-}
-
-.cta-section .cta-button:hover {
-    background-color: rgba(255, 255, 255, 0.95);
-    transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 /* Pricing Section */
@@ -478,36 +437,13 @@ nav {
     padding: 2.5rem;
     border-radius: 10px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.pricing-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
 .pricing-card.popular {
     border: 2px solid var(--primary-color);
     transform: scale(1.05);
-}
-
-.pricing-card.popular:hover {
-    transform: scale(1.05) translateY(-5px);
-}
-
-.popular-tag {
-    position: absolute;
-    top: -12px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: var(--primary-color);
-    color: white;
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-    font-size: 0.875rem;
-    font-weight: 600;
 }
 
 .pricing-header {
@@ -607,11 +543,6 @@ footer {
 .footer-section a {
     color: #9ca3af;
     text-decoration: none;
-    transition: color 0.2s ease;
-}
-
-.footer-section a:hover {
-    color: white;
 }
 
 .footer-bottom {
