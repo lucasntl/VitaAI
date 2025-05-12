@@ -1,2 +1,2 @@
-# FitJourney
+# VitaAI
 Repositório do PI
