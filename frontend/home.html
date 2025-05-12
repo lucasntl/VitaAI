@@ -4,19 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles_home.css">
+    <link rel="stylesheet" href="styles_nutricao.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
     <!-- Ícones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <title>Inicial</title>
+    <title>Dashboard - VitaAI</title>
+    <style>
+        .btn-secondary:hover {
+            background-color: #4ade80;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
 
-        <!---barra lateral-->
+        <!---menu lateral-->
         <aside class="sidebar">
             <div class="logo">
-                <div class="logo-icon"></div>
-                <p>FitJourney</p>
+                <img src="img/Logo_VitaAI.svg" alt="VitaAI Logo">
+                <span>VitaAI</span>
             </div>
 
             <nav class="menu">
@@ -28,9 +34,9 @@
                         </a>
                     </li>
                     <li>
-                        <a href="questionario1.html">
+                        <a href="progresso.html">
                             <i class="far fa-calendar-alt"></i>
-                            <span>Questionário</span>
+                            <span>Progresso</span>
                         </a>
                     </li>
                     <li>
@@ -52,7 +58,7 @@
         <!--conteudo principal-->
         <main class="main-content">
             <header class="top-bar">
-                <h1>Inicio</h1>
+                <h1>Dashboard</h1>
                 <div class="user-profile">
                     <i class="fas fa-user"></i>
                 </div>
@@ -67,7 +73,7 @@
             </div>
 
             <div class="cards-container">
-                <!-- Card de Treino -->
+                <!--Treino -->
                 <div class="card">
                     <h3>Treino de Hoje</h3>
                     <div class="progress-info">
@@ -80,10 +86,10 @@
                         </div>
                         <p class="small-text">exercícios completados</p>
                     </div>
-                    <button class="btn-secondary">Continuar Treino</button>
+                    <button class="btn-secondary" onclick="window.location.href='treinos.html'">Continuar Treino</button>
                 </div>
                 
-                <!-- Card de Nutrição -->
+                <!--Nutrição -->
                 <div class="card">
                     <h3>Nutrição</h3>
                     <p>Plano de Refeições de Hoje</p>
@@ -96,10 +102,10 @@
                             </div>
                         </div>
                     </div>
-                    <button class="btn-secondary">Ver Plano de Refeições</button>
+                    <button class="btn-secondary" onclick="window.location.href='nutricao.html'">Ver Plano de Refeições</button>
                 </div>
                 
-                <!-- Card de Progresso -->
+                <!--Progresso -->
                 <div class="card">
                     <h3>Progresso Semanal</h3>
                     <div class="progress-info">
@@ -110,10 +116,11 @@
                                 <div class="progress-fill" style="width: 0%;"></div>
                             </div>
                         </div>
-                    <button class="btn-secondary">Ver Progresso</button>
+                    <button class="btn-secondary" onclick="window.location.href='progresso.html'">Ver Progresso</button>
                 </div>
             </div>
         </main>
     </div>
+
 </body>
 </html>
