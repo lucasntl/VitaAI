@@ -3,42 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - VitaAI</title>
     <link rel="stylesheet" href="styles_login.css">
-    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-
     <div class="container">
         <div class="form-container">
-            <div class="left-side">
-            <H1>Entrar</H1>
-                <div class="form-group">
-                    <input type="text" id="text" placeholder="Usuário" required>
-                </div>
-                <div class="form-group">
-                    <input type="password" id="password" placeholder="Senha" required>
-                </div>
-                <a href="home.html">
-                <button class="btn-login">ENTRAR</button>
-                </a>
+            <div class="form-header">
+                <h2 id="form-title">Login</h2>
+                <p id="form-subtitle">Bem-vindo de volta! Entre para continuar sua jornada fitness.</p>
             </div>
 
-            <div class="right-side">
-                <h1>Olá, amigo!</h1>
-                <p>Cadastre um usuário e comece sua jornada</p>
-                <div class="form-group">
-                    <input type="text" id="name" placeholder="Nome completo" required>
+            <form id="login-form" class="active">
+                <div class="input-group">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="Email" required>
                 </div>
-                <div class="form-group">
-                    <input type="text" id="text" placeholder="Nome de Usuário" required>
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Senha" required>
                 </div>
-                <div class="form-group">
-                    <input type="password" id="signup-password" placeholder="Senha" required>
+                <div class="remember-forgot">
+                    <label>
+                        <input type="checkbox"> Lembrar-me
+                    </label>
+                    <a href="#" class="forgot-link">Esqueceu a senha?</a>
                 </div>
-                <button class="btn-signup">CADASTRAR</button>
+                <button type="submit" class="submit-btn">Entrar</button>
+            </form>
+
+            <form id="register-form" class="hidden">
+                <div class="input-group">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Nome completo" required>
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Senha" required>
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Confirmar senha" required>
+                </div>
+                <button type="submit" class="submit-btn">Registrar</button>
+            </form>
+
+            <div class="toggle-form">
+                <p id="toggle-text">Não tem uma conta?</p>
+                <button id="toggle-btn">Registrar</button>
             </div>
         </div>
     </div>
 
+    <script>
+        const loginForm = document.getElementById('login-form');
+        const registerForm = document.getElementById('register-form');
+        const toggleBtn = document.getElementById('toggle-btn');
+        const toggleText = document.getElementById('toggle-text');
+        const formTitle = document.getElementById('form-title');
+        const formSubtitle = document.getElementById('form-subtitle');
+
+        // Function to show registration form
+        function showRegisterForm() {
+            loginForm.classList.remove('active');
+            loginForm.classList.add('hidden');
+            registerForm.classList.remove('hidden');
+            registerForm.classList.add('active');
+            formTitle.textContent = 'Registro';
+            formSubtitle.textContent = 'Crie sua conta e comece sua jornada fitness!';
+            toggleText.textContent = 'Já tem uma conta?';
+            toggleBtn.textContent = 'Login';
+        }
+
+        // Check for #register in URL on page load
+        if (window.location.hash === '#register') {
+            showRegisterForm();
+        }
+
+        toggleBtn.addEventListener('click', () => {
+            loginForm.classList.toggle('active');
+            loginForm.classList.toggle('hidden');
+            registerForm.classList.toggle('active');
+            registerForm.classList.toggle('hidden');
+
+            if (loginForm.classList.contains('hidden')) {
+                formTitle.textContent = 'Registro';
+                formSubtitle.textContent = 'Crie sua conta e comece sua jornada fitness!';
+                toggleText.textContent = 'Já tem uma conta?';
+                toggleBtn.textContent = 'Login';
+            } else {
+                formTitle.textContent = 'Login';
+                formSubtitle.textContent = 'Bem-vindo de volta! Entre para continuar sua jornada fitness.';
+                toggleText.textContent = 'Não tem uma conta?';
+                toggleBtn.textContent = 'Registrar';
+            }
+        });
+
+        loginForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            window.location.href = 'home.html';
+        });
+
+        registerForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            // Aqui você pode adicionar a lógica de registro
+            alert('Registro realizado com sucesso!');
+            // Alternar para o formulário de login após o registro
+            toggleBtn.click();
+        });
+    </script>
 </body>
-</html>
+</html> 
