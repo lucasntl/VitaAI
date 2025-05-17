@@ -4,72 +4,62 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Formulário</title>
+        <link rel="stylesheet" href="questionario.css">
         <style>
-            .vazio{
-                border: 0;
-                text-decoration: 0;
-                padding: 20px;
-            }
-            
-            a.color-br{
-                text-decoration: none;
-                color: white;
-                background-color: green;
-                padding: green;
-                padding: 12px;
-                margin-bottom: auto;
-            }
-            a.color-pt{
-                text-decoration: none;
-                color: black;
+            .barra-linha{
+                background-color: #45ce85;
+                height: 100%;
+                width: 25%;
+                border-radius: 5px;
             }
         </style>
     </head>
     <body>
-        <a href="home.html">Home</a>
-        <h1>Vamos Criar Seu Plano Personalizado</h1>
-        <p>Responder algumas perguntas para que nossa IA possa criar o plano de fitness e nutrição perfeito para você.</p>
+        <div class="color">
+            <a href="home.html">Home</a>
+            <h1>Vamos Criar Seu Plano Personalizado</h1>
+            <p>Responder algumas perguntas para que nossa IA possa criar o plano de fitness e nutrição perfeito para você.</p>
 
-        <h6>Etapa 1 de 4</h6>
-        <h5>25% Completo</h5>
-        <form>
-            <h2>Informações Básicas</h2>
-            <div>
-                <label for="nome">Nome Completo</label>
-                <br>
-                <input type="text" placeholder="Digite seu nome completo">
+            <div class="barra">
+                <div class="barra-linha"></div>
             </div>
-            <div>
-                <label for="idade">Idade</label>
-                <br>
-                <input type="number" min="0" max="100" placeholder="Anos">
-            </div>
-            <div>
-                <label for="genero">Gênero</label>
-                <br>
-                <fieldset>                    
-                    <label>
-                        <input type="radio" name="genero" value="masculino">Masculino
-                    </label>
-                    <label>
-                        <input type="radio" name="genero" value="feminino">Feminino
-                    </label>                   
-                    <label>
-                        <input type="radio" name="genero" value="Outros">Outros
-                    </label>
-                </fieldset>
-            </div>
-            <div>
-                <label for="altura">Altura</label>
-                <br>
-                <input type="number" min="0" step="0.01" placeholder="cm">
-            </div>
-            <div>
-                <label for="peso">Peso</label>
-                <br>
-                <input type="number" min="0" step="0.01" placeholder="kg">
-            </div>
-            <button class="vazio"><a href="questionario2.html" class="color-br">Próximo</a></button>
-        </form>    
+
+            <div class="info">Etapa 1 de 4 - 25% Completo</div>
+
+            <form>
+                <h2>Informações Básicas</h2>
+                <div>
+                  <label for="nome">Nome Completo</label>
+                    <input type="text" placeholder="Digite seu nome completo">
+                </div>
+                <div>
+                    <label for="idade">Idade</label>
+                    <input type="number" min="0" max="100" placeholder="Anos">
+                </div>
+                <div>
+                    <label for="genero">Gênero</label>
+                    <fieldset>
+                        <label>
+                            <input type="radio" name="genero" value="masculino">Masculino
+                        </label>
+                        <label>
+                            <input type="radio" name="genero" value="feminino">Feminino
+                        </label>
+                        <label>
+                            <input type="radio" name="genero" value="Outros">Outros
+                        </label>
+                    </fieldset>
+                </div>
+                <div>
+                    <label for="altura">Altura</label>
+                    <input type="number" min="0"step="0.5" placeholder="cm">
+                </div>
+                <div>
+                    <label for="peso">Peso</label>
+                    <input type="number" min="0" step="0.5" placeholder="kg">
+                </div>
+                <button type="submit"><a href="questionario2.html">Próximo →</a></button>
+            </form>
+        </div>
     </body>
 </html>

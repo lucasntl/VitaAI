@@ -4,65 +4,50 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Formulário</title>
+        <link rel="stylesheet" href="questionario.css">
         <style>
-            fieldset{
-                padding: 0;
-                border: 0;
-            }
-
-            .vazio{
-                border: 0;
-                text-decoration: 0;
-                padding: 20px;
-            }
-            
-            a.color-br{
-                text-decoration: none;
-                color: white;
-                background-color: green;
-                padding: green;
-                padding: 12px;
-                margin-bottom: auto;
-            }
-            a.color-pt{
-                text-decoration: none;
-                color: black;
+            .barra-linha{
+                background-color: #45ce85;
+                height: 100%;
+                width: 50%;
+                border-radius: 5px;
             }
         </style>
     </head>
     <body>
-        <h1>Vamos Criar Seu Plano Personalizado</h1>
-        <p>Responder algumas perguntas para que nossa IA possa criar o plano de fitness e nutrição perfeito para você.</p>
+        <div class="color">
+            <h1>Vamos Criar Seu Plano Personalizado</h1>
+            <p>Responder algumas perguntas para que nossa IA possa criar o plano de fitness e nutrição perfeito para você.</p>
 
-        <h6>Etapa 2 de 4</h6>
-        <h5>50% Completo</h5>
-        <form>
-            <h2>Objetivos Fitness</h2>
-            <label for="perg">Qual é o seu principal objetivos firness?</label>
-            <br>
-            <fieldset>                  
-                <label>
-                    <input type="radio" name="perg" value="1">Perda de peso
-                </label>
-                <br>
-                <label>
-                    <input type="radio" name="perg" value="2">Ganho de massa muscular
-                </label>
-                <br>                 
-                <label>
-                    <input type="radio" name="perg" value="3">Melhorar resistência
-                </label>
-                <br>                 
-                <label>
-                    <input type="radio" name="perg" value="4">Saúde geral
-                </label>
-                <br>                 
-                <label>
-                    <input type="radio" name="perg" value="5">Aumentar força
-                </label>
-            </fieldset>            
-        </form>
-        <button class="vazio"><a href="questionario1.html" class="color-pt">Anterior</a></button>
-        <button class="vazio"><a href="questionario3.html" class="color-br">Próximo</a></button>
+            <div class="barra">
+                <div class="barra-linha"></div>
+            </div>
+
+            <div class="info">Etapa 2 de 4 - 50% Completo</div>
+
+            <form>
+                <h2>Objetivos Fitness</h2>
+                <label for="perg">Qual é o seu principal objetivos firness?</label>
+                <fieldset>
+                    <label>
+                        <input type="radio" name="perg" value="1">Perda de peso
+                    </label>
+                    <label>
+                        <input type="radio" name="perg" value="2">Ganho de massa muscular
+                    </label>
+                    <label>
+                        <input type="radio" name="perg" value="3">Melhorar resistência
+                    </label>
+                    <label>
+                        <input type="radio" name="perg" value="4">Saúde geral
+                    </label>
+                    <label>
+                     <input type="radio" name="perg" value="5">Aumentar força
+                    </label>
+                </fieldset>
+            </form>
+            <button type="submit"><a href="questionario1.html">← Anterior</a></button>
+            <button type="submit"><a href="questionario3.html">Próximo →</a></button>
+        </div>
     </body>
 </html>
