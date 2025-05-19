@@ -3,26 +3,48 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Dashboard</title>
+        <title>Dashboard - VitaAI</title>
+        <link rel="icon" href="img/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="styles_home.css">
     </head>
     <body>
         <!--Menu Lateral-->
-        <div>
-            <div>
-                <img src="img/Logo_VitaAI.svg" alt="Logo_VitaAI">
-                <h3>VitaAI</h3>
-            </div>
-            <div>
-                <aside>
-                    <nav>
-                        <ul>
-                            <li>Início</li>
-                            <li>Progresso</li>
-                            <li>Nutrição</li>
-                            <li>Treinos</li>
+        <div class="menu-container">
+            
+            <div >
+                    <nav class="menu-lateral">
+                        <div class="logo">
+                            <img src="img/Logo_VitaAI.svg" alt="Logo_VitaAI" class="logo-svg">
+                            <span class="logo-txt">VitaAI</span>
+                        </div>
+                        <ul class="side-items">
+                            <li class="item-menu active">
+                                <a href="#">
+                                    <i class="fa-solid fa-house"></i>
+                                    <span class="txt-link">Início</span>
+                                </a>
+                            </li>
+                            <li class="item-menu">
+                                <a href="#">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <span class="txt-link">Progresso</span>
+                                </a>
+                            </li>
+                            <li class="item-menu">
+                                <a href="#">
+                                    <i class="fa-solid fa-apple-whole"></i>
+                                    <span class="txt-link">Nutrição</span>
+                                </a>
+                            </li>
+                            <li class="item-menu">
+                                <a href="#">
+                                    <i class="fa-solid fa-dumbbell"></i>
+                                    <span class="txt-link">Treinos</span>
+                                </a>
+                            </li>
                         </ul>
                     </nav>
-                </aside>
             </div>
         </div>
         <!--Main-->
