@@ -1,44 +1,206 @@
-.logo{
+.logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-left: -2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo img {
     height: 33px;
     width: auto;
 }
-.menu{
+
+.menu {
+    backdrop-filter: blur(10px); /*Deixa o header desfocado*/
+    text-decoration: none;
+    padding: 0px 25%;
+    gap: 20rem;
     width: 100%;
     position: fixed;
     display: flex;
-    background-color: #ececec;
+    background-color: rgb(255, 255, 255, 0.9);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    top: 0;
+    z-index: 1000;
 }
-.menu-li{
+
+.menu-li {
     display: flex;
     gap: 40px;
-
 }
-li{
+
+.menu-li a {
+    text-decoration: none;
+    color: #1f2937;
+    font-weight: 500;
+}
+
+#inicio {
+    padding: 8rem 5% 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.inicio {
+    max-width: 600px;
+}
+
+#inicio h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    /* define epaçamento entre linhas 1.2x da fonte */
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+#inicio p {
+    font-size: 1.25rem;
+    color: #6b7280;
+    margin-bottom: 2.5rem;
+}
+
+#recursos {
+    padding: 96px 5%;
+    background-color: #f0f2f5;
+}
+
+.recursos h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+
+.recursos p {
+    text-align: center;
+    color: #6b7280;
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto 64px;
+    /* auto = Espaço direito e esquerdo iguais */
+}
+
+/* Como a VitaAI funciona */
+#como-funciona {
+    padding: 96px 5%;
+    background-color: #ffffff;
+}
+
+.como-funciona h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+
+.como-funciona p {
+    text-align: center;
+    color: #6b7280;
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto 64px;
+    /* auto = Espaço direito e esquerdo iguais */
+}
+
+/* Beneficios da VitaAI */
+#beneficios {
+    padding: 2rem;
+    background-color: #22c55e;
+}
+
+
+/* Parte do Footer */
+footer {
+    color: white;
+    padding: 4rem 5% 2rem;
+    /*4rem da parte de cima, 5% dos lados, e 2rem da parte de baixo*/
+    background-color: #1f2937;
+}
+
+footer h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    /* Cria 20px de espaço abaixo do h3*/
+}
+
+.footer-conteudo {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 64px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-conteudo li {
+    margin-bottom: 12px;
+}
+
+.footer-conteudo p {
+    color: #9ca3af;
+    margin-bottom: 24px;
+}
+
+.footer-conteudo a {
+    color: #9ca3af;
+    text-decoration: none;
+}
+
+.footer-direitos {
+    text-align: center;
+    margin-top: 48px;
+    padding-top: 32px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: #9ca3af;
+}
+
+
+/* Geral / Varios usos */
+body {
+    font-family: Arial, sans-serif;
+    color: #1f2937;
+}
+
+li {
     list-style: none;
 }
-#inicio{
-    margin-top: 30px;
-    height: 600px;
-    padding: 2rem;
 
+.lado-a-lado {
+    display: flex;
+    justify-content: space-between;
+    /* Dexa alinhado de forma igual */
+    flex-wrap: wrap;
+    /* Permite que eles quebrem linha em telas pequenas */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* Cria colunas responsivas: cada coluna terá no mínimo 300px e ocupará o espaço disponível igualmente (1fr). 
+   O auto-fit ajusta o número de colunas conforme o tamanho da tela. */
+    gap: 32px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
-#recursos{
-    padding: 2rem;
-    background-color: #8d8d9b;
+
+.cartao {
+    flex: 1;
+    /* Deixa do mesmo tamanho */
+    min-width: 250px;
+    /* Evita que fique pequeno dms */
+    background: #ffffff;
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    position: relative;
 }
-#como-funciona{
-    padding: 2rem;
-    background-color: brown;
+
+.cartao h3 {
+    font-size: 20px;
+    margin-bottom: 16px;
+    font-weight: 600;
 }
-footer{
-    color: white;
-    padding: 2rem;
-    background-color: rgb(24, 24, 24);
-}
-#beneficios{
-        padding: 2rem;
-    background-color: rgb(65, 175, 175);
-}
-body{
-    font-family: Arial, sans-serif;
+
+.cartao p {
+    color: #6b7280;
 }
