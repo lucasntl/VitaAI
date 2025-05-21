@@ -14,7 +14,8 @@
 }
 
 .menu {
-    backdrop-filter: blur(10px); /*Deixa o header desfocado*/
+    backdrop-filter: blur(10px);
+    /*Deixa o header desfocado*/
     text-decoration: none;
     padding: 0px 25%;
     gap: 20rem;
@@ -108,10 +109,34 @@
 
 /* Beneficios da VitaAI */
 #beneficios {
-    padding: 2rem;
+    padding: 8rem 5% 6rem;
     background-color: #22c55e;
 }
 
+.beneficio {
+    padding: 2rem;
+    background-color: #22c55e;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.beneficio h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+
+.beneficio li {
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+
+.beneficio p {
+    color: #ffffff;
+    margin-bottom: 24px;
+}
 
 /* Parte do Footer */
 footer {
