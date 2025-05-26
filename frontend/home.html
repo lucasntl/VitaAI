@@ -1,89 +1,126 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Dashboard - VitaAI</title>
-        <link rel="icon" href="img/favicon.png" type="image/x-icon">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="styles_home.css">
-    </head>
-    <body>
-        <!--Menu Lateral-->
-        <div class="menu-container">
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles_home.css">
+    <link rel="stylesheet" href="styles_nutricao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Dashboard - VitaAI</title>
+    <style>
+        .btn-secondary:hover {
+            background-color: #4ade80;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <!---menu lateral-->
+        <aside class="sidebar">
+            <div class="logo">
+                <img src="img/Logo_VitaAI.svg" alt="VitaAI Logo">
+                <span>VitaAI</span>
+            </div>
+
+            <nav class="menu">
+                <ul>
+                    <li class="active">
+                        <a href="home.html">
+                            <i class="fas fa-home"></i>
+                            <span>Inicio</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="progresso.html">
+                            <i class="far fa-calendar-alt"></i>
+                            <span>Progresso</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="nutricao.html">
+                            <i class="fas fa-apple-alt"></i>
+                            <span>Nutrição</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="treinos.html">
+                            <i class="fas fa-dumbbell"></i>
+                            <span>Treinos</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!--conteudo principal-->
+        <main class="main-content">
+            <header class="top-bar">
+                <h1>Dashboard</h1>
+                <div class="user-profile">
+                    <i class="fas fa-user"></i>
+                </div>
+            </header>
             
-            <div >
-                    <nav class="menu-lateral">
-                        <div class="logo">
-                            <img src="img/Logo_VitaAI.svg" alt="Logo_VitaAI" class="logo-svg">
-                            <span class="logo-txt">VitaAI</span>
+            <div class="welcome-section">
+                <div class="welcome-text">
+                    <h2>Bem-vindo de volta!!</h2>
+                    <p>Aqui está seu resumo fitness para hoje.</p>
+                </div>
+                <button class="btn-primary">Atualizar Progresso</button>
+            </div>
+
+            <div class="cards-container">
+                <!--Treino -->
+                <div class="card">
+                    <h3>Treino de Hoje</h3>
+                    <div class="progress-info">
+                        <p>Progresso</p>
+                        <div class="progress-stats">
+                            <span class="progress-fraction">0/5</span>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 0%;"></div>
+                            </div>
                         </div>
-                        <ul class="side-items">
-                            <li class="item-menu active">
-                                <a href="#">
-                                    <i class="fa-solid fa-house"></i>
-                                    <span class="txt-link">Início</span>
-                                </a>
-                            </li>
-                            <li class="item-menu">
-                                <a href="#">
-                                    <i class="fa-solid fa-calendar-days"></i>
-                                    <span class="txt-link">Progresso</span>
-                                </a>
-                            </li>
-                            <li class="item-menu">
-                                <a href="#">
-                                    <i class="fa-solid fa-apple-whole"></i>
-                                    <span class="txt-link">Nutrição</span>
-                                </a>
-                            </li>
-                            <li class="item-menu">
-                                <a href="treino.html">
-                                    <i class="fa-solid fa-dumbbell"></i>
-                                    <span class="txt-link">Treinos</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
+                        <p class="small-text">exercícios completados</p>
+                    </div>
+                    <button class="btn-secondary" onclick="window.location.href='treinos.html'">Continuar Treino</button>
+                </div>
+                
+                <!--Nutrição -->
+                <div class="card">
+                    <h3>Nutrição</h3>
+                    <p>Plano de Refeições de Hoje</p>
+                    <div class="nutrition-info">
+                        <p>Calorias</p>
+                        <div class="progress-stats">
+                            <span class="progress-fraction">0/2.200</span>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 0%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn-secondary" onclick="window.location.href='nutricao.html'">Ver Plano de Refeições</button>
+                </div>
+                
+                <!--Progresso -->
+                <div class="card">
+                    <h3>Progresso Semanal</h3>
+                    <div class="progress-info">
+                        <p>Treinos Completados</p>
+                        <div class="progress-stats">
+                            <span class="progress-fraction">0/7</span>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 0%;"></div>
+                            </div>
+                        </div>
+                    <button class="btn-secondary" onclick="window.location.href='progresso.html'">Ver Progresso</button>
+                </div>
             </div>
-        </div>
-        <!--Main-->
-       <main>
-            <h3>Dashboard</h3>
-            <div>
-                <!--Ícone perfil-->
-            </div>
-            <div>
-                <h3>Bem-vindo de volta!</h3>
-                <p>Aqui está seu resumo fitness para hoje.</p>
-            </div>
-            <div>
-                <button>Atualizar progresso</button>
-            </div>
-            <!--Cards(Treino, Nutrição, Progresso Semanal)-->
-            <div>
-                <h4>Treino do Dia</h4>
-                <p>Progresso</p>
-                <p>0/5</p>
-                <div><!--Barra de atualização do progresso--></div>
-                <p>exercícios completados</p>
-                <button>Continuar Treino</button>
-            </div>
-            <div>
-                <h4>Nutrição</h4>
-                <p>Plano de Refeições para hoje</p>
-                <p>Calorias</p>
-                <div><!--Barra de atualização do progresso--></div>
-                <p>0/2.200</p>
-                <button>Ver Plano de Refeições</button>
-            </div>
-            <div>
-                <h4>Progresso Semanal</h4>
-                <p>Treinos Completados</p>
-                <p>0/7</p>
-                <div><!--Barra de atualização do progresso--></div>
-                <button>Ver Progresso</button>
-            </div>
-       </main>
-    </body>
+        </main>
+    </div>
+
+</body>
 </html>
