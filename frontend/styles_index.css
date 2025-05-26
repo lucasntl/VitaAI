@@ -46,6 +46,11 @@
     gap: 4rem;
 }
 
+#inicio img {
+    height: auto;
+    width: 600px;
+}
+
 .inicio {
     max-width: 600px;
 }
@@ -110,12 +115,12 @@
 /* Beneficios da VitaAI */
 #beneficios {
     padding: 8rem 5% 6rem;
-    background-color: #22c55e;
+    background-color: #f0f2f5;
 }
 
 .beneficio {
     padding: 2rem;
-    background-color: #22c55e;
+    background-color: #f0f2f5;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
@@ -129,12 +134,12 @@
 }
 
 .beneficio li {
-    color: #ffffff;
+    color: #a1a1a1;
     margin-bottom: 24px;
 }
 
 .beneficio p {
-    color: #ffffff;
+    color: #a1a1a1;
     margin-bottom: 24px;
 }
 
@@ -228,4 +233,66 @@ li {
 
 .cartao p {
     color: #6b7280;
+}
+
+.comece_sua_jornada {
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: #2ec272;
+    color: white;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#saiba_mais {
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: #a1a1a1;
+    color: white;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#beneficios_botao {
+
+    font-size: 32px;
+    margin-top: 20px;
+    background-color: #2ec272;
+    color: rgb(255, 255, 255);
+    border: 0;
+    padding: 15px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.cartao_beneficio {
+    min-width: 250px;
+    /* Evita que fique pequeno dms */
+    background: #ffffff;
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.menu-li{
+    padding-top: 12px;
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+    align-items: center;
+
+}
+.entrar { 
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: #2ec272;
+    color: white !important;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
 }
