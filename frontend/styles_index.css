@@ -87,7 +87,6 @@
     font-size: 18px;
     max-width: 800px;
     margin: 0 auto 64px;
-    /* auto = Espaço direito e esquerdo iguais */
 }
 
 /* Como a VitaAI funciona */
@@ -108,11 +107,9 @@
     color: #6b7280;
     font-size: 18px;
     max-width: 800px;
-    margin: 0 auto 64px;
-    /* auto = Espaço direito e esquerdo iguais */
+
 }
 
-/* Beneficios da VitaAI */
 #beneficios {
     padding: 8rem 5% 6rem;
     background-color: #f0f2f5;
@@ -136,6 +133,14 @@
 .beneficio li {
     color: #a1a1a1;
     margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.beneficio li img {
+    width: 20px;
+    height: 20px;
 }
 
 .beneficio p {
@@ -258,26 +263,28 @@ li {
 }
 
 #beneficios_botao {
-
-    font-size: 32px;
-    margin-top: 20px;
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
     background-color: #2ec272;
-    color: rgb(255, 255, 255);
+    color: white;
     border: 0;
-    padding: 15px 25px;
+    padding: 10px 20px;
     border-radius: 6px;
-    cursor: pointer;
 }
 
 .cartao_beneficio {
-    min-width: 250px;
-    /* Evita que fique pequeno dms */
-    background: #ffffff;
+    text-align: center;
     padding: 2.5rem;
+    background: #ffffff;
     border-radius: 10px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-    position: relative;
 }
+
+.cartao_beneficio a {
+    text-decoration: none;
+}
+
 .menu-li{
     padding-top: 12px;
     display: flex;
@@ -295,4 +302,12 @@ li {
     padding: 10px 20px;
     border-radius: 6px;
     cursor: pointer;
+}
+.texto-centro{
+    text-align: center;
+}
+#beneficios img{
+    display: flex;
+    width: 20px;
+    height: 20px;
 }
