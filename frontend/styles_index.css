@@ -103,7 +103,7 @@
 }
 
 .como-funciona p {
-    text-align: center;
+    text-align: center !important;
     color: #6b7280;
     font-size: 18px;
     max-width: 800px;
@@ -310,4 +310,15 @@ li {
     display: flex;
     width: 20px;
     height: 20px;
+}
+.centralizar{
+    text-align: center !important;
+}
+
+.texto-centralizado {
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 64px;
 }
