@@ -121,8 +121,6 @@ body{
     background-color: #f3fff8;
 }
 
-
-
 /* Menu Lateral */
 .menu-lateral{
     width: 250px;
@@ -241,17 +239,8 @@ main{
 }
 
 .welcome-txt{
-    font-size: 14px;
+    font-size: 1rem;
     color: #333333;
-}
-
-button{
-    border: 0;
-    background-color: #22c55e;
-    color: #ffffff;
-    padding: 12px 24px;
-    border-radius: 8px;
-    cursor: pointer;
 }
 
 .welcome-btn{
@@ -261,30 +250,12 @@ button{
     padding: 20px 0 20px;
 }
 
-.cards-container{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 16px;
-  padding: 20px 0 ;
-  
+.btn-success{
+  background-color: #22c55e !important;
+  border: none !important;
 }
 
-.cards{
-    background-color: #ffffff;
-    border-radius: 8px;
-    padding: 20px;
-    height: 220px;
-    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.05);
+.card-header{
+  color: #22c55e !important;
+  font-weight: 500;
 }
-
-.cards h3{
-  color: #22c55e;
-  margin-bottom: 15px;
-  font-weight: 600;
-}
-
-.cards p{
-  color: #333333;
-  margin-bottom: 2.5px;
-}
-
