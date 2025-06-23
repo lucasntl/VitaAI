@@ -1,0 +1,227 @@
+/*Header*/
+.logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-left: -2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo img {
+    height: 33px;
+    width: auto;
+}
+
+.menu {
+    backdrop-filter: blur(10px);
+    /*Deixa o header desfocado*/
+    text-decoration: none;
+    padding: 0px 25% !important;
+    gap: 20rem;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    background-color: rgb(255, 255, 255, 0.9);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    top: 0;
+    z-index: 1000;
+}
+
+.menu-li {
+    display: flex;
+    gap: 40px;
+    padding-top: 12px;
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+.menu-li a {
+    text-decoration: none;
+    color: #1f2937;
+    font-weight: 500;
+}
+
+.entrar {
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: #2ec272;
+    color: white !important;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Parte do Footer */
+footer {
+    color: white;
+    padding: 4rem 5% 2rem;
+    /*4rem da parte de cima, 5% dos lados, e 2rem da parte de baixo*/
+    background-color: #1f2937;
+}
+
+footer h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    /* Cria 20px de espaço abaixo do h3*/
+}
+
+.footer-conteudo {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 64px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-conteudo li {
+    margin-bottom: 12px;
+}
+
+.footer-conteudo p {
+    color: #9ca3af;
+    margin-bottom: 24px;
+}
+
+.footer-conteudo a {
+    color: #9ca3af;
+    text-decoration: none;
+}
+
+.footer-direitos {
+    text-align: center;
+    margin-top: 48px;
+    padding-top: 32px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: #9ca3af;
+}
+
+
+/* Geral / Varios usos */
+body {
+    font-family: Arial, sans-serif;
+    color: #1f2937;
+    background: z#F2FFF7;
+}
+
+li {
+    list-style: none;
+}
+
+/*Treinos*/
+.secao-treino {
+    margin: 0;
+    background: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.secao-treino li {
+    color: #a1a1a1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/*.dia-semana {
+    background: #2ec272;
+    color: #ffffff;
+    padding: 20px 40px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+    text-align: left;
+}*/
+
+/*.tipo-treino {
+    background: #f3f4f6;
+    color: #374151;
+    padding: 16px 40px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0;
+    border-left: 4px solid #2ec272;
+}*/
+
+.observacao {
+    background: #fef3c7;
+    color: #92400e;
+    padding: 12px 40px;
+    margin: 0;
+    font-size: 0.9rem;
+    font-style: italic;
+    border-left: 4px solid #f59e0b;
+}
+
+/*Titulo*/
+#inicio {
+    padding: 6rem 10%;
+    padding-bottom: 2rem;
+}
+
+#inicio h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 600;
+    text-align: center;
+}
+
+#inicio p {
+    font-size: 1.25rem;
+    color: #6b7280;
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+.principal {
+    padding-bottom: 4.5rem;
+}
+
+.grid1 {
+    justify-content: center;
+    width: 100% !important;
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 16px;
+}
+
+.grid2 {
+    justify-content: center;
+    width: 100% !important;
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 16px;
+}
+
+.cartao {
+    flex: 1;
+    /* Deixa do mesmo tamanho */
+    min-width: 250px;
+    background: #ffffff;
+    padding: 2.5rem;
+    margin-bottom: 5rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.section1 {
+    padding: 0 10%;
+}
+
+.section2 {
+    padding: 0 15%;
+}
+
+.texto_centro {
+    text-align: center;
+
+}
+
+.cartao ul {
+    padding-left: 0 !important;
+}
