@@ -3,8 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Formulário</title>
+        <title>Questionário - VitaAI</title>
         <link rel="stylesheet" href="questionario.css">
+        <link rel="icon" href="img/favicon.png" type="image/x-icon">
         <style>
             .barra-linha{
                 background-color: #45ce85;
@@ -16,9 +17,8 @@
     </head>
     <body>
         <div class="color">
-            <a href="home.html">Home</a>
             <h1>Vamos Criar Seu Plano Personalizado</h1>
-            <p>Responder algumas perguntas para que nossa IA possa criar o plano de fitness e nutrição perfeito para você.</p>
+            <p>Responda as perguntas para que possamos encontrar os melhores treinos e dietas para você!</p>
 
             <div class="barra">
                 <div class="barra-linha"></div>
@@ -31,10 +31,6 @@
                 <div>
                   <label for="nome">Nome Completo</label>
                     <input type="text" placeholder="Digite seu nome completo">
-                </div>
-                <div>
-                    <label for="idade">Idade</label>
-                    <input type="number" min="0" max="100" placeholder="Anos">
                 </div>
                 <div>
                     <label for="genero">Gênero</label>
@@ -50,16 +46,9 @@
                         </label>
                     </fieldset>
                 </div>
-                <div>
-                    <label for="altura">Altura</label>
-                    <input type="number" min="0"step="0.5" placeholder="cm">
-                </div>
-                <div>
-                    <label for="peso">Peso</label>
-                    <input type="number" min="0" step="0.5" placeholder="kg">
-                </div>
-                <button type="submit"><a href="questionario2.html">Próximo →</a></button>
+                <button type="submit"><a href="questionario2.html" style="text-decoration: none; color: inherit;">Próximo →</a></button>
             </form>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
