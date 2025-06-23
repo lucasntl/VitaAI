@@ -265,11 +265,11 @@ li {
 #beneficios_botao {
     display: block;
     margin: 0 auto;
-    font-size: 16px;
+    font-size: 20px;
     background-color: #2ec272;
     color: white;
     border: 0;
-    padding: 10px 20px;
+    padding: 20px 30px;
     border-radius: 6px;
     cursor: pointer;
 }
@@ -277,13 +277,22 @@ li {
 .cartao_beneficio {
     text-align: center;
     padding: 2.5rem;
+    min-height: 300px;
     background: #ffffff;
     border-radius: 10px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
+.cartao_beneficio p {
+    text-decoration: none;
+        padding-bottom: 1rem;
+}
 .cartao_beneficio a {
     text-decoration: none;
+}
+.cartao_beneficio h2 {
+    text-decoration: none;
+    padding-bottom: 1rem;
 }
 
 .menu-li{
