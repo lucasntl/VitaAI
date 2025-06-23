@@ -1,6 +1,6 @@
 body{
     font-family: Arial, sans-serif;
-    background-color: #f5f6fa;
+    background-color: #F2FFF7;
     color: #2b5f3e;
 }
 p{
@@ -32,7 +32,8 @@ button{
     cursor: pointer;
 }
 .color{
-    max-width: 400px;/*opcional*/
+    margin-top: 8% !important;
+    max-width: 400px;
     margin: auto;
     background-color: #ffffff;
     border-radius: 12px;
