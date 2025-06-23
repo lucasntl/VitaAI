@@ -1,0 +1,1269 @@
+{
+    "rotinas_de_treino": {
+      "perda_de_peso": {
+        "iniciante": {
+          "3_dias": [
+            {
+              "dia": "Dia 1 – Corpo inteiro com foco em queima",
+              "exercicios": [
+                {"nome": "Agachamento livre", "series": 3, "repeticoes": 15},
+                {"nome": "Flexão de braço no solo", "series": 3, "repeticoes": 12},
+                {"nome": "Remada unilateral com halteres", "series": 3, "repeticoes": 12},
+                {"nome": "Abdominal supra", "series": 3, "repeticoes": 20},
+                {"nome": "Polichinelos", "series": 3, "tempo": "30 segundos"}
+              ]
+            },
+            {
+              "dia": "Dia 2 – Cardio leve e core",
+              "exercicios": [
+                {"nome": "Caminhada acelerada", "tempo": "30 minutos"},
+                {"nome": "Prancha", "series": 3, "tempo": "30 segundos"},
+                {"nome": "Abdominal bicicleta", "series": 3, "tempo": "30 segundos"},
+                {"nome": "Alongamentos", "tempo": "15 minutos"}
+              ]
+            },
+            {
+              "dia": "Dia 3 – Corpo inferior e funcional",
+              "exercicios": [
+                {"nome": "Agachamento com salto", "series": 3, "repeticoes": 15},
+                {"nome": "Avanço com halteres", "series": 3, "repeticoes": 12, "observacao": "cada perna"},
+                {"nome": "Panturrilha em pé", "series": 3, "repeticoes": 20},
+                {"nome": "Burpee", "series": 3, "repeticoes": 10}
+              ]
+            }
+          ],
+          "5_dias": [
+            {
+              "dia": "Dia 1 – Pernas e glúteos",
+              "exercicios": [
+                {"nome": "Agachamento livre", "series": 4, "repeticoes": 15},
+                {"nome": "Stiff com halteres", "series": 4, "repeticoes": 12},
+                {"nome": "Panturrilha em pé", "series": 4, "repeticoes": 25}
+              ]
+            },
+            {
+              "dia": "Dia 2 – Peito e tríceps",
+              "exercicios": [
+                {"nome": "Supino reto com halteres", "series": 4, "repeticoes": 12},
+                {"nome": "Flexão de braço no solo", "series": 4, "repeticoes": 15},
+                {"nome": "Tríceps banco", "series": 3, "repeticoes": 15}
+              ]
+            },
+            {
+              "dia": "Dia 3 – Cardio e core",
+              "exercicios": [
+                {"nome": "Corrida moderada", "tempo": "30 minutos"},
+                {"nome": "Prancha com peso", "series": 3, "tempo": "45 segundos"},
+                {"nome": "Abdominal infra", "series": 3, "repeticoes": 20}
+              ]
+            },
+            {
+              "dia": "Dia 4 – Costas e bíceps",
+              "exercicios": [
+                {"nome": "Remada curvada com halteres", "series": 4, "repeticoes": 12},
+                {"nome": "Rosca direta com halteres", "series": 3, "repeticoes": 15},
+                {"nome": "Bíceps martelo", "series": 3, "repeticoes": 15}
+              ]
+            },
+            {
+              "dia": "Dia 5 – Funcional e HIIT",
+              "exercicios": [
+                {"nome": "Circuito funcional (agachamento, flexão, escalador)", "series": 3, "tempo": "30 minutos"},
+                {"nome": "HIIT corrida (30s sprint / 30s caminhada)", "tempo": "15 minutos"}
+              ]
+            }
+          ],
+          "7_dias": [
+            {
+              "dia": "Dia 1 – Pernas e glúteos",
+              "exercicios": [
+                {"nome": "Agachamento livre", "series": 5, "repeticoes": 15},
+                {"nome": "Stiff com barra", "series": 5, "repeticoes": 12},
+                {"nome": "Avanço com halteres", "series": 4, "repeticoes": 15},
+                {"nome": "Panturrilha em pé", "series": 5, "repeticoes": 25}
+              ]
+            },
+            {
+              "dia": "Dia 2 – Peito e tríceps",
+              "exercicios": [
+                {"nome": "Supino reto", "series": 5, "repeticoes": 12},
+                {"nome": "Supino inclinado com halteres", "series": 4, "repeticoes": 12},
+                {"nome": "Tríceps testa", "series": 4, "repeticoes": 15}
+              ]
+            },
+            {
+              "dia": "Dia 3 – Cardio HIIT intenso",
+              "exercicios": [
+                {"nome": "Corrida rápida (30s sprint, 30s descanso)", "tempo": "25 minutos"},
+                {"nome": "Polichinelos", "series": 4, "tempo": "1 minuto"}
+              ]
+            },
+            {
+              "dia": "Dia 4 – Costas e bíceps",
+              "exercicios": [
+                {"nome": "Remada curvada", "series": 5, "repeticoes": 12},
+                {"nome": "Rosca direta", "series": 4, "repeticoes": 15},
+                {"nome": "Bíceps martelo", "series": 4, "repeticoes": 15}
+              ]
+            },
+            {
+              "dia": "Dia 5 – Ombros e core",
+              "exercicios": [
+                {"nome": "Desenvolvimento com halteres", "series": 4, "repeticoes": 12},
+                {"nome": "Elevação lateral", "series": 4, "repeticoes": 15},
+                {"nome": "Prancha lateral com peso", "series": 3, "tempo": "45 segundos por lado"}
+              ]
+            },
+            {
+              "dia": "Dia 6 – Cardio longo e alongamento",
+              "exercicios": [
+                {"nome": "Caminhada ou corrida leve", "tempo": "45 minutos"},
+                {"nome": "Alongamentos e mobilidade", "tempo": "20 minutos"}
+              ]
+            },
+            {
+              "dia": "Dia 7 – Funcional leve + recuperação",
+              "exercicios": [
+                {
+                  "nome": "Circuito leve",
+                  "descricao": "Repetir 3 vezes",
+                  "exercicios_circuito": [
+                    {"nome": "Agachamento", "repeticoes": 15},
+                    {"nome": "Flexão", "repeticoes": 12},
+                    {"nome": "Remada", "repeticoes": 15},
+                    {"nome": "Abdominal prancha", "tempo": "30 segundos"}
+                  ]
+                },
+                {"nome": "Respiração profunda e meditação", "tempo": "10 minutos"}
+              ]
+            }
+          ]
+        },
+        "intermediario": {
+          "3_dias": [
+            {
+              "dia": "Dia 1 – Corpo inteiro com pesos moderados",
+              "exercicios": [
+                {"nome": "Agachamento com barra", "series": 4, "repeticoes": 12},
+                {"nome": "Supino reto com barra", "series": 4, "repeticoes": 10},
+                {"nome": "Remada curvada", "series": 4, "repeticoes": 12},
+                {"nome": "Elevação lateral", "series": 3, "repeticoes": 15},
+                {"nome": "Abdominal infra com peso", "series": 3, "repeticoes": 25}
+              ]
+            },
+            {
+              "dia": "Dia 2 – Cardio HIIT e core",
+              "exercicios": [
+                {"nome": "HIIT corrida (30s sprint / 30s caminhada)", "tempo": "20 minutos"},
+                {"nome": "Prancha com peso", "series": 3, "tempo": "1 minuto"},
+                {"nome": "Abdominal bicicleta", "series": 3, "tempo": "40 segundos"}
+              ]
+            },
+            {
+              "dia": "Dia 3 – Pernas e glúteos",
+              "exercicios": [
+                {"nome": "Agachamento frontal", "series": 5, "repeticoes": 15},
+                {"nome": "Stiff com barra", "series": 4, "repeticoes": 12},
+                {"nome": "Avanço com halteres", "series": 4, "repeticoes": 15},
+                {"nome": "Panturrilha em pé", "series": 4, "repeticoes": 30}
+              ]
+            }
+          ],
+          "5_dias": [
+            {
+              "dia": "Dia 1 – Pernas e core",
+              "exercicios": [
+                {"nome": "Agachamento livre", "series": 5, "repeticoes": 15},
+                {"nome": "Stiff com barra", "series": 4, "repeticoes": 12},
+                {"nome": "Avanço com barra", "series": 4, "repeticoes": 15},
+                {"nome": "Prancha com peso", "series": 3, "tempo": "1 minuto"}
+              ]
+            },
+            {
+              "dia": "Dia 2 – Peito e tríceps",
+              "exercicios": [
+                {"nome": "Supino reto", "series": 5, "repeticoes": 12},
+                {"nome": "Supino inclinado", "series": 4, "repeticoes": 12},
+                {"nome": "Tríceps testa", "series": 4, "repeticoes": 15}
+              ]
+            },
+            {
+              "dia": "Dia 3 – Cardio HIIT e funcional",
+              "exercicios": [
+                {"nome": "Corrida com variações de ritmo", "tempo": "25 minutos"},
+                {
+                  "nome": "Circuito funcional",
+                  "descricao": "Repetir 4 vezes",
+                  "exercicios_circuito": [
+                    {"nome": "Agachamento com salto", "repeticoes": 15},
+                    {"nome": "Flexão explosiva", "repeticoes": 15},
+                    {"nome": "Escalador", "tempo": "40 segundos"},
+                    {"nome": "Polichinelos", "tempo": "40 segundos"}
+                  ]
+                }
+              ]
+            },
+            {
+              "dia": "Dia 4 – Costas e bíceps",
+              "exercicios": [
+                {"nome": "Remada curvada", "series": 5, "repeticoes": 12},
+                {"nome": "Rosca direta", "series": 4, "repeticoes": 15},
+                {"nome": "Bíceps martelo", "series": 4, "repeticoes": 15}
+              ]
+            },
+            {
+              "dia": "Dia 5 – Ombros e core",
+              "exercicios": [
+                {"nome": "Desenvolvimento com halteres", "series": 4, "repeticoes": 12},
+                {"nome": "Elevação lateral", "series": 4, "repeticoes": 15},
+                {"nome": "Prancha lateral com peso", "series": 3, "tempo": "45 segundos por lado"}
+              ]
+            }
+          ],
+          "7_dias": [
+            {
+              "dia": "Dia 1 – Pernas e glúteos",
+              "exercicios": [
+                {"nome": "Agachamento livre", "series": 5, "repeticoes": 15},
+                {"nome": "Stiff com barra", "series": 4, "repeticoes": 12},
+                {"nome": "Avanço com barra", "series": 4, "repeticoes": 15},
+                {"nome": "Panturrilha em pé", "series": 4, "repeticoes": 30}
+              ]
+            },
+            {
+              "dia": "Dia 2 – Peito e tríceps",
+              "exercicios": [
+                {"nome": "Supino reto", "series": 5, "repeticoes": 12},
+                {"nome": "Supino inclinado", "series": 4, "repeticoes": 12},
+                {"nome": "Tríceps testa", "series": 4, "repeticoes": 15}
+              ]
+            },
+            {
+              "dia": "Dia 3 – Cardio intenso",
+              "exercicios": [
+                {"nome": "Corrida rápida (30s sprint, 30s descanso)", "tempo": "25 minutos"},
+                {"nome": "Polichinelos", "series": 4, "tempo": "1 minuto"}
+              ]
+            },
+            {
+              "dia": "Dia 4 – Costas e bíceps",
+              "exercicios": [
+                {"nome": "Remada curvada", "series": 5, "repeticoes": 12},
+                {"nome": "Rosca direta", "series": 4, "repeticoes": 15},
+                {"nome": "Bíceps martelo", "series": 4, "repeticoes": 15}
+              ]
+            },
+            {
+              "dia": "Dia 5 – Ombros e core",
+              "exercicios": [
+                {"nome": "Desenvolvimento com halteres", "series": 4, "repeticoes": 12},
+                {"nome": "Elevação lateral", "series": 4, "repeticoes": 15},
+                {"nome": "Prancha lateral com peso", "series": 3, "tempo": "45 segundos por lado"}
+              ]
+            },
+            {
+              "dia": "Dia 6 – Cardio longo e alongamento",
+              "exercicios": [
+                {"nome": "Caminhada ou corrida leve", "tempo": "45 minutos"},
+                {"nome": "Alongamentos e mobilidade", "tempo": "20 minutos"}
+              ]
+            },
+            {
+              "dia": "Dia 7 – Funcional leve + recuperação",
+              "exercicios": [
+                {
+                  "nome": "Circuito leve",
+                  "descricao": "Repetir 3 vezes",
+                  "exercicios_circuito": [
+                    {"nome": "Agachamento", "repeticoes": 15},
+                    {"nome": "Flexão", "repeticoes": 12},
+                    {"nome": "Remada", "repeticoes": 15},
+                    {"nome": "Abdominal prancha", "tempo": "30 segundos"}
+                  ]
+                },
+                {"nome": "Respiração profunda e meditação", "tempo": "10 minutos"}
+              ]
+            }
+          ]
+        },
+        "avancado": {
+          "3_dias": [
+            {
+              "dia": "Dia 1 – Full body pesado com cardio",
+              "exercicios": [
+                {"nome": "Agachamento livre com barra", "series": 5, "repeticoes": 10},
+                {"nome": "Supino reto com barra", "series": 5, "repeticoes": 10},
+                {"nome": "Remada curvada", "series": 5, "repeticoes": 12},
+                {"nome": "Elevação lateral", "series": 4, "repeticoes": 15},
+                {"nome": "Burpee", "series": 4, "repeticoes": 15}
+              ]
+            },
+            {
+              "dia": "Dia 2 – Cardio intenso e core",
+              "exercicios": [
+                {"nome": "HIIT corrida (30s sprint / 30s caminhada)", "tempo": "25 minutos"},
+                {"nome": "Prancha com peso", "series": 4, "tempo": "1 minuto"},
+                {"nome": "Abdominal infra com peso", "series": 4, "repeticoes": 25}
+              ]
+            },
+            {
+              "dia": "Dia 3 – Pernas, glúteos e funcional",
+              "exercicios": [
+                {"nome": "Agachamento frontal", "series": 5, "repeticoes": 15},
+                {"nome": "Stiff com barra", "series": 5, "repeticoes": 12},
+                {"nome": "Avanço com barra", "series": 5, "repeticoes": 15},
+                {"nome": "Panturrilha em pé", "series": 5, "repeticoes": 30}
+              ]
+            }
+          ],
+          "5_dias": [
+            {
+              "dia": "Dia 1 – Pernas e core",
+              "exercicios": [
+                {"nome": "Agachamento livre", "series": 5, "repeticoes": 15},
+                {"nome": "Stiff", "series": 5, "repeticoes": 12},
+                {"nome": "Avanço com barra", "series": 5, "repeticoes": 15},
+                {"nome": "Prancha com peso", "series": 4, "tempo": "1 minuto"}
+              ]
+            },
+            {
+              "dia": "Dia 2 – Costas e bíceps",
+              "exercicios": [
+                {"nome": "Remada curvada", "series": 5, "repeticoes": 15},
+                {"nome": "Puxada alta com barra", "series": 5, "repeticoes": 12},
+                {"nome": "Rosca direta", "series": 5, "repeticoes": 15}
+              ]
+            },
+            {
+              "dia": "Dia 3 – Peito e tríceps",
+              "exercicios": [
+                {"nome": "Supino reto", "series": 5, "repeticoes": 12},
+                {"nome": "Supino inclinado", "series": 5, "repeticoes": 12},
+                {"nome": "Tríceps testa", "series": 5, "repeticoes": 15}
+              ]
+            },
+            {
+              "dia": "Dia 4 – Ombros e core",
+              "exercicios": [
+                {"nome": "Desenvolvimento com halteres", "series": 5, "repeticoes": 15},
+                {"nome": "Elevação lateral", "series": 5, "repeticoes": 15},
+                {"nome": "Prancha lateral com peso", "series": 4, "tempo": "1 minuto por lado"}
+              ]
+            },
+            {
+              "dia": "Dia 5 – Cardio funcional intenso",
+              "exercicios": [
+                {
+                  "nome": "Circuito funcional intenso",
+                  "descricao": "Repetir 5 vezes",
+                  "exercicios_circuito": [
+                    {"nome": "Agachamento com salto", "repeticoes": 20},
+                    {"nome": "Flexão explosiva", "repeticoes": 20},
+                    {"nome": "Escalador", "tempo": "50 segundos"},
+                    {"nome": "Polichinelos", "tempo": "50 segundos"}
+                  ]
+                },
+                {"nome": "Corrida leve", "tempo": "20 minutos"}
+              ]
+            }
+          ],
+          "7_dias": [
+            {
+              "dia": "Dia 1 – Pernas e glúteos",
+              "exercicios": [
+                {"nome": "Agachamento livre", "series": 6, "repeticoes": 15},
+                {"nome": "Stiff com barra", "series": 5, "repeticoes": 15},
+                {"nome": "Avanço com barra", "series": 5, "repeticoes": 15},
+                {"nome": "Panturrilha em pé", "series": 5, "repeticoes": 40}
+              ]
+            },
+            {
+              "dia": "Dia 2 – Peito e tríceps",
+              "exercicios": [
+                {"nome": "Supino reto", "series": 6, "repeticoes": 12},
+                {"nome": "Supino inclinado", "series": 5, "repeticoes": 12},
+                {"nome": "Tríceps testa", "series": 5, "repeticoes": 15}
+              ]
+            },
+            {
+              "dia": "Dia 3 – Costas e bíceps",
+              "exercicios": [
+                {"nome": "Remada curvada", "series": 6, "repeticoes": 15},
+                {"nome": "Rosca direta", "series": 5, "repeticoes": 15},
+                {"nome": "Bíceps martelo", "series": 5, "repeticoes": 15}
+              ]
+            },
+            {
+              "dia": "Dia 4 – Ombros e core",
+              "exercicios": [
+                {"nome": "Desenvolvimento com halteres", "series": 5, "repeticoes": 15},
+                {"nome": "Elevação lateral", "series": 5, "repeticoes": 15},
+                {"nome": "Prancha lateral com peso", "series": 4, "tempo": "1 minuto por lado"}
+              ]
+            },
+            {
+              "dia": "Dia 5 – Cardio funcional intenso",
+              "exercicios": [
+                {"nome": "Corrida leve", "tempo": "30 minutos"},
+                {
+                  "nome": "Circuito funcional intenso",
+                  "descricao": "Repetir 4 vezes",
+                  "exercicios_circuito": [
+                    {"nome": "Agachamento com salto", "repeticoes": 20},
+                    {"nome": "Flexão explosiva", "repeticoes": 20},
+                    {"nome": "Escalador", "tempo": "50 segundos"},
+                    {"nome": "Polichinelos", "tempo": "50 segundos"}
+                  ]
+                }
+              ]
+            },
+            {
+              "dia": "Dia 6 – Recuperação ativa",
+              "exercicios": [
+                {"nome": "Alongamentos e mobilidade", "tempo": "30 minutos"},
+                {"nome": "Yoga e respiração", "tempo": "20 minutos"}
+              ]
+            },
+            {
+              "dia": "Dia 7 – Corpo inteiro leve",
+              "exercicios": [
+                {"nome": "Agachamento", "series": 4, "repeticoes": 15},
+                {"nome": "Flexão", "series": 4, "repeticoes": 15},
+                {"nome": "Remada unilateral", "series": 4, "repeticoes": 15},
+                {"nome": "Abdominal prancha", "tempo": "1 minuto"}
+              ]
+            }
+          ]
+        }
+      },
+      "ganho_de_massa_muscular": {
+        "iniciante": {
+          "3_dias": [
+            {
+              "dia": "Dia 1 – Peito, tríceps e pernas",
+              "exercicios": [
+                {"nome": "Supino reto com halteres", "series": 3, "repeticoes": 12},
+                {"nome": "Flexão de braço no solo", "series": 3, "repeticoes": 15},
+                {"nome": "Agachamento livre", "series": 3, "repeticoes": 15},
+                {"nome": "Panturrilha em pé", "series": 3, "repeticoes": 20}
+              ]
+            },
+            {
+              "dia": "Dia 2 – Costas e bíceps",
+              "exercicios": [
+                {"nome": "Remada unilateral com halteres", "series": 3, "repeticoes": 12},
+                {"nome": "Rosca direta com halteres", "series": 3, "repeticoes": 15},
+                {"nome": "Bíceps martelo", "series": 3, "repeticoes": 15},
+                {"nome": "Abdominal supra", "series": 3, "repeticoes": 20}
+              ]
+            },
+            {
+              "dia": "Dia 3 – Ombros e core",
+              "exercicios": [
+                {"nome": "Desenvolvimento com halteres", "series": 3, "repeticoes": 12},
+                {"nome": "Elevação lateral", "series": 3, "repeticoes": 15},
+                {"nome": "Prancha", "series": 3, "tempo": "30 segundos"},
+                {"nome": "Abdominal bicicleta", "series": 3, "tempo": "30 segundos"}
+              ]
+            }
+          ],
+          "5_dias": [
+            {
+              "dia": "Dia 1 – Pernas",
+              "exercicios": [
+                {"nome": "Agachamento livre", "series": 4, "repeticoes": 12},
+                {"nome": "Stiff com halteres", "series": 4, "repeticoes": 12},
+                {"nome": "Panturrilha em pé", "series": 4, "repeticoes": 25}
+              ]
+            },
+            {
+              "dia": "Dia 2 – Peito e tríceps",
+              "exercicios": [
+                {"nome": "Supino reto", "series": 4, "repeticoes": 12},
+                {"nome": "Supino inclinado com halteres", "series": 4, "repeticoes": 12},
+                {"nome": "Tríceps testa", "series": 4, "repeticoes": 15}
+              ]
+            },
+            {
+              "dia": "Dia 3 – Costas e bíceps",
+              "exercicios": [
+                {"nome": "Remada curvada com barra", "series": 4, "repeticoes": 12},
+                {"nome": "Rosca direta", "series": 4, "repeticoes": 15},
+                {"nome": "Bíceps martelo", "series": 4, "repeticoes": 15}
+              ]
+            },
+            {
+              "dia": "Dia 4 – Ombros",
+              "exercicios": [
+                {"nome": "Desenvolvimento com halteres", "series": 4, "repeticoes": 12},
+                {"nome": "Elevação lateral", "series": 4, "repeticoes": 15}
+              ]
+            },
+            {
+              "dia": "Dia 5 – Core e funcional",
+              "exercicios": [
+                {"nome": "Prancha", "series": 3, "tempo": "1 minuto"},
+                {"nome": "Abdominal infra", "series": 3, "repeticoes": 20},
+                {"nome": "Circuito funcional (agachamento, flexão, escalador)", "series": 3, "tempo": "20 minutos"}
+              ]
+            }
+          ],
+          "7_dias": [
+            {
+              "dia": "Dia 1 – Pernas e glúteos",
+              "exercicios": [
+                {"nome": "Agachamento livre", "series": 5, "repeticoes": 15},
+                {"nome": "Stiff com barra", "series": 5, "repeticoes": 12},
+                {"nome": "Avanço com halteres", "series": 4, "repeticoes": 15},
+                {"nome": "Panturrilha em pé", "series": 5, "repeticoes": 30}
+              ]
+            },
+            {
+              "dia": "Dia 2 – Peito e tríceps",
+              "exercicios": [
+                {"nome": "Supino reto", "series": 5, "repeticoes": 12},
+                {"nome": "Supino inclinado", "series": 4, "repeticoes": 12},
+                {"nome": "Tríceps testa", "series": 4, "repeticoes": 15}
+              ]
+            },
+            {
+              "dia": "Dia 3 – Costas e bíceps",
+              "exercicios": [
+                {"nome": "Remada curvada", "series": 5, "repeticoes": 12},
+                {"nome": "Rosca direta", "series": 4, "repeticoes": 15},
+                {"nome": "Bíceps martelo", "series": 4, "repeticoes": 15}
+              ]
+            },
+            {
+              "dia": "Dia 4 – Ombros e core",
+              "exercicios": [
+                {"nome": "Desenvolvimento com halteres", "series": 4, "repeticoes": 12},
+                {"nome": "Elevação lateral", "series": 4, "repeticoes": 15},
+                {"nome": "Prancha lateral", "series": 3, "tempo": "45 segundos por lado"}
+              ]
+            },
+            {
+              "dia": "Dia 5 – Cardio funcional",
+              "exercicios": [
+                {"nome": "Corrida leve", "tempo": "30 minutos"},
+                {"nome": "Circuito funcional (agachamento, flexão, escalador)", "series": 3, "tempo": "30 minutos"}
+              ]
+            },
+            {
+              "dia": "Dia 6 – Recuperação ativa",
+              "exercicios": [
+                {"nome": "Alongamentos e mobilidade", "tempo": "20 minutos"},
+                {"nome": "Yoga leve", "tempo": "20 minutos"}
+              ]
+            },
+            {
+              "dia": "Dia 7 – Corpo inteiro leve",
+              "exercicios": [
+                {"nome": "Agachamento", "series": 3, "repeticoes": 15},
+                {"nome": "Flexão", "series": 3, "repeticoes": 15},
+                {"nome": "Remada unilateral", "series": 3, "repeticoes": 15},
+                {"nome": "Abdominal prancha", "tempo": "30 segundos"}
+              ]
+            }
+          ]
+        },
+        "intermediario": {
+          "3_dias": [
+            {
+              "dia": "Dia 1 – Full body pesado",
+              "exercicios": [
+                {"nome": "Agachamento livre com barra", "series": 4, "repeticoes": 10},
+                {"nome": "Supino reto com barra", "series": 4, "repeticoes": 10},
+                {"nome": "Remada curvada", "series": 4, "repeticoes": 12},
+                {"nome": "Elevação lateral", "series": 4, "repeticoes": 15},
+                {"nome": "Abdominal infra com peso", "series": 4, "repeticoes": 25}
+              ]
+            },
+            {
+              "dia": "Dia 2 – Cardio leve e core",
+              "exercicios": [
+                {"nome": "Corrida leve", "tempo": "25 minutos"},
+                {"nome": "Prancha com peso", "series": 4, "tempo": "1 minuto"},
+                {"nome": "Abdominal bicicleta", "series": 4, "tempo": "40 segundos"}
+              ]
+            },
+            {
+              "dia": "Dia 3 – Pernas e glúteos",
+              "exercicios": [
+                {"nome": "Agachamento frontal", "series": 5, "repeticoes": 15},
+                {"nome": "Stiff com barra", "series": 5, "repeticoes": 12},
+                {"nome": "Avanço com halteres", "series": 4, "repeticoes": 15},
+                {"nome": "Panturrilha em pé", "series": 4, "repeticoes": 30}
+              ]
+            }
+          ],
+          "5_dias": [
+            {
+              "dia": "Dia 1 – Pernas e core",
+              "exercicios": [
+                {"nome": "Agachamento livre", "series": 5, "repeticoes": 15},
+                {"nome": "Stiff com barra", "series": 5, "repeticoes": 12},
+                {"nome": "Avanço com barra", "series": 5, "repeticoes": 15},
+                {"nome": "Prancha com peso", "series": 4, "tempo": "1 minuto"}
+              ]
+            },
+            {
+              "dia": "Dia 2 – Peito e tríceps",
+              "exercicios": [
+                {"nome": "Supino reto", "series": 5, "repeticoes": 12},
+                {"nome": "Supino inclinado", "series": 5, "repeticoes": 12},
+                {"nome": "Tríceps testa", "series": 4, "repeticoes": 15}
+              ]
+            },
+            {
+              "dia": "Dia 3 – Cardio HIIT e funcional",
+              "exercicios": [
+                {"nome": "Corrida com variações de ritmo", "tempo": "30 minutos"},
+                {
+                  "nome": "Circuito funcional",
+                  "descricao": "Repetir 4 vezes",
+                  "exercicios_circuito": [
+                    {"nome": "Agachamento com salto", "repeticoes": 20},
+                    {"nome": "Flexão explosiva", "repeticoes": 20},
+                    {"nome": "Escalador", "tempo": "50 segundos"},
+                    {"nome": "Polichinelos", "tempo": "50 segundos"}
+                  ]
+                }
+              ]
+            },
+            {
+              "dia": "Dia 4 – Costas e bíceps",
+              "exercicios": [
+                {"nome": "Remada curvada", "series": 5, "repeticoes": 15},
+                {"nome": "Rosca direta", "series": 5, "repeticoes": 15},
+                {"nome": "Bíceps martelo", "series": 5, "repeticoes": 15}
+              ]
+            },
+            {
+              "dia": "Dia 5 – Ombros e core",
+              "exercicios": [
+                {"nome": "Desenvolvimento com halteres", "series": 5, "repeticoes": 15},
+                {"nome": "Elevação lateral", "series": 5, "repeticoes": 15},
+                {"nome": "Prancha lateral com peso", "series": 4, "tempo": "1 minuto por lado"}
+              ]
+            }
+          ],
+          "7_dias": [
+            {
+              "dia": "Dia 1 – Pernas e glúteos",
+              "exercicios": [
+                {"nome": "Agachamento livre", "series": 6, "repeticoes": 15},
+                {"nome": "Stiff com barra", "series": 5, "repeticoes": 15},
+                {"nome": "Avanço com barra", "series": 5, "repeticoes": 15},
+                {"nome": "Panturrilha em pé", "series": 5, "repeticoes": 40}
+              ]
+            },
+            {
+              "dia": "Dia 2 – Peito e tríceps",
+              "exercicios": [
+                {"nome": "Supino reto", "series": 6, "repeticoes": 12},
+                {"nome": "Supino inclinado", "series": 5, "repeticoes": 12},
+                {"nome": "Tríceps testa", "series": 5, "repeticoes": 15}
+              ]
+            },
+            {
+              "dia": "Dia 3 – Costas e bíceps",
+              "exercicios": [
+                {"nome": "Remada curvada", "series": 6, "repeticoes": 15},
+                {"nome": "Rosca direta", "series": 5, "repeticoes": 15},
+                {"nome": "Bíceps martelo", "series": 5, "repeticoes": 15}
+              ]
+            },
+            {
+              "dia": "Dia 4 – Ombros e core",
+              "exercicios": [
+                {"nome": "Desenvolvimento com halteres", "series": 5, "repeticoes": 15},
+                {"nome": "Elevação lateral", "series": 5, "repeticoes": 15},
+                {"nome": "Prancha lateral com peso", "series": 4, "tempo": "1 minuto por lado"}
+              ]
+            },
+            {
+              "dia": "Dia 5 – Cardio funcional intenso",
+              "exercicios": [
+                {"nome": "Corrida leve", "tempo": "30 minutos"},
+                {
+                  "nome": "Circuito funcional intenso",
+                  "descricao": "Repetir 4 vezes",
+                  "exercicios_circuito": [
+                    {"nome": "Agachamento com salto", "repeticoes": 20},
+                    {"nome": "Flexão explosiva", "repeticoes": 20},
+                    {"nome": "Escalador", "tempo": "50 segundos"},
+                    {"nome": "Polichinelos", "tempo": "50 segundos"}
+                  ]
+                }
+              ]
+            },
+            {
+              "dia": "Dia 6 – Recuperação ativa",
+              "exercicios": [
+                {"nome": "Alongamentos e mobilidade", "tempo": "30 minutos"},
+                {"nome": "Yoga e respiração", "tempo": "20 minutos"}
+              ]
+            },
+            {
+              "dia": "Dia 7 – Corpo inteiro leve",
+              "exercicios": [
+                {"nome": "Agachamento", "series": 4, "repeticoes": 15},
+                {"nome": "Flexão", "series": 4, "repeticoes": 15},
+                {"nome": "Remada unilateral", "series": 4, "repeticoes": 15},
+                {"nome": "Abdominal prancha", "tempo": "1 minuto"}
+              ]
+            }
+          ]
+        },
+        "avancado": {
+          "3_dias": [
+            {
+              "dia": "Dia 1 – Treino Full Body pesado",
+              "exercicios": [
+                {"nome": "Agachamento livre com barra", "series": 6, "repeticoes": 8},
+                {"nome": "Supino reto com barra", "series": 6, "repeticoes": 8},
+                {"nome": "Remada curvada", "series": 6, "repeticoes": 10},
+                {"nome": "Elevação lateral", "series": 5, "repeticoes": 15},
+                {"nome": "Abdominal infra com peso", "series": 5, "repeticoes": 30}
+              ]
+            },
+            {
+              "dia": "Dia 2 – Cardio e core",
+              "exercicios": [
+                {"nome": "HIIT corrida (30s sprint / 30s caminhada)", "tempo": "30 minutos"},
+                {"nome": "Prancha com peso", "series": 5, "tempo": "1 minuto"},
+                {"nome": "Abdominal bicicleta com peso", "series": 4, "tempo": "45 segundos"}
+              ]
+            },
+            {
+              "dia": "Dia 3 – Pernas, glúteos e funcional",
+              "exercicios": [
+                {"nome": "Agachamento frontal", "series": 6, "repeticoes": 15},
+                {"nome": "Stiff com barra", "series": 6, "repeticoes": 12},
+                {"nome": "Avanço com barra", "series": 6, "repeticoes": 15},
+                {"nome": "Panturrilha em pé", "series": 6, "repeticoes": 40}
+              ]
+            }
+          ],
+          "5_dias": [
+            {
+              "dia": "Dia 1 – Pernas e core",
+              "exercicios": [
+                {"nome": "Agachamento livre", "series": 6, "repeticoes": 15},
+                {"nome": "Stiff", "series": 6, "repeticoes": 15},
+                {"nome": "Avanço com barra", "series": 6, "repeticoes": 15},
+                {"nome": "Prancha com peso", "series": 5, "tempo": "1 minuto"}
+              ]
+            },
+            {
+              "dia": "Dia 2 – Costas e bíceps",
+              "exercicios": [
+                {"nome": "Remada curvada", "series": 6, "repeticoes": 15},
+                {"nome": "Puxada alta com barra", "series": 6, "repeticoes": 12},
+                {"nome": "Rosca direta", "series": 6, "repeticoes": 15}
+              ]
+            },
+            {
+              "dia": "Dia 3 – Peito e tríceps",
+              "exercicios": [
+                {"nome": "Supino reto", "series": 6, "repeticoes": 12},
+                {"nome": "Supino inclinado", "series": 6, "repeticoes": 12},
+                {"nome": "Tríceps testa", "series": 6, "repeticoes": 15}
+              ]
+            },
+            {
+              "dia": "Dia 4 – Ombros e core",
+              "exercicios": [
+                {"nome": "Desenvolvimento com halteres", "series": 6, "repeticoes": 15},
+                {"nome": "Elevação lateral", "series": 6, "repeticoes": 15},
+                {"nome": "Prancha lateral com peso", "series": 5, "tempo": "1 minuto por lado"}
+              ]
+            },
+            {
+              "dia": "Dia 5 – Cardio funcional intenso",
+              "exercicios": [
+                {
+                  "nome": "Circuito funcional intenso",
+                  "descricao": "Repetir 6 vezes",
+                  "exercicios_circuito": [
+                    {"nome": "Agachamento com salto", "repeticoes": 25},
+                    {"nome": "Flexão explosiva", "repeticoes": 25},
+                    {"nome": "Escalador", "tempo": "1 minuto"},
+                    {"nome": "Polichinelos", "tempo": "1 minuto"}
+                  ]
+                },
+                {"nome": "Corrida leve", "tempo": "25 minutos"}
+              ]
+            }
+          ],
+          "7_dias": [
+            {
+              "dia": "Dia 1 – Pernas e glúteos",
+              "exercicios": [
+                {"nome": "Agachamento livre", "series": 7, "repeticoes": 15},
+                {"nome": "Stiff com barra", "series": 6, "repeticoes": 15},
+                {"nome": "Avanço com barra", "series": 6, "repeticoes": 15},
+                {"nome": "Panturrilha em pé", "series": 6, "repeticoes": 40}
+              ]
+            },
+            {
+              "dia": "Dia 2 – Peito e tríceps",
+              "exercicios": [
+                {"nome": "Supino reto", "series": 7, "repeticoes": 12},
+                {"nome": "Supino inclinado", "series": 6, "repeticoes": 12},
+                {"nome": "Tríceps testa", "series": 6, "repeticoes": 15}
+              ]
+            },
+            {
+              "dia": "Dia 3 – Costas e bíceps",
+              "exercicios": [
+                {"nome": "Remada curvada", "series": 7, "repeticoes": 15},
+                {"nome": "Rosca direta", "series": 6, "repeticoes": 15},
+                {"nome": "Bíceps martelo", "series": 6, "repeticoes": 15}
+              ]
+            },
+            {
+              "dia": "Dia 4 – Ombros e core",
+              "exercicios": [
+                {"nome": "Desenvolvimento com halteres", "series": 6, "repeticoes": 15},
+                {"nome": "Elevação lateral", "series": 6, "repeticoes": 15},
+                {"nome": "Prancha lateral com peso", "series": 5, "tempo": "1 minuto por lado"}
+              ]
+            },
+            {
+              "dia": "Dia 5 – Cardio funcional intenso",
+              "exercicios": [
+                {"nome": "Corrida leve", "tempo": "35 minutos"},
+                {
+                  "nome": "Circuito funcional intenso",
+                  "descricao": "Repetir 5 vezes",
+                  "exercicios_circuito": [
+                    {"nome": "Agachamento com salto", "repeticoes": 25},
+                    {"nome": "Flexão explosiva", "repeticoes": 25},
+                    {"nome": "Escalador", "tempo": "1 minuto"},
+                    {"nome": "Polichinelos", "tempo": "1 minuto"}
+                  ]
+                }
+              ]
+            },
+            {
+              "dia": "Dia 6 – Recuperação ativa",
+              "exercicios": [
+                {"nome": "Alongamentos e mobilidade", "tempo": "30 minutos"},
+                {"nome": "Yoga e respiração", "tempo": "20 minutos"}
+              ]
+            },
+            {
+              "dia": "Dia 7 – Corpo inteiro leve",
+              "exercicios": [
+                {"nome": "Agachamento", "series": 5, "repeticoes": 15},
+                {"nome": "Flexão", "series": 5, "repeticoes": 15},
+                {"nome": "Remada unilateral", "series": 5, "repeticoes": 15},
+                {"nome": "Abdominal prancha", "tempo": "1 minuto"}
+              ]
+            }
+          ]
+        }
+      },
+      "aumentar_forca": {
+        "iniciante": {
+          "3_dias": [
+            {
+              "dia": "Dia 1 – Treino de força básico",
+              "exercicios": [
+                {"nome": "Agachamento livre", "series": 3, "repeticoes": 12},
+                {"nome": "Supino reto com halteres", "series": 3, "repeticoes": 12},
+                {"nome": "Remada unilateral", "series": 3, "repeticoes": 12},
+                {"nome": "Prancha", "series": 3, "tempo": "30 segundos"}
+              ]
+            },
+            {
+              "dia": "Dia 2 – Treino funcional leve",
+              "exercicios": [
+                {"nome": "Agachamento com peso corporal", "series": 3, "repeticoes": 15},
+                {"nome": "Flexão de braço no solo", "series": 3, "repeticoes": 15},
+                {"nome": "Alongamentos", "tempo": "20 minutos"}
+              ]
+            },
+            {
+              "dia": "Dia 3 – Cardio leve e mobilidade",
+              "exercicios": [
+                {"nome": "Caminhada rápida", "tempo": "30 minutos"},
+                {"nome": "Alongamentos", "tempo": "20 minutos"}
+              ]
+            }
+          ],
+          "5_dias": [
+            {
+              "dia": "Dia 1 – Pernas e core",
+              "exercicios": [
+                {"nome": "Agachamento livre", "series": 4, "repeticoes": 12},
+                {"nome": "Stiff com halteres", "series": 4, "repeticoes": 12},
+                {"nome": "Abdominal supra", "series": 4, "repeticoes": 20}
+              ]
+            },
+            {
+              "dia": "Dia 2 – Peito e tríceps",
+              "exercicios": [
+                {"nome": "Supino reto com barra", "series": 4, "repeticoes": 12},
+                {"nome": "Supino inclinado com halteres", "series": 4, "repeticoes": 12},
+                {"nome": "Tríceps testa", "series": 4, "repeticoes": 15}
+              ]
+            },
+            {
+              "dia": "Dia 3 – Costas e bíceps",
+              "exercicios": [
+                {"nome": "Remada curvada", "series": 4, "repeticoes": 12},
+                {"nome": "Puxada alta com barra", "series": 4, "repeticoes": 12},
+                {"nome": "Rosca direta", "series": 4, "repeticoes": 15}
+              ]
+            },
+            {
+              "dia": "Dia 4 – Ombros e core",
+              "exercicios": [
+                {"nome": "Desenvolvimento com halteres", "series": 4, "repeticoes": 15},
+                {"nome": "Elevação lateral", "series": 4, "repeticoes": 15},
+                {"nome": "Prancha lateral", "series": 3, "tempo": "30 segundos"}
+              ]
+            },
+            {
+              "dia": "Dia 5 – Cardio leve e recuperação",
+              "exercicios": [
+                {"nome": "Caminhada leve", "tempo": "30 minutos"},
+                {"nome": "Alongamentos", "tempo": "20 minutos"}
+              ]
+            }
+          ],
+          "7_dias": [
+            {
+              "dia": "Dia 1 – Pernas e glúteos",
+              "exercicios": [
+                {"nome": "Agachamento livre", "series": 5, "repeticoes": 12},
+                {"nome": "Stiff com barra", "series": 5, "repeticoes": 12},
+                {"nome": "Avanço com halteres", "series": 5, "repeticoes": 12}
+              ]
+            },
+            {
+              "dia": "Dia 2 – Peito e tríceps",
+              "exercicios": [
+                {"nome": "Supino reto com halteres", "series": 5, "repeticoes": 12},
+                {"nome": "Supino inclinado com barra", "series": 5, "repeticoes": 12},
+                {"nome": "Tríceps banco", "series": 5, "repeticoes": 15}
+              ]
+            },
+            {
+              "dia": "Dia 3 – Costas e bíceps",
+              "exercicios": [
+                {"nome": "Remada curvada", "series": 5, "repeticoes": 12},
+                {"nome": "Rosca direta", "series": 5, "repeticoes": 15},
+                {"nome": "Bíceps martelo", "series": 5, "repeticoes": 15}
+              ]
+            },
+            {
+              "dia": "Dia 4 – Ombros e core",
+              "exercicios": [
+                {"nome": "Desenvolvimento com barra", "series": 5, "repeticoes": 15},
+                {"nome": "Elevação lateral", "series": 5, "repeticoes": 15},
+                {"nome": "Prancha lateral", "series": 4, "tempo": "45 segundos"}
+              ]
+            },
+            {
+              "dia": "Dia 5 – Cardio leve e mobilidade",
+              "exercicios": [
+                {"nome": "Caminhada rápida", "tempo": "40 minutos"},
+                {"nome": "Alongamentos", "tempo": "20 minutos"}
+              ]
+            },
+            {
+              "dia": "Dia 6 – Core e equilíbrio",
+              "exercicios": [
+                {"nome": "Prancha", "series": 4, "tempo": "45 segundos"},
+                {"nome": "Abdominal infra", "series": 4, "repeticoes": 20},
+                {"nome": "Exercícios de equilíbrio", "tempo": "20 minutos"}
+              ]
+            },
+            {
+              "dia": "Dia 7 – Recuperação ativa",
+              "exercicios": [
+                {"nome": "Yoga e respiração", "tempo": "30 minutos"},
+                {"nome": "Alongamentos", "tempo": "20 minutos"}
+              ]
+            }
+          ]
+        },
+        "intermediario": {
+          "3_dias": [
+            {
+              "dia": "Dia 1 – Treino pesado de força",
+              "exercicios": [
+                {"nome": "Agachamento livre com barra", "series": 5, "repeticoes": 10},
+                {"nome": "Supino reto com barra", "series": 5, "repeticoes": 10},
+                {"nome": "Remada curvada", "series": 5, "repeticoes": 10},
+                {"nome": "Prancha com peso", "series": 5, "tempo": "1 minuto"}
+              ]
+            },
+            {
+              "dia": "Dia 2 – Cardio e core",
+              "exercicios": [
+                {"nome": "Corrida leve", "tempo": "30 minutos"},
+                {"nome": "Circuito funcional", "series": 5, "tempo": "25 minutos"}
+              ]
+            },
+            {
+              "dia": "Dia 3 – Treino funcional intenso",
+              "exercicios": [
+                {
+                  "nome": "Circuito funcional intenso",
+                  "descricao": "Repetir 5 vezes",
+                  "exercicios_circuito": [
+                    {"nome": "Agachamento com salto", "repeticoes": 20},
+                    {"nome": "Flexão explosiva", "repeticoes": 20},
+                    {"nome": "Escalador", "tempo": "50 segundos"},
+                    {"nome": "Polichinelos", "tempo": "50 segundos"}
+                  ]
+                }
+              ]
+            }
+          ],
+          "5_dias": [
+            {
+              "dia": "Dia 1 – Pernas e core",
+              "exercicios": [
+                {"nome": "Agachamento livre com barra", "series": 6, "repeticoes": 12},
+                {"nome": "Stiff", "series": 6, "repeticoes": 15},
+                {"nome": "Abdominal supra", "series": 6, "repeticoes": 25}
+              ]
+            },
+            {
+              "dia": "Dia 2 – Peito e costas",
+              "exercicios": [
+                {"nome": "Supino reto com barra", "series": 6, "repeticoes": 12},
+                {"nome": "Remada curvada", "series": 6, "repeticoes": 15},
+                {"nome": "Puxada alta com barra", "series": 6, "repeticoes": 12}
+              ]
+            },
+            {
+              "dia": "Dia 3 – Cardio e funcional",
+              "exercicios": [
+                {"nome": "HIIT corrida", "tempo": "30 minutos"},
+                {
+                  "nome": "Circuito funcional intenso",
+                  "descricao": "Repetir 6 vezes",
+                  "exercicios_circuito": [
+                    {"nome": "Agachamento com salto", "repeticoes": 25},
+                    {"nome": "Flexão explosiva", "repeticoes": 25},
+                    {"nome": "Escalador", "tempo": "1 minuto"},
+                    {"nome": "Polichinelos", "tempo": "1 minuto"}
+                  ]
+                }
+              ]
+            },
+            {
+              "dia": "Dia 4 – Core e resistência",
+              "exercicios": [
+                {"nome": "Prancha com peso", "series": 6, "tempo": "1 minuto"},
+                {"nome": "Abdominal bicicleta com peso", "series": 6, "tempo": "45 segundos"}
+              ]
+            },
+            {
+              "dia": "Dia 5 – Recuperação ativa",
+              "exercicios": [
+                {"nome": "Alongamentos e mobilidade", "tempo": "30 minutos"},
+                {"nome": "Yoga e respiração", "tempo": "20 minutos"}
+              ]
+            }
+          ],
+          "7_dias": [
+            {
+              "dia": "Dia 1 – Treino pesado de força",
+              "exercicios": [
+                {"nome": "Agachamento livre com barra", "series": 7, "repeticoes": 12},
+                {"nome": "Supino reto com barra", "series": 7, "repeticoes": 12},
+                {"nome": "Remada curvada", "series": 7, "repeticoes": 12},
+                {"nome": "Prancha com peso", "series": 7, "tempo": "1 minuto"}
+              ]
+            },
+            {
+              "dia": "Dia 2 – Cardio intenso",
+              "exercicios": [
+                {"nome": "Corrida HIIT", "tempo": "30 minutos"}
+              ]
+            },
+            {
+              "dia": "Dia 3 – Treino funcional intenso",
+              "exercicios": [
+                {
+                  "nome": "Circuito funcional intenso",
+                  "descricao": "Repetir 7 vezes",
+                  "exercicios_circuito": [
+                    {"nome": "Agachamento com salto", "repeticoes": 30},
+                    {"nome": "Flexão explosiva", "repeticoes": 30},
+                    {"nome": "Escalador", "tempo": "1 minuto"},
+                    {"nome": "Polichinelos", "tempo": "1 minuto"}
+                  ]
+                }
+              ]
+            },
+            {
+              "dia": "Dia 4 – Core e resistência",
+              "exercicios": [
+                {"nome": "Prancha com peso", "series": 7, "tempo": "1 minuto"},
+                {"nome": "Abdominal bicicleta com peso", "series": 7, "tempo": "45 segundos"}
+              ]
+            },
+            {
+              "dia": "Dia 5 – Recuperação ativa",
+              "exercicios": [
+                {"nome": "Alongamentos e mobilidade", "tempo": "30 minutos"},
+                {"nome": "Yoga e respiração", "tempo": "20 minutos"}
+              ]
+            },
+            {
+              "dia": "Dia 6 – Corpo inteiro leve",
+              "exercicios": [
+                {"nome": "Agachamento", "series": 7, "repeticoes": 15},
+                {"nome": "Flexão", "series": 7, "repeticoes": 15},
+                {"nome": "Remada unilateral", "series": 7, "repeticoes": 15},
+                {"nome": "Abdominal prancha", "tempo": "1 minuto"}
+              ]
+            },
+            {
+              "dia": "Dia 7 – Descanso ativo",
+              "exercicios": [
+                {"nome": "Yoga e respiração", "tempo": "30 minutos"}
+              ]
+            }
+          ]
+        },
+        "avancado": {
+          "3_dias": [
+            {
+              "dia": "Dia 1 – Treino de força intenso",
+              "exercicios": [
+                {"nome": "Agachamento livre com barra", "series": 8, "repeticoes": 8},
+                {"nome": "Supino reto com barra", "series": 8, "repeticoes": 8},
+                {"nome": "Remada curvada", "series": 8, "repeticoes": 8},
+                {"nome": "Prancha com peso", "series": 8, "tempo": "1 minuto"}
+              ]
+            },
+            {
+              "dia": "Dia 2 – Cardio intenso e funcional",
+              "exercicios": [
+                {"nome": "Corrida HIIT", "tempo": "35 minutos"},
+                {"nome": "Circuito funcional intenso", "series": 8, "tempo": "30 minutos"}
+              ]
+            },
+            {
+              "dia": "Dia 3 – Core e mobilidade",
+              "exercicios": [
+                {"nome": "Prancha com peso", "series": 8, "tempo": "1 minuto"},
+                {"nome": "Alongamentos e yoga", "tempo": "30 minutos"}
+              ]
+            }
+          ],
+          "5_dias": [
+            {
+              "dia": "Dia 1 – Pernas, core e força",
+              "exercicios": [
+                {"nome": "Agachamento livre com barra", "series": 8, "repeticoes": 10},
+                {"nome": "Stiff", "series": 8, "repeticoes": 10},
+                {"nome": "Avanço com barra", "series": 8, "repeticoes": 10},
+                {"nome": "Prancha com peso", "series": 8, "tempo": "1 minuto"}
+              ]
+            },
+            {
+              "dia": "Dia 2 – Peito e costas intensos",
+              "exercicios": [
+                {"nome": "Supino reto com barra", "series": 8, "repeticoes": 10},
+                {"nome": "Remada curvada", "series": 8, "repeticoes": 10},
+                {"nome": "Puxada alta com barra", "series": 8, "repeticoes": 12}
+              ]
+            },
+            {
+              "dia": "Dia 3 – Treino funcional intenso",
+              "exercicios": [
+                {
+                  "nome": "Circuito funcional intenso",
+                  "descricao": "Repetir 8 vezes",
+                  "exercicios_circuito": [
+                    {"nome": "Agachamento com salto", "repeticoes": 35},
+                    {"nome": "Flexão explosiva", "repeticoes": 35},
+                    {"nome": "Escalador", "tempo": "1 minuto"},
+                    {"nome": "Polichinelos", "tempo": "1 minuto"}
+                  ]
+                }
+              ]
+            },
+            {
+              "dia": "Dia 4 – Core e resistência intensa",
+              "exercicios": [
+                {"nome": "Prancha com peso", "series": 8, "tempo": "1 minuto"},
+                {"nome": "Abdominal bicicleta com peso", "series": 8, "tempo": "45 segundos"}
+              ]
+            },
+            {
+              "dia": "Dia 5 – Recuperação ativa",
+              "exercicios": [
+                {"nome": "Alongamentos, yoga e mobilidade", "tempo": "30 minutos"}
+              ]
+            }
+          ],
+          "7_dias": [
+            {
+              "dia": "Dia 1 – Treino intenso de força e funcional",
+              "exercicios": [
+                {"nome": "Agachamento livre com barra", "series": 8, "repeticoes": 12},
+                {"nome": "Supino reto com barra", "series": 8, "repeticoes": 12},
+                {"nome": "Remada curvada", "series": 8, "repeticoes": 12},
+                {"nome": "Circuito funcional intenso", "series": 8, "tempo": "40 minutos"}
+              ]
+            },
+            {
+              "dia": "Dia 2 – Cardio intenso e recuperação",
+              "exercicios": [
+                {"nome": "Corrida HIIT", "tempo": "40 minutos"},
+                {"nome": "Alongamentos e yoga", "tempo": "30 minutos"}
+              ]
+            },
+            {
+              "dia": "Dia 3 – Core e força intensa",
+              "exercicios": [
+                {"nome": "Prancha com peso", "series": 8, "tempo": "1 minuto"},
+                {"nome": "Abdominal infra com peso", "series": 8, "repeticoes": 35}
+              ]
+            },
+            {
+              "dia": "Dia 4 – Treino leve e alongamentos",
+              "exercicios": [
+                {"nome": "Alongamentos", "tempo": "30 minutos"},
+                {"nome": "Yoga leve", "tempo": "20 minutos"}
+              ]
+            },
+            {
+              "dia": "Dia 5 – Recuperação ativa",
+              "exercicios": [
+                {"nome": "Caminhada leve", "tempo": "30 minutos"},
+                {"nome": "Meditação e respiração", "tempo": "20 minutos"}
+              ]
+            },
+            {
+              "dia": "Dia 6 – Corpo inteiro leve",
+              "exercicios": [
+                {"nome": "Agachamento", "series": 8, "repeticoes": 15},
+                {"nome": "Flexão", "series": 8, "repeticoes": 15},
+                {"nome": "Remada unilateral", "series": 8, "repeticoes": 15},
+                {"nome": "Abdominal prancha", "tempo": "1 minuto"}
+              ]
+            },
+            {
+              "dia": "Dia 7 – Descanso ativo",
+              "exercicios": [
+                {"nome": "Yoga e respiração", "tempo": "30 minutos"}
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
