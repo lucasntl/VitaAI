@@ -3,8 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Formulário</title>
+        <title>Questionário - VitaAI</title>
         <link rel="stylesheet" href="questionario.css">
+        <link rel="icon" href="img/favicon.png" type="image/x-icon">
         <style>
             .barra-linha{
                 background-color: #45ce85;
@@ -17,7 +18,7 @@
     <body>
         <div class="color">
             <h1>Vamos Criar Seu Plano Personalizado</h1>
-            <p>Responder algumas perguntas para que nossa IA possa criar o plano de fitness e nutrição perfeito para você.</p>
+            <p>Responda as perguntas para que possamos encontrar os melhores treinos e dietas para você!</p>
 
             <div class="barra">
                 <div class="barra-linha"></div>
@@ -26,36 +27,34 @@
             <div class="info">Etapa 3 de 4 - 75% Completo</div>
             <form>
                 <h2>Preferências de Treinos</h2>
-                <label for="perg">Qual tipo de treino você prefere?</label>
+                <label for="perg">Nivel de experiencia?</label>
                 <fieldset>
                     <label>
-                        <input type="radio" name="perg3" value="1">Nunca treinou
+                        <input type="radio" name="perg3" value="1">Iniciante
                     </label>
                     <label>
-                        <input type="radio" name="perg3" value="2">Ja fez algum treino
+                        <input type="radio" name="perg3" value="2">Intermediario
                     </label>
                     <label>
-                        <input type="radio" name="perg3" value="3">Ja treina
+                        <input type="radio" name="perg3" value="3">Avançado
                     </label>
                 </fieldset>
                     <label for="perg">Quantos dias por semana você pode treinar?</label>
                 <fieldset>
                     <label>
-                        <input type="radio" name="perg4" value="1">1-2 dias
+                        <input type="radio" name="perg4" value="2">3 dias
                     </label>
                     <label>
-                        <input type="radio" name="perg4" value="2">3-4 dias
+                        <input type="radio" name="perg4" value="3">5 dias
                     </label>
                     <label>
-                        <input type="radio" name="perg4" value="3">5-6 dias
-                    </label>
-                    <label>
-                        <input type="radio" name="perg4" value="4">Todos os dias
+                        <input type="radio" name="perg4" value="4">7 dias
                     </label>
                 </fieldset>
             </form>
-            <button type="submit"><a href="questionario2.html">← Anterior</a></button>
-            <button type="submit"><a href="questionario4.html">Próximo →</a></button>
+            <button type="submit"><a href="questionario2.html" style="text-decoration: none; color: inherit;">← Anterior</a></button>
+            <button type="submit"><a href="questionario4.html" style="text-decoration: none; color: inherit;">Próximo →</a></button>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
