@@ -10,7 +10,7 @@
             .barra-linha{
                 background-color: #45ce85;
                 height: 100%;
-                width: 25%;
+                width: 33%;
                 border-radius: 5px;
             }
         </style>
@@ -24,30 +24,24 @@
                 <div class="barra-linha"></div>
             </div>
 
-            <div class="info">Etapa 1 de 4 - 25% Completo</div>
+            <div class="info">Etapa 1 de 3</div>
 
             <form>
-                <h2>Informações Básicas</h2>
-                <div>
-                  <label for="nome">Nome Completo</label>
-                    <input type="text" placeholder="Digite seu nome completo">
-                </div>
-                <div>
-                    <label for="genero">Gênero</label>
-                    <fieldset>
-                        <label>
-                            <input type="radio" name="genero" value="masculino">Masculino
-                        </label>
-                        <label>
-                            <input type="radio" name="genero" value="feminino">Feminino
-                        </label>
-                        <label>
-                            <input type="radio" name="genero" value="Outros">Outros
-                        </label>
-                    </fieldset>
-                </div>
-                <button type="submit"><a href="questionario2.html" style="text-decoration: none; color: inherit;">Próximo →</a></button>
+                <h2>Objetivos Fitness</h2>
+                <label for="perg">Qual seu principal objetivo?</label>
+                <fieldset>
+                    <label>
+                        <input type="radio" name="perg" value="1">Perda de peso
+                    </label>
+                    <label>
+                        <input type="radio" name="perg" value="2">Ganho de massa muscular
+                    </label>
+                    <label>
+                     <input type="radio" name="perg" value="5">Aumento de força
+                    </label>
+                </fieldset>
             </form>
+                <button type="submit"><a href="questionario2.html" style="text-decoration: none; color: inherit;">Próximo →</a></button>
         </div>
         <script src="script.js"></script>
     </body>
