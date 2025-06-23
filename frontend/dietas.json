@@ -1,0 +1,878 @@
+{
+    "Normal": {
+        "refeicoes_por_dia": 4,
+        "dias": [
+            {
+                "dia": 1,
+                "calorias_totais": 1417,
+                "proteinas_totais_g": 99,
+                "carboidratos_totais_g": 171,
+                "gorduras_totais_g": 53,
+                "refeicoes": [
+                    {
+                        "nome": "Café da manhã",
+                        "descricao": "Ovos mexidos com pão integral e mamão.",
+                        "calorias": 392,
+                        "proteinas_g": 27,
+                        "carboidratos_g": 42,
+                        "gorduras_g": 16
+                    },
+                    {
+                        "nome": "Almoço",
+                        "descricao": "Peito de frango grelhado, arroz e legumes.",
+                        "calorias": 322,
+                        "proteinas_g": 25,
+                        "carboidratos_g": 35,
+                        "gorduras_g": 9
+                    },
+                    {
+                        "nome": "Lanche da tarde",
+                        "descricao": "Iogurte com maçã e aveia.",
+                        "calorias": 318,
+                        "proteinas_g": 18,
+                        "carboidratos_g": 59,
+                        "gorduras_g": 9
+                    },
+                    {
+                        "nome": "Jantar",
+                        "descricao": "Omelete com legumes e arroz.",
+                        "calorias": 385,
+                        "proteinas_g": 29,
+                        "carboidratos_g": 35,
+                        "gorduras_g": 19
+                    }
+                ]
+            },
+            {
+                "dia": 2,
+                "calorias_totais": 1563,
+                "proteinas_totais_g": 68,
+                "carboidratos_totais_g": 187,
+                "gorduras_totais_g": 48,
+                "refeicoes": [
+                    {
+                        "nome": "Café da manhã",
+                        "descricao": "3 colheres de sopa de tapioca com frango desfiado e suco de laranja.",
+                        "calorias": 461,
+                        "proteinas_g": 10,
+                        "carboidratos_g": 57,
+                        "gorduras_g": 12
+                    },
+                    {
+                        "nome": "Almoço",
+                        "descricao": "Carne moída com purê de batata cozida (100g) e salada.",
+                        "calorias": 318,
+                        "proteinas_g": 13,
+                        "carboidratos_g": 34,
+                        "gorduras_g": 8
+                    },
+                    {
+                        "nome": "Lanche da tarde",
+                        "descricao": "Sanduíche natural de atum.",
+                        "calorias": 352,
+                        "proteinas_g": 26,
+                        "carboidratos_g": 59,
+                        "gorduras_g": 9
+                    },
+                    {
+                        "nome": "Jantar",
+                        "descricao": "Peixe grelhado com purê de batata cozida (100g).",
+                        "calorias": 432,
+                        "proteinas_g": 19,
+                        "carboidratos_g": 37,
+                        "gorduras_g": 18
+                    }
+                ]
+            },
+            {
+                "dia": 3,
+                "calorias_totais": 2016,
+                "proteinas_totais_g": 99,
+                "carboidratos_totais_g": 158,
+                "gorduras_totais_g": 62,
+                "refeicoes": [
+                    {
+                        "nome": "Café da manhã",
+                        "descricao": "Pão francês com queijo e leite com café.",
+                        "calorias": 480,
+                        "proteinas_g": 14,
+                        "carboidratos_g": 51,
+                        "gorduras_g": 20
+                    },
+                    {
+                        "nome": "Almoço",
+                        "descricao": "Peixe assado com batata cozida (100g)-doce e couve.",
+                        "calorias": 562,
+                        "proteinas_g": 22,
+                        "carboidratos_g": 47,
+                        "gorduras_g": 21
+                    },
+                    {
+                        "nome": "Lanche da tarde",
+                        "descricao": "Banana com 1 colher de sopa de pasta de amendoim.",
+                        "calorias": 472,
+                        "proteinas_g": 27,
+                        "carboidratos_g": 28,
+                        "gorduras_g": 10
+                    },
+                    {
+                        "nome": "Jantar",
+                        "descricao": "Frango desfiado com salada e quinoa.",
+                        "calorias": 502,
+                        "proteinas_g": 36,
+                        "carboidratos_g": 32,
+                        "gorduras_g": 21
+                    }
+                ]
+            },
+            {
+                "dia": 4,
+                "calorias_totais": 1712,
+                "proteinas_totais_g": 94,
+                "carboidratos_totais_g": 170,
+                "gorduras_totais_g": 75,
+                "refeicoes": [
+                    {
+                        "nome": "Café da manhã",
+                        "descricao": "Iogurte com frutas e granola.",
+                        "calorias": 402,
+                        "proteinas_g": 25,
+                        "carboidratos_g": 29,
+                        "gorduras_g": 22
+                    },
+                    {
+                        "nome": "Almoço",
+                        "descricao": "Frango cozido com Arroz integral cozido (100g) e feijão.",
+                        "calorias": 332,
+                        "proteinas_g": 18,
+                        "carboidratos_g": 30,
+                        "gorduras_g": 21
+                    },
+                    {
+                        "nome": "Lanche da tarde",
+                        "descricao": "1 porção de frutas (150g) com mix de castanhas.",
+                        "calorias": 450,
+                        "proteinas_g": 22,
+                        "carboidratos_g": 51,
+                        "gorduras_g": 20
+                    },
+                    {
+                        "nome": "Jantar",
+                        "descricao": "Sopa de legumes com carne magra.",
+                        "calorias": 528,
+                        "proteinas_g": 29,
+                        "carboidratos_g": 60,
+                        "gorduras_g": 12
+                    }
+                ]
+            },
+            {
+                "dia": 5,
+                "calorias_totais": 1924,
+                "proteinas_totais_g": 127,
+                "carboidratos_totais_g": 168,
+                "gorduras_totais_g": 65,
+                "refeicoes": [
+                    {
+                        "nome": "Café da manhã",
+                        "descricao": "2 panquecas médias de aveia (feitas com 40g de aveia) com mel e 1 banana média.",
+                        "calorias": 523,
+                        "proteinas_g": 34,
+                        "carboidratos_g": 37,
+                        "gorduras_g": 18
+                    },
+                    {
+                        "nome": "Almoço",
+                        "descricao": "Bife acebolado com arroz e salada.",
+                        "calorias": 444,
+                        "proteinas_g": 20,
+                        "carboidratos_g": 36,
+                        "gorduras_g": 22
+                    },
+                    {
+                        "nome": "Lanche da tarde",
+                        "descricao": "Torradas com queijo minas.",
+                        "calorias": 545,
+                        "proteinas_g": 34,
+                        "carboidratos_g": 46,
+                        "gorduras_g": 10
+                    },
+                    {
+                        "nome": "Jantar",
+                        "descricao": "Macarrão ao alho e óleo com salada.",
+                        "calorias": 412,
+                        "proteinas_g": 39,
+                        "carboidratos_g": 49,
+                        "gorduras_g": 15
+                    }
+                ]
+            },
+            {
+                "dia": 6,
+                "calorias_totais": 1823,
+                "proteinas_totais_g": 119,
+                "carboidratos_totais_g": 143,
+                "gorduras_totais_g": 55,
+                "refeicoes": [
+                    {
+                        "nome": "Café da manhã",
+                        "descricao": "Omelete com queijo e tomate.",
+                        "calorias": 504,
+                        "proteinas_g": 32,
+                        "carboidratos_g": 35,
+                        "gorduras_g": 12
+                    },
+                    {
+                        "nome": "Almoço",
+                        "descricao": "Lasanha de carne e salada verde.",
+                        "calorias": 538,
+                        "proteinas_g": 30,
+                        "carboidratos_g": 32,
+                        "gorduras_g": 16
+                    },
+                    {
+                        "nome": "Lanche da tarde",
+                        "descricao": "Suco natural com biscoitos integrais.",
+                        "calorias": 424,
+                        "proteinas_g": 18,
+                        "carboidratos_g": 47,
+                        "gorduras_g": 17
+                    },
+                    {
+                        "nome": "Jantar",
+                        "descricao": "Arroz, feijão, carne moída e legumes.",
+                        "calorias": 357,
+                        "proteinas_g": 39,
+                        "carboidratos_g": 29,
+                        "gorduras_g": 8
+                    }
+                ]
+            },
+            {
+                "dia": 7,
+                "calorias_totais": 1860,
+                "proteinas_totais_g": 110,
+                "carboidratos_totais_g": 164,
+                "gorduras_totais_g": 67,
+                "refeicoes": [
+                    {
+                        "nome": "Café da manhã",
+                        "descricao": "Sanduíche de peito de peru com 200ml de suco natural.",
+                        "calorias": 598,
+                        "proteinas_g": 34,
+                        "carboidratos_g": 55,
+                        "gorduras_g": 22
+                    },
+                    {
+                        "nome": "Almoço",
+                        "descricao": "Estrogonofe de frango com arroz e batata cozida (100g) palha.",
+                        "calorias": 439,
+                        "proteinas_g": 14,
+                        "carboidratos_g": 53,
+                        "gorduras_g": 13
+                    },
+                    {
+                        "nome": "Lanche da tarde",
+                        "descricao": "2 fatias de pão integral com peito de frango desfiado.",
+                        "calorias": 424,
+                        "proteinas_g": 25,
+                        "carboidratos_g": 29,
+                        "gorduras_g": 18
+                    },
+                    {
+                        "nome": "Jantar",
+                        "descricao": "Wrap de frango com alface e tomate.",
+                        "calorias": 399,
+                        "proteinas_g": 37,
+                        "carboidratos_g": 27,
+                        "gorduras_g": 14
+                    }
+                ]
+            }
+        ]
+    },
+    "Vegetariana": {
+        "refeicoes_por_dia": 4,
+        "dias": [
+            {
+                "dia": 1,
+                "calorias_totais": 1831,
+                "proteinas_totais_g": 119,
+                "carboidratos_totais_g": 177,
+                "gorduras_totais_g": 68,
+                "refeicoes": [
+                    {
+                        "nome": "Café da manhã",
+                        "descricao": "Ovos mexidos com pão integral e laranja.",
+                        "calorias": 394,
+                        "proteinas_g": 28,
+                        "carboidratos_g": 36,
+                        "gorduras_g": 20
+                    },
+                    {
+                        "nome": "Almoço",
+                        "descricao": "Omelete com legumes e Arroz integral cozido (100g).",
+                        "calorias": 532,
+                        "proteinas_g": 23,
+                        "carboidratos_g": 36,
+                        "gorduras_g": 11
+                    },
+                    {
+                        "nome": "Lanche da tarde",
+                        "descricao": "Iogurte com frutas e aveia.",
+                        "calorias": 399,
+                        "proteinas_g": 37,
+                        "carboidratos_g": 48,
+                        "gorduras_g": 15
+                    },
+                    {
+                        "nome": "Jantar",
+                        "descricao": "Sopa de legumes com torradas.",
+                        "calorias": 506,
+                        "proteinas_g": 31,
+                        "carboidratos_g": 57,
+                        "gorduras_g": 22
+                    }
+                ]
+            },
+            {
+                "dia": 2,
+                "calorias_totais": 1665,
+                "proteinas_totais_g": 86,
+                "carboidratos_totais_g": 150,
+                "gorduras_totais_g": 74,
+                "refeicoes": [
+                    {
+                        "nome": "Café da manhã",
+                        "descricao": "Smoothie (300ml) com 1 banana, 5 morangos e 1 scoop de proteína vegetal com iogurte natural, 1 banana média e aveia.",
+                        "calorias": 302,
+                        "proteinas_g": 40,
+                        "carboidratos_g": 36,
+                        "gorduras_g": 22
+                    },
+                    {
+                        "nome": "Almoço",
+                        "descricao": "Risoto de cogumelos e salada verde.",
+                        "calorias": 591,
+                        "proteinas_g": 14,
+                        "carboidratos_g": 30,
+                        "gorduras_g": 15
+                    },
+                    {
+                        "nome": "Lanche da tarde",
+                        "descricao": "2 fatias de pão integral com ricota e ervas.",
+                        "calorias": 352,
+                        "proteinas_g": 19,
+                        "carboidratos_g": 33,
+                        "gorduras_g": 22
+                    },
+                    {
+                        "nome": "Jantar",
+                        "descricao": "Ovo mexido com legumes e arroz.",
+                        "calorias": 420,
+                        "proteinas_g": 13,
+                        "carboidratos_g": 51,
+                        "gorduras_g": 15
+                    }
+                ]
+            },
+            {
+                "dia": 3,
+                "calorias_totais": 1757,
+                "proteinas_totais_g": 126,
+                "carboidratos_totais_g": 173,
+                "gorduras_totais_g": 51,
+                "refeicoes": [
+                    {
+                        "nome": "Café da manhã",
+                        "descricao": "3 colheres de sopa de tapioca com queijo branco e tomate.",
+                        "calorias": 555,
+                        "proteinas_g": 37,
+                        "carboidratos_g": 56,
+                        "gorduras_g": 8
+                    },
+                    {
+                        "nome": "Almoço",
+                        "descricao": "2 panquecas pequenas de espinafre com ricota.",
+                        "calorias": 462,
+                        "proteinas_g": 37,
+                        "carboidratos_g": 49,
+                        "gorduras_g": 17
+                    },
+                    {
+                        "nome": "Lanche da tarde",
+                        "descricao": "Banana com canela e amêndoas.",
+                        "calorias": 397,
+                        "proteinas_g": 25,
+                        "carboidratos_g": 31,
+                        "gorduras_g": 8
+                    },
+                    {
+                        "nome": "Jantar",
+                        "descricao": "Torta de legumes e salada.",
+                        "calorias": 343,
+                        "proteinas_g": 27,
+                        "carboidratos_g": 37,
+                        "gorduras_g": 18
+                    }
+                ]
+            },
+            {
+                "dia": 4,
+                "calorias_totais": 1882,
+                "proteinas_totais_g": 95,
+                "carboidratos_totais_g": 182,
+                "gorduras_totais_g": 58,
+                "refeicoes": [
+                    {
+                        "nome": "Café da manhã",
+                        "descricao": "Iogurte com granola e frutas vermelhas.",
+                        "calorias": 498,
+                        "proteinas_g": 15,
+                        "carboidratos_g": 46,
+                        "gorduras_g": 14
+                    },
+                    {
+                        "nome": "Almoço",
+                        "descricao": "Arroz integral, feijão e ovo cozido.",
+                        "calorias": 467,
+                        "proteinas_g": 10,
+                        "carboidratos_g": 35,
+                        "gorduras_g": 11
+                    },
+                    {
+                        "nome": "Lanche da tarde",
+                        "descricao": "Suco natural com biscoitos integrais.",
+                        "calorias": 571,
+                        "proteinas_g": 35,
+                        "carboidratos_g": 58,
+                        "gorduras_g": 12
+                    },
+                    {
+                        "nome": "Jantar",
+                        "descricao": "Creme de ervilha com croutons.",
+                        "calorias": 346,
+                        "proteinas_g": 35,
+                        "carboidratos_g": 43,
+                        "gorduras_g": 21
+                    }
+                ]
+            },
+            {
+                "dia": 5,
+                "calorias_totais": 1576,
+                "proteinas_totais_g": 122,
+                "carboidratos_totais_g": 164,
+                "gorduras_totais_g": 55,
+                "refeicoes": [
+                    {
+                        "nome": "Café da manhã",
+                        "descricao": "2 fatias de pão integral com ovo cozido e abacate.",
+                        "calorias": 368,
+                        "proteinas_g": 23,
+                        "carboidratos_g": 47,
+                        "gorduras_g": 19
+                    },
+                    {
+                        "nome": "Almoço",
+                        "descricao": "Nhoque de batata cozida (100g) com molho de tomate.",
+                        "calorias": 306,
+                        "proteinas_g": 40,
+                        "carboidratos_g": 31,
+                        "gorduras_g": 14
+                    },
+                    {
+                        "nome": "Lanche da tarde",
+                        "descricao": "Maçã com queijo minas light.",
+                        "calorias": 406,
+                        "proteinas_g": 20,
+                        "carboidratos_g": 56,
+                        "gorduras_g": 10
+                    },
+                    {
+                        "nome": "Jantar",
+                        "descricao": "Espaguete ao pesto com queijo.",
+                        "calorias": 502,
+                        "proteinas_g": 39,
+                        "carboidratos_g": 32,
+                        "gorduras_g": 12
+                    }
+                ]
+            },
+            {
+                "dia": 6,
+                "calorias_totais": 2017,
+                "proteinas_totais_g": 79,
+                "carboidratos_totais_g": 158,
+                "gorduras_totais_g": 64,
+                "refeicoes": [
+                    {
+                        "nome": "Café da manhã",
+                        "descricao": "Panqueca de 1 banana média com mel.",
+                        "calorias": 591,
+                        "proteinas_g": 34,
+                        "carboidratos_g": 48,
+                        "gorduras_g": 22
+                    },
+                    {
+                        "nome": "Almoço",
+                        "descricao": "Quiche de legumes com salada.",
+                        "calorias": 467,
+                        "proteinas_g": 10,
+                        "carboidratos_g": 52,
+                        "gorduras_g": 11
+                    },
+                    {
+                        "nome": "Lanche da tarde",
+                        "descricao": "Sanduíche de pão integral com ovo.",
+                        "calorias": 520,
+                        "proteinas_g": 24,
+                        "carboidratos_g": 38,
+                        "gorduras_g": 20
+                    },
+                    {
+                        "nome": "Jantar",
+                        "descricao": "Arroz com cenoura, ovo cozido e couve.",
+                        "calorias": 439,
+                        "proteinas_g": 11,
+                        "carboidratos_g": 36,
+                        "gorduras_g": 11
+                    }
+                ]
+            },
+            {
+                "dia": 7,
+                "calorias_totais": 1781,
+                "proteinas_totais_g": 120,
+                "carboidratos_totais_g": 130,
+                "gorduras_totais_g": 65,
+                "refeicoes": [
+                    {
+                        "nome": "Café da manhã",
+                        "descricao": "Crepioca com 2 colheres de sopa de farinha de aveia e legumes (100g) com legumes salteados.",
+                        "calorias": 413,
+                        "proteinas_g": 33,
+                        "carboidratos_g": 29,
+                        "gorduras_g": 13
+                    },
+                    {
+                        "nome": "Almoço",
+                        "descricao": "Hambúrguer vegano com batata cozida (100g) rústica e salada.",
+                        "calorias": 390,
+                        "proteinas_g": 37,
+                        "carboidratos_g": 34,
+                        "gorduras_g": 13
+                    },
+                    {
+                        "nome": "Lanche da tarde",
+                        "descricao": "Iogurte vegetal com 1 colher de sopa de chia e melado.",
+                        "calorias": 380,
+                        "proteinas_g": 16,
+                        "carboidratos_g": 31,
+                        "gorduras_g": 17
+                    },
+                    {
+                        "nome": "Jantar",
+                        "descricao": "Escondidinho de lentilha (150g) com purê de batata (100g) com purê de batata cozida (100g).",
+                        "calorias": 598,
+                        "proteinas_g": 27,
+                        "carboidratos_g": 36,
+                        "gorduras_g": 22
+                    }
+                ]
+            }
+        ]
+    },
+    "Vegana": {
+        "refeicoes_por_dia": 4,
+        "dias": [
+            {
+                "dia": 1,
+                "calorias_totais": 1901,
+                "proteinas_totais_g": 128,
+                "carboidratos_totais_g": 173,
+                "gorduras_totais_g": 67,
+                "refeicoes": [
+                    {
+                        "nome": "Café da manhã",
+                        "descricao": "Papas de aveia (50g de aveia em flocos) com 200ml de leite de amêndoas, 1 banana média e 1 colher de sopa de chia.",
+                        "calorias": 540,
+                        "proteinas_g": 40,
+                        "carboidratos_g": 38,
+                        "gorduras_g": 16
+                    },
+                    {
+                        "nome": "Almoço",
+                        "descricao": "Tofu grelhado (150g) com Arroz integral cozido (100g) e Salada com quinoa cozida (80g).",
+                        "calorias": 500,
+                        "proteinas_g": 26,
+                        "carboidratos_g": 42,
+                        "gorduras_g": 19
+                    },
+                    {
+                        "nome": "Lanche da tarde",
+                        "descricao": "Mix de castanhas (30g) com 3 unidades de damasco seco.",
+                        "calorias": 458,
+                        "proteinas_g": 37,
+                        "carboidratos_g": 59,
+                        "gorduras_g": 12
+                    },
+                    {
+                        "nome": "Jantar",
+                        "descricao": "Macarrão integral com molho de tomate e lentilha.",
+                        "calorias": 403,
+                        "proteinas_g": 39,
+                        "carboidratos_g": 34,
+                        "gorduras_g": 20
+                    }
+                ]
+            },
+            {
+                "dia": 2,
+                "calorias_totais": 1978,
+                "proteinas_totais_g": 120,
+                "carboidratos_totais_g": 182,
+                "gorduras_totais_g": 74,
+                "refeicoes": [
+                    {
+                        "nome": "Café da manhã",
+                        "descricao": "Smoothie (300ml) com 1 banana, 5 morangos e 1 scoop de proteína vegetal de frutas vermelhas com proteína vegetal.",
+                        "calorias": 542,
+                        "proteinas_g": 27,
+                        "carboidratos_g": 40,
+                        "gorduras_g": 22
+                    },
+                    {
+                        "nome": "Almoço",
+                        "descricao": "Lentilha cozida e refogada (120g), Purê de abóbora (150g) e Espinafre refogado (50g).",
+                        "calorias": 594,
+                        "proteinas_g": 35,
+                        "carboidratos_g": 35,
+                        "gorduras_g": 18
+                    },
+                    {
+                        "nome": "Lanche da tarde",
+                        "descricao": "2 torradas integrais com 1 colher de sopa de pasta de amendoim.",
+                        "calorias": 477,
+                        "proteinas_g": 32,
+                        "carboidratos_g": 49,
+                        "gorduras_g": 12
+                    },
+                    {
+                        "nome": "Jantar",
+                        "descricao": "Salada de grão-de-bico com legumes crus.",
+                        "calorias": 365,
+                        "proteinas_g": 26,
+                        "carboidratos_g": 58,
+                        "gorduras_g": 22
+                    }
+                ]
+            },
+            {
+                "dia": 3,
+                "calorias_totais": 1448,
+                "proteinas_totais_g": 87,
+                "carboidratos_totais_g": 151,
+                "gorduras_totais_g": 62,
+                "refeicoes": [
+                    {
+                        "nome": "Café da manhã",
+                        "descricao": "2 fatias de pão integral com 2 colheres de sopa de pasta de grão-de-bico e tomate.",
+                        "calorias": 301,
+                        "proteinas_g": 23,
+                        "carboidratos_g": 37,
+                        "gorduras_g": 22
+                    },
+                    {
+                        "nome": "Almoço",
+                        "descricao": "Estrogonofe de cogumelos (120g) com batata cozida (100g) e arroz.",
+                        "calorias": 413,
+                        "proteinas_g": 15,
+                        "carboidratos_g": 42,
+                        "gorduras_g": 21
+                    },
+                    {
+                        "nome": "Lanche da tarde",
+                        "descricao": "1 porção de frutas (150g) com granola caseira.",
+                        "calorias": 333,
+                        "proteinas_g": 10,
+                        "carboidratos_g": 42,
+                        "gorduras_g": 11
+                    },
+                    {
+                        "nome": "Jantar",
+                        "descricao": "Sopa de abóbora (250ml) com 1/2 xícara de croutons integrais.",
+                        "calorias": 401,
+                        "proteinas_g": 24,
+                        "carboidratos_g": 30,
+                        "gorduras_g": 8
+                    }
+                ]
+            },
+            {
+                "dia": 4,
+                "calorias_totais": 1747,
+                "proteinas_totais_g": 127,
+                "carboidratos_totais_g": 149,
+                "gorduras_totais_g": 68,
+                "refeicoes": [
+                    {
+                        "nome": "Café da manhã",
+                        "descricao": "30g de granola com 200g de iogurte vegetal e morangos.",
+                        "calorias": 457,
+                        "proteinas_g": 39,
+                        "carboidratos_g": 36,
+                        "gorduras_g": 16
+                    },
+                    {
+                        "nome": "Almoço",
+                        "descricao": "Grão-de-bico assado (100g) com legumes e Cuscuz marroquino (80g).",
+                        "calorias": 412,
+                        "proteinas_g": 34,
+                        "carboidratos_g": 28,
+                        "gorduras_g": 14
+                    },
+                    {
+                        "nome": "Lanche da tarde",
+                        "descricao": "3 biscoitos integrais veganos com 1 xícara de chá verde.",
+                        "calorias": 467,
+                        "proteinas_g": 19,
+                        "carboidratos_g": 28,
+                        "gorduras_g": 19
+                    },
+                    {
+                        "nome": "Jantar",
+                        "descricao": "Quibe de abóbora assado com tahine.",
+                        "calorias": 411,
+                        "proteinas_g": 35,
+                        "carboidratos_g": 57,
+                        "gorduras_g": 19
+                    }
+                ]
+            },
+            {
+                "dia": 5,
+                "calorias_totais": 1957,
+                "proteinas_totais_g": 75,
+                "carboidratos_totais_g": 135,
+                "gorduras_totais_g": 55,
+                "refeicoes": [
+                    {
+                        "nome": "Café da manhã",
+                        "descricao": "3 colheres de sopa de tapioca com 1 colher de sopa de pasta de amendoim e maçã.",
+                        "calorias": 474,
+                        "proteinas_g": 24,
+                        "carboidratos_g": 27,
+                        "gorduras_g": 12
+                    },
+                    {
+                        "nome": "Almoço",
+                        "descricao": "Feijão preto com farofa de couve e batata cozida (100g)-doce.",
+                        "calorias": 542,
+                        "proteinas_g": 11,
+                        "carboidratos_g": 41,
+                        "gorduras_g": 10
+                    },
+                    {
+                        "nome": "Lanche da tarde",
+                        "descricao": "1 barra (40g) de proteína vegana e 200ml de suco natural.",
+                        "calorias": 489,
+                        "proteinas_g": 22,
+                        "carboidratos_g": 41,
+                        "gorduras_g": 16
+                    },
+                    {
+                        "nome": "Jantar",
+                        "descricao": "2 panquecas pequenas de espinafre com recheio de tofu.",
+                        "calorias": 452,
+                        "proteinas_g": 18,
+                        "carboidratos_g": 26,
+                        "gorduras_g": 17
+                    }
+                ]
+            },
+            {
+                "dia": 6,
+                "calorias_totais": 1627,
+                "proteinas_totais_g": 85,
+                "carboidratos_totais_g": 155,
+                "gorduras_totais_g": 57,
+                "refeicoes": [
+                    {
+                        "nome": "Café da manhã",
+                        "descricao": "2 panquecas médias de aveia (feitas com 40g de aveia) com 1 colher de sobremesa de melado de cana e frutas.",
+                        "calorias": 328,
+                        "proteinas_g": 22,
+                        "carboidratos_g": 51,
+                        "gorduras_g": 11
+                    },
+                    {
+                        "nome": "Almoço",
+                        "descricao": "Sopa de legumes com tofu e torradas integrais.",
+                        "calorias": 578,
+                        "proteinas_g": 20,
+                        "carboidratos_g": 33,
+                        "gorduras_g": 21
+                    },
+                    {
+                        "nome": "Lanche da tarde",
+                        "descricao": "1 banana média amassada com 1 colher de chá de cacau em pó e aveia.",
+                        "calorias": 316,
+                        "proteinas_g": 26,
+                        "carboidratos_g": 40,
+                        "gorduras_g": 12
+                    },
+                    {
+                        "nome": "Jantar",
+                        "descricao": "Arroz de couve-flor (100g) com legumes e ervas.",
+                        "calorias": 405,
+                        "proteinas_g": 22,
+                        "carboidratos_g": 47,
+                        "gorduras_g": 18
+                    }
+                ]
+            },
+            {
+                "dia": 7,
+                "calorias_totais": 1781,
+                "proteinas_totais_g": 120,
+                "carboidratos_totais_g": 130,
+                "gorduras_totais_g": 65,
+                "refeicoes": [
+                    {
+                        "nome": "Café da manhã",
+                        "descricao": "Crepioca com 2 colheres de sopa de farinha de aveia e legumes (100g) com legumes salteados.",
+                        "calorias": 413,
+                        "proteinas_g": 33,
+                        "carboidratos_g": 29,
+                        "gorduras_g": 13
+                    },
+                    {
+                        "nome": "Almoço",
+                        "descricao": "Hambúrguer vegano com batata cozida (100g) rústica e salada.",
+                        "calorias": 390,
+                        "proteinas_g": 37,
+                        "carboidratos_g": 34,
+                        "gorduras_g": 13
+                    },
+                    {
+                        "nome": "Lanche da tarde",
+                        "descricao": "Iogurte vegetal com 1 colher de sopa de chia e melado.",
+                        "calorias": 380,
+                        "proteinas_g": 16,
+                        "carboidratos_g": 31,
+                        "gorduras_g": 17
+                    },
+                    {
+                        "nome": "Jantar",
+                        "descricao": "Escondidinho de lentilha (150g) com purê de batata (100g) com purê de batata cozida (100g).",
+                        "calorias": 598,
+                        "proteinas_g": 27,
+                        "carboidratos_g": 36,
+                        "gorduras_g": 22
+                    }
+                ]
+            }
+        ]
+    }
+}
