@@ -3,8 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Formulário</title>
+        <title>Questionário - VitaAI</title>
         <link rel="stylesheet" href="questionario.css">
+        <link rel="icon" href="img/favicon.png" type="image/x-icon">
         <style>
             .barra-linha{
                 background-color: #45ce85;
@@ -17,7 +18,7 @@
     <body>
         <div class="color">
             <h1>Vamos Criar Seu Plano Personalizado</h1>
-            <p>Responder algumas perguntas para que nossa IA possa criar o plano de fitness e nutrição perfeito para você.</p>
+            <p>Responda as perguntas para que possamos encontrar os melhores treinos e dietas para você!</p>
 
             <div class="barra">
                 <div class="barra-linha"></div>
@@ -29,7 +30,7 @@
                 <label for="perg">Você segue alguma dieta específica?</label>
                 <fieldset>                  
                     <label>
-                        <input type="radio" name="perg5" value="1">Nenhuma dieta específica
+                        <input type="radio" name="perg5" value="1">Sem restrições 
                     </label>
                     <label>
                         <input type="radio" name="perg5" value="2">Vegetariana
@@ -38,24 +39,10 @@
                         <input type="radio" name="perg5" value="3">Vegana
                     </label>
                 </fieldset>
-                <label for="perg">Quantas refeições você prefere por dia?</label>
-                <fieldset>                    
-                    <label>
-                        <input type="radio" name="perg7" value="1">3 refeições
-                    </label>
-                    <label>
-                        <input type="radio" name="perg7" value="2">4 refeições
-                    </label>               
-                    <label>
-                        <input type="radio" name="perg7" value="3">5 refeições
-                    </label>              
-                    <label>
-                        <input type="radio" name="perg7" value="4">6 refeições
-                    </label>
-                </fieldset>
             </form>
-            <button type="submit"><a href="questionario3.html">← Anterior</a></button>
-            <button type="submit"><a href="#">Finalizar</a></button>
+            <button type="submit"><a href="questionario3.html" style="text-decoration: none; color: inherit;">← Anterior</a></button>
+            <button type="submit"><a href="home.html">Finalizar</a></button>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
