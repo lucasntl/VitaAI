@@ -3,8 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Formulário</title>
+        <title>Questionário - VitaAI</title>
         <link rel="stylesheet" href="questionario.css">
+        <link rel="icon" href="img/favicon.png" type="image/x-icon">
         <style>
             .barra-linha{
                 background-color: #45ce85;
@@ -17,7 +18,7 @@
     <body>
         <div class="color">
             <h1>Vamos Criar Seu Plano Personalizado</h1>
-            <p>Responder algumas perguntas para que nossa IA possa criar o plano de fitness e nutrição perfeito para você.</p>
+            <p>Responda as perguntas para que possamos encontrar os melhores treinos e dietas para você!</p>
 
             <div class="barra">
                 <div class="barra-linha"></div>
@@ -27,7 +28,7 @@
 
             <form>
                 <h2>Objetivos Fitness</h2>
-                <label for="perg">Qual é o seu principal objetivos firness?</label>
+                <label for="perg">Qual seu principal objetivo?</label>
                 <fieldset>
                     <label>
                         <input type="radio" name="perg" value="1">Perda de peso
@@ -36,18 +37,13 @@
                         <input type="radio" name="perg" value="2">Ganho de massa muscular
                     </label>
                     <label>
-                        <input type="radio" name="perg" value="3">Melhorar resistência
-                    </label>
-                    <label>
-                        <input type="radio" name="perg" value="4">Saúde geral
-                    </label>
-                    <label>
-                     <input type="radio" name="perg" value="5">Aumentar força
+                     <input type="radio" name="perg" value="5">Aumento de força
                     </label>
                 </fieldset>
             </form>
-            <button type="submit"><a href="questionario1.html">← Anterior</a></button>
-            <button type="submit"><a href="questionario3.html">Próximo →</a></button>
+            <button type="submit"><a href="questionario1.html" style="text-decoration: none; color: inherit;">← Anterior</a></button>
+            <button type="submit"><a href="questionario3.html" style="text-decoration: none; color: inherit;">Próximo →</a></button>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
