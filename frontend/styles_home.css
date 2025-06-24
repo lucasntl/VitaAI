@@ -1,10 +1,10 @@
-body {
+body{
     font-family: Arial, sans-serif;
     color: #1f2937;
     background: #F2FFF7;
 }
 
-.logo {
+.logo{
     font-size: 1.5rem;
     font-weight: 600;
     color: #1f2937;
@@ -14,12 +14,12 @@ body {
     gap: 0.5rem;
 }
 
-.logo img {
+.logo img{
     height: 33px;
     width: auto;
 }
 
-.menu {
+.menu{
     backdrop-filter: blur(10px);
     text-decoration: none;
     padding: 0px 25%;
@@ -33,7 +33,7 @@ body {
     z-index: 1000;
 }
 
-.menu-li {
+.menu-li{
     display: flex;
     gap: 40px;
     padding-top: 12px;
@@ -43,13 +43,13 @@ body {
     align-items: center;
 }
 
-.menu-li a {
+.menu-li a{
     text-decoration: none;
     color: #1f2937;
     font-weight: 500;
 }
 
-.entrar {
+.entrar{
     font-size: 16px;
     margin-top: 20px;
     background-color: #2ec272;
@@ -60,7 +60,7 @@ body {
     cursor: pointer;
 }
 
-li {
+li{
     list-style: none;
 }
 
@@ -70,7 +70,7 @@ li {
     padding-bottom: 2.5rem;
 }
 
-.meio {
+.meio{
     flex: 1;
     min-width: 250px;
     max-width: 400px;
@@ -91,21 +91,21 @@ li {
     gap: 20px;
 }
 
-.texto h1 {
+.texto h1{
     font-size: 3rem;
     line-height: 1.2;
     font-weight: 600;
     text-align: center;
 }
 
-.texto p {
+.texto p{
     font-size: 1.25rem;
     color: #6b7280;
     margin-bottom: 2.5rem;
     text-align: center;
 }
 
-.grid {
+.grid{
     justify-content: center;
     width: 100% !important;
     display: grid !important;
@@ -128,7 +128,7 @@ section{
     font-size: 18px;
 }
 
-button {
+button{
     font-size: 18px;
     background-color: #2ec272;
     color: white;
