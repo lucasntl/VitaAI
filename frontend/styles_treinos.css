@@ -1,4 +1,10 @@
-/*Header*/
+
+body {
+    font-family: Arial, sans-serif;
+    color: #1f2937;
+    background: #F2FFF7;
+}
+
 .logo {
     font-size: 1.5rem;
     font-weight: 600;
@@ -16,7 +22,6 @@
 
 .menu {
     backdrop-filter: blur(10px);
-    /*Deixa o header desfocado*/
     text-decoration: none;
     padding: 0px 25% !important;
     gap: 20rem;
@@ -56,11 +61,10 @@
     cursor: pointer;
 }
 
-/* Parte do Footer */
+
 footer {
     color: white;
     padding: 4rem 5% 2rem;
-    /*4rem da parte de cima, 5% dos lados, e 2rem da parte de baixo*/
     background-color: #1f2937;
 }
 
@@ -68,7 +72,6 @@ footer h3 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 24px;
-    /* Cria 20px de espaço abaixo do h3*/
 }
 
 .footer-conteudo {
@@ -101,19 +104,10 @@ footer h3 {
     color: #9ca3af;
 }
 
-
-/* Geral / Varios usos */
-body {
-    font-family: Arial, sans-serif;
-    color: #1f2937;
-    background: z#F2FFF7;
-}
-
 li {
     list-style: none;
 }
 
-/*Treinos*/
 .secao-treino {
     margin: 0;
     background: #ffffff;
@@ -121,43 +115,12 @@ li {
 }
 
 .secao-treino li {
-    color: #a1a1a1;
+    color: #a1a1a1 !important;
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-/*.dia-semana {
-    background: #2ec272;
-    color: #ffffff;
-    padding: 20px 40px;
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin: 0;
-    text-align: left;
-}*/
-
-/*.tipo-treino {
-    background: #f3f4f6;
-    color: #374151;
-    padding: 16px 40px;
-    font-size: 1.1rem;
-    font-weight: 500;
-    margin: 0;
-    border-left: 4px solid #2ec272;
-}*/
-
-.observacao {
-    background: #fef3c7;
-    color: #92400e;
-    padding: 12px 40px;
-    margin: 0;
-    font-size: 0.9rem;
-    font-style: italic;
-    border-left: 4px solid #f59e0b;
-}
-
-/*Titulo*/
 #inicio {
     padding: 6rem 10%;
     padding-bottom: 2rem;
@@ -199,8 +162,7 @@ li {
 
 .cartao {
     flex: 1;
-    /* Deixa do mesmo tamanho */
-    min-width: 250px;
+    min-width: 350px;
     background: #ffffff;
     padding: 2.5rem;
     margin-bottom: 5rem;
@@ -224,4 +186,22 @@ li {
 
 .cartao ul {
     padding-left: 0 !important;
+}
+
+.cartao li{
+    color: #a1a1a1 !important;
+    padding: 6px;
+}
+
+.cartao h3{
+    color: #374151;
+    padding: 8px 20px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+}
+
+.dia-semana{
+    margin: 10px;
 }
