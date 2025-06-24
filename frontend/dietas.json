@@ -26,7 +26,7 @@
                         "gorduras_g": 9
                     },
                     {
-                        "nome": "Lanche da tarde",
+                        "nome": "Lanche",
                         "descricao": "Iogurte com maçã e aveia.",
                         "calorias": 318,
                         "proteinas_g": 18,
@@ -67,7 +67,7 @@
                         "gorduras_g": 8
                     },
                     {
-                        "nome": "Lanche da tarde",
+                        "nome": "Lanche",
                         "descricao": "Sanduíche natural de atum.",
                         "calorias": 352,
                         "proteinas_g": 26,
@@ -108,7 +108,7 @@
                         "gorduras_g": 21
                     },
                     {
-                        "nome": "Lanche da tarde",
+                        "nome": "Lanche",
                         "descricao": "Banana com 1 colher de sopa de pasta de amendoim.",
                         "calorias": 472,
                         "proteinas_g": 27,
@@ -149,7 +149,7 @@
                         "gorduras_g": 21
                     },
                     {
-                        "nome": "Lanche da tarde",
+                        "nome": "Lanche",
                         "descricao": "1 porção de frutas (150g) com mix de castanhas.",
                         "calorias": 450,
                         "proteinas_g": 22,
@@ -190,7 +190,7 @@
                         "gorduras_g": 22
                     },
                     {
-                        "nome": "Lanche da tarde",
+                        "nome": "Lanche",
                         "descricao": "Torradas com queijo minas.",
                         "calorias": 545,
                         "proteinas_g": 34,
@@ -231,7 +231,7 @@
                         "gorduras_g": 16
                     },
                     {
-                        "nome": "Lanche da tarde",
+                        "nome": "Lanche",
                         "descricao": "Suco natural com biscoitos integrais.",
                         "calorias": 424,
                         "proteinas_g": 18,
@@ -272,7 +272,7 @@
                         "gorduras_g": 13
                     },
                     {
-                        "nome": "Lanche da tarde",
+                        "nome": "Lanche",
                         "descricao": "2 fatias de pão integral com peito de frango desfiado.",
                         "calorias": 424,
                         "proteinas_g": 25,
@@ -318,7 +318,7 @@
                         "gorduras_g": 11
                     },
                     {
-                        "nome": "Lanche da tarde",
+                        "nome": "Lanche",
                         "descricao": "Iogurte com frutas e aveia.",
                         "calorias": 399,
                         "proteinas_g": 37,
@@ -344,7 +344,7 @@
                 "refeicoes": [
                     {
                         "nome": "Café da manhã",
-                        "descricao": "Smoothie (300ml) com 1 banana, 5 morangos e 1 scoop de proteína vegetal com iogurte natural, 1 banana média e aveia.",
+                        "descricao": "Smoothie (300ml) com 1 banana, 5 morangos e 1 scoop de proteína, 1 banana média e aveia.",
                         "calorias": 302,
                         "proteinas_g": 40,
                         "carboidratos_g": 36,
@@ -359,7 +359,7 @@
                         "gorduras_g": 15
                     },
                     {
-                        "nome": "Lanche da tarde",
+                        "nome": "Lanche",
                         "descricao": "2 fatias de pão integral com ricota e ervas.",
                         "calorias": 352,
                         "proteinas_g": 19,
@@ -400,7 +400,7 @@
                         "gorduras_g": 17
                     },
                     {
-                        "nome": "Lanche da tarde",
+                        "nome": "Lanche",
                         "descricao": "Banana com canela e amêndoas.",
                         "calorias": 397,
                         "proteinas_g": 25,
@@ -441,7 +441,7 @@
                         "gorduras_g": 11
                     },
                     {
-                        "nome": "Lanche da tarde",
+                        "nome": "Lanche",
                         "descricao": "Suco natural com biscoitos integrais.",
                         "calorias": 571,
                         "proteinas_g": 35,
@@ -482,7 +482,7 @@
                         "gorduras_g": 14
                     },
                     {
-                        "nome": "Lanche da tarde",
+                        "nome": "Lanche",
                         "descricao": "Maçã com queijo minas light.",
                         "calorias": 406,
                         "proteinas_g": 20,
@@ -523,7 +523,7 @@
                         "gorduras_g": 11
                     },
                     {
-                        "nome": "Lanche da tarde",
+                        "nome": "Lanche",
                         "descricao": "Sanduíche de pão integral com ovo.",
                         "calorias": 520,
                         "proteinas_g": 24,
@@ -564,7 +564,7 @@
                         "gorduras_g": 13
                     },
                     {
-                        "nome": "Lanche da tarde",
+                        "nome": "Lanche",
                         "descricao": "Iogurte vegetal com 1 colher de sopa de chia e melado.",
                         "calorias": 380,
                         "proteinas_g": 16,
@@ -610,7 +610,7 @@
                         "gorduras_g": 19
                     },
                     {
-                        "nome": "Lanche da tarde",
+                        "nome": "Lanche",
                         "descricao": "Mix de castanhas (30g) com 3 unidades de damasco seco.",
                         "calorias": 458,
                         "proteinas_g": 37,
@@ -636,7 +636,7 @@
                 "refeicoes": [
                     {
                         "nome": "Café da manhã",
-                        "descricao": "Smoothie (300ml) com 1 banana, 5 morangos e 1 scoop de proteína vegetal de frutas vermelhas com proteína vegetal.",
+                        "descricao": "Smoothie (300ml) com 1 banana, 5 morangos e 1 scoop de proteína.",
                         "calorias": 542,
                         "proteinas_g": 27,
                         "carboidratos_g": 40,
@@ -651,7 +651,7 @@
                         "gorduras_g": 18
                     },
                     {
-                        "nome": "Lanche da tarde",
+                        "nome": "Lanche",
                         "descricao": "2 torradas integrais com 1 colher de sopa de pasta de amendoim.",
                         "calorias": 477,
                         "proteinas_g": 32,
@@ -692,7 +692,7 @@
                         "gorduras_g": 21
                     },
                     {
-                        "nome": "Lanche da tarde",
+                        "nome": "Lanche",
                         "descricao": "1 porção de frutas (150g) com granola caseira.",
                         "calorias": 333,
                         "proteinas_g": 10,
@@ -733,7 +733,7 @@
                         "gorduras_g": 14
                     },
                     {
-                        "nome": "Lanche da tarde",
+                        "nome": "Lanche",
                         "descricao": "3 biscoitos integrais veganos com 1 xícara de chá verde.",
                         "calorias": 467,
                         "proteinas_g": 19,
@@ -774,7 +774,7 @@
                         "gorduras_g": 10
                     },
                     {
-                        "nome": "Lanche da tarde",
+                        "nome": "Lanche",
                         "descricao": "1 barra (40g) de proteína vegana e 200ml de suco natural.",
                         "calorias": 489,
                         "proteinas_g": 22,
@@ -815,7 +815,7 @@
                         "gorduras_g": 21
                     },
                     {
-                        "nome": "Lanche da tarde",
+                        "nome": "Lanche",
                         "descricao": "1 banana média amassada com 1 colher de chá de cacau em pó e aveia.",
                         "calorias": 316,
                         "proteinas_g": 26,
@@ -856,7 +856,7 @@
                         "gorduras_g": 13
                     },
                     {
-                        "nome": "Lanche da tarde",
+                        "nome": "Lanche",
                         "descricao": "Iogurte vegetal com 1 colher de sopa de chia e melado.",
                         "calorias": 380,
                         "proteinas_g": 16,
