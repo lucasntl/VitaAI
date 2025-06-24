@@ -1,4 +1,3 @@
-/*Header*/
 .logo {
     font-size: 1.5rem;
     font-weight: 600;
@@ -16,7 +15,6 @@
 
 .menu {
     backdrop-filter: blur(10px);
-    /*Deixa o header desfocado*/
     text-decoration: none;
     padding: 0px 25%;
     gap: 20rem;
@@ -56,7 +54,6 @@
     cursor: pointer;
 }
 
-/* Geral / Varios usos */
 body {
     font-family: Arial, sans-serif;
     color: #1f2937;
@@ -67,7 +64,6 @@ li {
     list-style: none;
 }
 
-
 #inicio {
     padding: 7rem 10%;
     padding-bottom: 2.5rem;
@@ -75,7 +71,6 @@ li {
 
 .meio {
     flex: 1;
-    /* Deixa do mesmo tamanho */
     min-width: 250px;
     max-width: 400px;
     background: #ffffff;
@@ -94,7 +89,6 @@ li {
     display: flex;
     gap: 20px;
 }
-
 
 .texto h1 {
     font-size: 3rem;
