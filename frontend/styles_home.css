@@ -1,3 +1,9 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #1f2937;
+    background: #F2FFF7;
+}
+
 .logo {
     font-size: 1.5rem;
     font-weight: 600;
@@ -54,15 +60,10 @@
     cursor: pointer;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    color: #1f2937;
-    background: #F2FFF7;
-}
-
 li {
     list-style: none;
 }
+
 
 #inicio {
     padding: 7rem 10%;
@@ -111,18 +112,22 @@ li {
     grid-template-columns: repeat(2, 1fr) !important;
     gap: 16px;
 }
+
 section{
     padding: 0 20%;
 }
+
 .meio h2{
     text-align: center; 
     font-size: 30px;
     margin-bottom: 1rem !important;
 }
+
 .meio p{
     padding-bottom: 1rem !important;
     font-size: 18px;
 }
+
 button {
     font-size: 18px;
     background-color: #2ec272;
@@ -133,6 +138,7 @@ button {
     cursor: pointer;
     margin-bottom: 15px;
 }
+
 .botao_centro{
     text-align: center !important;
     justify-content: center !important;
