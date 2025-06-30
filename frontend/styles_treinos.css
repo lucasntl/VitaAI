@@ -1,18 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: Arial, sans-serif;
     color: #1f2937;
     background: #F2FFF7;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
 }
 
 .logo {
     font-size: 1.5rem;
     font-weight: 600;
     color: #1f2937;
-    margin-left: -2rem;
+    margin-left: 0.5rem;
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    text-decoration: none;
+}
+
+.logo:hover {
+    color: #1f2937;
 }
 
 .logo img {
@@ -20,34 +35,57 @@ body {
     width: auto;
 }
 
+.menu-toggle {
+    display: none;
+}
+
+.menu-mobile {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 4px;
+    z-index: 1001;
+    margin-left: auto;
+}
+
+.menu-mobile span {
+    width: 25px;
+    height: 3px;
+    background-color: #1f2937;
+    border-radius: 2px;
+}
+
 .menu {
     backdrop-filter: blur(10px);
     text-decoration: none;
-    padding: 0px 25% !important;
-    gap: 20rem;
+    padding: 0 5%;
     width: 100%;
     position: fixed;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: rgb(255, 255, 255, 0.9);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     top: 0;
     z-index: 1000;
+    min-height: 70px;
 }
 
 .menu-li {
     display: flex;
-    gap: 40px;
-    padding-top: 12px;
-    display: flex;
-    list-style: none;
-    gap: 2.5rem;
+    gap: 2rem;
     align-items: center;
+    list-style: none;
 }
 
 .menu-li a {
     text-decoration: none;
     color: #1f2937;
     font-weight: 500;
+}
+
+.menu-li a:hover {
+    color: #2ec272;
 }
 
 .entrar {
@@ -61,6 +99,9 @@ body {
     cursor: pointer;
 }
 
+.entrar:hover {
+    background-color: #25a05a;
+}
 
 footer {
     color: white;
@@ -76,8 +117,8 @@ footer h3 {
 
 .footer-conteudo {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-    gap: 64px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 32px;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -94,6 +135,11 @@ footer h3 {
 .footer-conteudo a {
     color: #9ca3af;
     text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-conteudo a:hover {
+    color: #2ec272;
 }
 
 .footer-direitos {
@@ -122,8 +168,7 @@ li {
 }
 
 #inicio {
-    padding: 6rem 10%;
-    padding-bottom: 2rem;
+    padding: 6rem 5% 2rem;
 }
 
 #inicio h1 {
@@ -131,6 +176,7 @@ li {
     line-height: 1.2;
     font-weight: 600;
     text-align: center;
+    padding-top: 2rem;
 }
 
 #inicio p {
@@ -148,7 +194,7 @@ li {
     justify-content: center;
     width: 100% !important;
     display: grid !important;
-    grid-template-columns: repeat(4, 1fr) !important;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
     gap: 16px;
 }
 
@@ -156,13 +202,44 @@ li {
     justify-content: center;
     width: 100% !important;
     display: grid !important;
-    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
     gap: 16px;
+}
+
+/* Classes específicas para controlar o número de cards */
+.grid1.cards-1 {
+    grid-template-columns: minmax(280px, 400px) !important;
+    justify-content: center;
+}
+
+.grid1.cards-2 {
+    grid-template-columns: repeat(2, minmax(280px, 1fr)) !important;
+}
+
+.grid1.cards-3 {
+    grid-template-columns: repeat(3, minmax(280px, 1fr)) !important;
+}
+
+.grid1.cards-4 {
+    grid-template-columns: repeat(4, minmax(280px, 1fr)) !important;
+}
+
+.grid2.cards-1 {
+    grid-template-columns: minmax(280px, 400px) !important;
+    justify-content: center;
+}
+
+.grid2.cards-2 {
+    grid-template-columns: repeat(2, minmax(280px, 1fr)) !important;
+}
+
+.grid2.cards-3 {
+    grid-template-columns: repeat(3, minmax(280px, 1fr)) !important;
 }
 
 .cartao {
     flex: 1;
-    min-width: 350px;
+    min-width: 280px;
     background: #ffffff;
     padding: 2.5rem;
     margin-bottom: 5rem;
@@ -172,16 +249,15 @@ li {
 }
 
 .section1 {
-    padding: 0 10%;
+    padding: 0 5%;
 }
 
 .section2 {
-    padding: 0 15%;
+    padding: 0 5%;
 }
 
 .texto_centro {
     text-align: center;
-
 }
 
 .cartao ul {
@@ -191,6 +267,7 @@ li {
 .cartao li{
     color: #a1a1a1 !important;
     padding: 6px;
+    text-align: left;
 }
 
 .cartao h3{
@@ -198,10 +275,169 @@ li {
     padding: 8px 20px;
     font-size: 1.1rem;
     font-weight: 500;
-    margin: 0;
     text-align: center;
 }
 
-.dia-semana{
-    margin: 10px;
+@media (max-width: 900px) {
+    .menu {
+        padding: 0 2%;
+    }
+    .menu-mobile {
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu {
+        padding: 0px 3%;
+    }
+    
+    .menu-li {
+        gap: 1.5rem;
+    }
+    
+    #inicio {
+        padding: 5rem 3% 2rem;
+    }
+    
+    .section1,
+    .section2 {
+        padding: 0 3%;
+    }
+    
+    .grid1,
+    .grid2 {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
+        gap: 20px;
+    }
+    
+    .grid1.cards-1,
+    .grid2.cards-1 {
+        grid-template-columns: minmax(250px, 350px) !important;
+    }
+    
+    .grid1.cards-2,
+    .grid2.cards-2 {
+        grid-template-columns: repeat(2, minmax(250px, 1fr)) !important;
+    }
+    
+    .grid1.cards-3,
+    .grid2.cards-3 {
+        grid-template-columns: repeat(2, minmax(250px, 1fr)) !important;
+    }
+    
+    .grid1.cards-4 {
+        grid-template-columns: repeat(2, minmax(250px, 1fr)) !important;
+    }
+    
+    .cartao {
+        padding: 2rem;
+        margin-bottom: 3rem;
+    }
+    
+    .footer-conteudo {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu {
+        padding: 0px 5%;
+    }
+    
+    .logo {
+        margin-left: 1rem;
+    }
+    
+    .menu-li {
+        display: none;
+    }
+    
+    .menu-mobile {
+        display: flex;
+        margin-left: auto;
+    }
+    
+    .menu-toggle:checked ~ div .menu-li {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgb(255, 255, 255, 0.95);
+        backdrop-filter: blur(10px);
+        padding: 2rem;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        gap: 1rem;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+    
+    #inicio {
+        padding: 4rem 3% 2rem;
+    }
+    
+    .section1,
+    .section2 {
+        padding: 0 3%;
+    }
+    
+    .grid1,
+    .grid2 {
+        grid-template-columns: 1fr !important;
+        gap: 20px;
+    }
+    
+    .grid1.cards-1,
+    .grid1.cards-2,
+    .grid1.cards-3,
+    .grid1.cards-4,
+    .grid2.cards-1,
+    .grid2.cards-2,
+    .grid2.cards-3 {
+        grid-template-columns: 1fr !important;
+    }
+    
+    .cartao {
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+        min-width: auto;
+    }
+    
+    .cartao h3 {
+        padding: 6px 15px;
+    }
+    
+    footer {
+        padding: 3rem 3% 1.5rem;
+    }
+    
+    .footer-conteudo {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 320px) {
+    .menu {
+        padding: 0px 3%;
+    }
+    
+    .logo {
+        margin-left: 0.5rem;
+    }
+    
+    #inicio {
+        padding: 3rem 3% 1.5rem;
+    }
+    
+    .cartao {
+        padding: 1rem;
+    }
+    
+    .cartao h3 {
+        padding: 4px 10px;
+    }
 }
