@@ -1,11 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #1f2937;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
 .logo {
     font-size: 1.5rem;
     font-weight: 600;
     color: #1f2937;
-    margin-left: -2rem;
+    margin-left: 0.5rem;
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    text-decoration: none;
+}
+
+.logo:hover {
+    color: #1f2937;
 }
 
 .logo img {
@@ -15,28 +36,55 @@
 
 .menu {
     backdrop-filter: blur(10px);
-    /*Deixa o header desfocado*/
     text-decoration: none;
-    padding: 0px 25%;
-    gap: 20rem;
+    padding: 0 5%;
     width: 100%;
     position: fixed;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: rgb(255, 255, 255, 0.9);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     top: 0;
     z-index: 1000;
+    min-height: 70px;
 }
 
 .menu-li {
     display: flex;
-    gap: 40px;
+    gap: 2rem;
+    align-items: center;
+    list-style: none;
 }
 
 .menu-li a {
     text-decoration: none;
     color: #1f2937;
     font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.menu-li a:hover {
+    color: #2ec272;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.menu-mobile {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 4px;
+    z-index: 1001;
+}
+
+.menu-mobile span {
+    width: 25px;
+    height: 3px;
+    background-color: #1f2937;
+    border-radius: 2px;
 }
 
 #inicio {
@@ -44,11 +92,15 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
+    align-items: center;
+    min-height: 100vh;
 }
 
 #inicio img {
     height: auto;
-    width: 600px;
+    width: 100%;
+    max-width: 600px;
+    justify-self: center;
 }
 
 .inicio {
@@ -58,7 +110,6 @@
 #inicio h1 {
     font-size: 3.5rem;
     line-height: 1.2;
-    /* define epaçamento entre linhas 1.2x da fonte */
     margin-bottom: 1.5rem;
     font-weight: 600;
 }
@@ -89,7 +140,6 @@
     margin: 0 auto 64px;
 }
 
-/* Como a VitaAI funciona */
 #como-funciona {
     padding: 96px 5%;
     background-color: #ffffff;
@@ -107,7 +157,7 @@
     color: #6b7280;
     font-size: 18px;
     max-width: 800px;
-
+    margin: 0 auto 64px;
 }
 
 #beneficios {
@@ -141,6 +191,7 @@
 .beneficio li img {
     width: 20px;
     height: 20px;
+    flex-shrink: 0;
 }
 
 .beneficio p {
@@ -148,11 +199,9 @@
     margin-bottom: 24px;
 }
 
-/* Parte do Footer */
 footer {
     color: white;
     padding: 4rem 5% 2rem;
-    /*4rem da parte de cima, 5% dos lados, e 2rem da parte de baixo*/
     background-color: #1f2937;
 }
 
@@ -160,13 +209,12 @@ footer h3 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 24px;
-    /* Cria 20px de espaço abaixo do h3*/
 }
 
 .footer-conteudo {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-    gap: 64px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 32px;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -183,6 +231,11 @@ footer h3 {
 .footer-conteudo a {
     color: #9ca3af;
     text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-conteudo a:hover {
+    color: #2ec272;
 }
 
 .footer-direitos {
@@ -193,36 +246,19 @@ footer h3 {
     color: #9ca3af;
 }
 
-
-/* Geral / Varios usos */
-body {
-    font-family: Arial, sans-serif;
-    color: #1f2937;
-}
-
 li {
     list-style: none;
 }
 
 .lado-a-lado {
-    display: flex;
-    justify-content: space-between;
-    /* Dexa alinhado de forma igual */
-    flex-wrap: wrap;
-    /* Permite que eles quebrem linha em telas pequenas */
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    /* Cria colunas responsivas: cada coluna terá no mínimo 300px e ocupará o espaço disponível igualmente (1fr). 
-   O auto-fit ajusta o número de colunas conforme o tamanho da tela. */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 32px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .cartao {
-    flex: 1;
-    /* Deixa do mesmo tamanho */
-    min-width: 250px;
-    /* Evita que fique pequeno dms */
     background: #ffffff;
     padding: 2.5rem;
     border-radius: 10px;
@@ -238,6 +274,7 @@ li {
 
 .cartao p {
     color: #6b7280;
+    font-size: clamp(0.9rem, 2vw, 1rem);
 }
 
 .comece_sua_jornada {
@@ -246,20 +283,33 @@ li {
     background-color: #2ec272;
     color: white;
     border: 0;
-    padding: 10px 20px;
+    padding: 12px 24px;
     border-radius: 6px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.comece_sua_jornada:hover {
+    background-color: #25a05a;
 }
 
 #saiba_mais {
     font-size: 16px;
     margin-top: 20px;
+    margin-left: 10px;
     background-color: #a1a1a1;
     color: white;
     border: 0;
-    padding: 10px 20px;
+    padding: 12px 24px;
     border-radius: 6px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#saiba_mais:hover {
+    background-color: #8a8a8a;
 }
 
 #beneficios_botao {
@@ -272,6 +322,11 @@ li {
     padding: 20px 30px;
     border-radius: 6px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#beneficios_botao:hover {
+    background-color: #25a05a;
 }
 
 .cartao_beneficio {
@@ -281,17 +336,21 @@ li {
     background: #ffffff;
     border-radius: 10px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .cartao_beneficio p {
     text-decoration: none;
         padding-bottom: 1rem;
 }
+
 .cartao_beneficio a {
     text-decoration: none;
 }
+
 .cartao_beneficio h2 {
-    text-decoration: none;
     padding-bottom: 1rem;
 }
 
@@ -301,8 +360,8 @@ li {
     list-style: none;
     gap: 2.5rem;
     align-items: center;
-
 }
+
 .entrar { 
     font-size: 16px;
     margin-top: 20px;
@@ -312,15 +371,23 @@ li {
     padding: 10px 20px;
     border-radius: 6px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
+
+.entrar:hover {
+    background-color: #25a05a;
+}
+
 .texto-centro{
     text-align: center;
 }
+
 #beneficios img{
     display: flex;
     width: 20px;
     height: 20px;
 }
+
 .centralizar{
     text-align: center !important;
 }
@@ -331,4 +398,196 @@ li {
     width: 100%;
     margin: 0 auto;
     margin-bottom: 64px;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        padding: 0px 3%;
+    }
+    
+    .menu-li {
+        gap: 1.5rem;
+    }
+    
+    #inicio {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 2rem;
+        padding: 6rem 3% 4rem;
+    }
+    
+    .inicio {
+        max-width: 100%;
+    }
+    
+    .beneficio {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        text-align: center;
+    }
+    
+    .lado-a-lado {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 24px;
+    }
+    
+    .cartao {
+        padding: 2rem;
+    }
+    
+    .footer-conteudo {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu {
+        padding: 0px 5%;
+    }
+    
+    .logo {
+        margin-left: 1rem;
+    }
+    
+    .menu-li {
+        display: none;
+    }
+    
+    .menu-mobile {
+        display: flex;
+    }
+    
+    .menu-toggle:checked ~ div .menu-li {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgb(255, 255, 255, 0.95);
+        backdrop-filter: blur(10px);
+        padding: 2rem;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        gap: 1rem;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+    
+    #inicio {
+        padding: 5rem 3% 3rem;
+        gap: 1.5rem;
+    }
+    
+    #inicio h1 {
+        font-size: 2rem;
+    }
+    
+    #inicio p {
+        font-size: 1rem;
+    }
+    
+    #recursos,
+    #como-funciona,
+    #beneficios {
+        padding: 4rem 3% 3rem;
+    }
+    
+    .recursos h2,
+    .como-funciona h2,
+    .beneficio h2 {
+        font-size: 2rem;
+    }
+    
+    .recursos p,
+    .como-funciona p {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+    
+    .beneficio {
+        padding: 1rem;
+        gap: 1.5rem;
+    }
+    
+    .lado-a-lado {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .cartao {
+        padding: 1.5rem;
+    }
+    
+    .cartao_beneficio {
+        padding: 1.5rem;
+        min-height: 250px;
+    }
+    
+    .comece_sua_jornada,
+    #saiba_mais {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+        text-align: center;
+    }
+    
+    #saiba_mais {
+        margin-left: 0;
+    }
+    
+    footer {
+        padding: 3rem 3% 1.5rem;
+    }
+    
+    .footer-conteudo {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 320px) {
+    .menu {
+        padding: 0px 3%;
+    }
+    
+    #inicio {
+        padding: 4rem 3% 2rem;
+    }
+    
+    #inicio h1 {
+        font-size: 1.8rem;
+    }
+    
+    .cartao {
+        padding: 1rem;
+    }
+    
+    .cartao_beneficio {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .menu-li {
+        gap: 1rem;
+        font-size: 0.95rem;
+    }
+    .menu {
+        padding: 0 2%;
+    }
+    .entrar {
+        padding: 8px 12px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 900px) {
+    .menu-li {
+        display: none;
+    }
+    .menu-mobile {
+        display: flex;
+        margin-left: auto;
+    }
 }
