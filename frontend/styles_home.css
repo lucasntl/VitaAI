@@ -2,12 +2,13 @@ body{
     font-family: Arial, sans-serif;
     color: #1f2937;
     background: #F2FFF7;
+    overflow-x: hidden;
 }
 
 .logo{
     font-size: 1.5rem;
     font-weight: 600;
-    color: #1f2937;
+    color: #1f2937a
     margin-left: 0.5rem;
     display: flex;
     align-items: center;
@@ -15,7 +16,7 @@ body{
     text-decoration: none;
 }
 
-.logo:hover{
+.logo:hover {
     color: #1f2937;
 }
 
@@ -24,19 +25,20 @@ body{
     width: auto;
 }
 
-.menu-toggle{
+.menu-toggle {
     display: none;
 }
 
-.menu-mobile{
+.menu-mobile {
     display: none;
     flex-direction: column;
     cursor: pointer;
     gap: 4px;
+    z-index: 1001;
     margin-left: auto;
 }
 
-.menu-mobile span{
+.menu-mobile span {
     width: 25px;
     height: 3px;
     background-color: #1f2937;
@@ -55,6 +57,7 @@ body{
     background-color: rgb(255, 255, 255, 0.9);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     top: 0;
+    z-index: 1000;
     min-height: 70px;
     box-sizing: border-box;
 }
@@ -75,7 +78,7 @@ body{
     white-space: nowrap;
 }
 
-.menu-li a:hover{
+.menu-li a:hover {
     color: #2ec272;
 }
 
@@ -90,7 +93,7 @@ body{
     cursor: pointer;
 }
 
-.entrar:hover{
+.entrar:hover {
     background-color: #25a05a;
 }
 
@@ -99,7 +102,7 @@ li{
 }
 
 #inicio {
-    padding: 7rem 1rem 2.5rem;
+    padding: 7rem 5% 2.5rem;
 }
 
 .meio{
@@ -147,7 +150,7 @@ li{
 }
 
 section{
-    padding: 0 1rem;
+    padding: 0 5%;
 }
 
 .meio h2{
@@ -186,74 +189,74 @@ button{
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .menu {
-        padding: 0px 1rem;
+        padding: 0px 3%;
     }
     
-    .menu-li{
+    .menu-li {
         gap: 1.5rem;
     }
     
-    #inicio{
-        padding: 6rem 1rem 2rem;
+    #inicio {
+        padding: 6rem 3% 2rem;
     }
     
-    section{
-        padding: 0 1rem;
+    section {
+        padding: 0 3%;
     }
     
-    .grid{
+    .grid {
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
         gap: 1.5rem;
     }
     
-    .meio{
+    .meio {
         padding: 2rem;
         margin-bottom: 1.5rem;
     }
     
-    .texto h1{
+    .texto h1 {
         font-size: 2.5rem;
     }
     
-    .texto p{
+    .texto p {
         font-size: 1.1rem;
     }
     
-    .meio h2{
+    .meio h2 {
         font-size: 26px;
     }
     
-    .meio p{
+    .meio p {
         font-size: 16px;
     }
     
-    button{
+    button {
         font-size: 16px;
         padding: 15px 25px;
     }
 }
 
 @media (max-width: 480px) {
-    .menu{
-        padding: 0px 1rem;
+    .menu {
+        padding: 0px 5%;
     }
     
-    .logo{
+    .logo {
         margin-left: 0;
     }
     
-    .menu-li{
+    .menu-li {
         display: none;
     }
     
-    .menu-mobile{
+    .menu-mobile {
         display: flex;
         margin-left: auto;
     }
     
-    .menu-toggle:checked ~ div .menu-li{
+    .menu-toggle:checked ~ div .menu-li {
         display: flex;
         flex-direction: column;
         position: absolute;
@@ -268,43 +271,43 @@ button{
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     }
     
-    #inicio{
-        padding: 5rem 1rem 1.5rem;
+    #inicio {
+        padding: 5rem 3% 1.5rem;
     }
     
-    section{
-        padding: 0 1rem;
+    section {
+        padding: 0 3%;
     }
     
-    .grid{
+    .grid {
         grid-template-columns: 1fr !important;
         gap: 1rem;
     }
     
-    .meio{
+    .meio {
         padding: 1.5rem;
         margin-bottom: 1rem;
         min-width: auto;
     }
     
-    .texto h1{
+    .texto h1 {
         font-size: 2rem;
     }
     
-    .texto p{
+    .texto p {
         font-size: 1rem;
         margin-bottom: 2rem;
     }
     
-    .meio h2{
+    .meio h2 {
         font-size: 24px;
     }
     
-    .meio p{
+    .meio p {
         font-size: 15px;
     }
     
-    button{
+    button {
         font-size: 15px;
         padding: 12px 20px;
         width: 100%;
@@ -312,31 +315,31 @@ button{
 }
 
 @media (max-width: 320px) {
-    .menu{
-        padding: 0px 1rem;
+    .menu {
+        padding: 0px 3%;
     }
     
-    #inicio{
-        padding: 4rem 1rem 1rem;
+    #inicio {
+        padding: 4rem 3% 1rem;
     }
     
-    .meio{
+    .meio {
         padding: 1rem;
     }
     
-    .texto h1{
+    .texto h1 {
         font-size: 1.8rem;
     }
     
-    .meio h2{
+    .meio h2 {
         font-size: 22px;
     }
     
-    .meio p{
+    .meio p {
         font-size: 14px;
     }
     
-    button{
+    button {
         font-size: 14px;
         padding: 10px 18px;
     }
