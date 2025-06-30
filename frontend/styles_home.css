@@ -2,16 +2,22 @@ body{
     font-family: Arial, sans-serif;
     color: #1f2937;
     background: #F2FFF7;
+    overflow-x: hidden;
 }
 
 .logo{
     font-size: 1.5rem;
     font-weight: 600;
     color: #1f2937;
-    margin-left: -2rem;
+    margin-left: 0.5rem;
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    text-decoration: none;
+}
+
+.logo:hover {
+    color: #1f2937;
 }
 
 .logo img{
@@ -19,34 +25,61 @@ body{
     width: auto;
 }
 
+.menu-toggle {
+    display: none;
+}
+
+.menu-mobile {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 4px;
+    z-index: 1001;
+    margin-left: auto;
+}
+
+.menu-mobile span {
+    width: 25px;
+    height: 3px;
+    background-color: #1f2937;
+    border-radius: 2px;
+}
+
 .menu{
     backdrop-filter: blur(10px);
     text-decoration: none;
-    padding: 0px 25%;
-    gap: 20rem;
+    padding: 0 5%;
     width: 100%;
     position: fixed;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: rgb(255, 255, 255, 0.9);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     top: 0;
     z-index: 1000;
+    min-height: 70px;
+    box-sizing: border-box;
 }
 
 .menu-li{
     display: flex;
-    gap: 40px;
-    padding-top: 12px;
-    display: flex;
-    list-style: none;
-    gap: 2.5rem;
+    gap: 2rem;
     align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .menu-li a{
     text-decoration: none;
     color: #1f2937;
     font-weight: 500;
+    white-space: nowrap;
+}
+
+.menu-li a:hover {
+    color: #2ec272;
 }
 
 .entrar{
@@ -60,23 +93,24 @@ body{
     cursor: pointer;
 }
 
+.entrar:hover {
+    background-color: #25a05a;
+}
+
 li{
     list-style: none;
 }
 
-
 #inicio {
-    padding: 7rem 10%;
-    padding-bottom: 2.5rem;
+    padding: 7rem 5% 2.5rem;
 }
 
 .meio{
     flex: 1;
     min-width: 250px;
-    max-width: 400px;
     background: #ffffff;
     padding: 2.5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     border-radius: 10px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
     position: relative;
@@ -109,12 +143,14 @@ li{
     justify-content: center;
     width: 100% !important;
     display: grid !important;
-    grid-template-columns: repeat(2, 1fr) !important;
-    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 section{
-    padding: 0 20%;
+    padding: 0 5%;
 }
 
 .meio h2{
@@ -142,4 +178,169 @@ button{
 .botao_centro{
     text-align: center !important;
     justify-content: center !important;
+}
+
+@media (max-width: 900px) {
+    .menu {
+        padding: 0 2%;
+    }
+    .menu-mobile {
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu {
+        padding: 0px 3%;
+    }
+    
+    .menu-li {
+        gap: 1.5rem;
+    }
+    
+    #inicio {
+        padding: 6rem 3% 2rem;
+    }
+    
+    section {
+        padding: 0 3%;
+    }
+    
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
+        gap: 1.5rem;
+    }
+    
+    .meio {
+        padding: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .texto h1 {
+        font-size: 2.5rem;
+    }
+    
+    .texto p {
+        font-size: 1.1rem;
+    }
+    
+    .meio h2 {
+        font-size: 26px;
+    }
+    
+    .meio p {
+        font-size: 16px;
+    }
+    
+    button {
+        font-size: 16px;
+        padding: 15px 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu {
+        padding: 0px 5%;
+    }
+    
+    .logo {
+        margin-left: 0;
+    }
+    
+    .menu-li {
+        display: none;
+    }
+    
+    .menu-mobile {
+        display: flex;
+        margin-left: auto;
+    }
+    
+    .menu-toggle:checked ~ div .menu-li {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgb(255, 255, 255, 0.95);
+        backdrop-filter: blur(10px);
+        padding: 2rem;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        gap: 1rem;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+    
+    #inicio {
+        padding: 5rem 3% 1.5rem;
+    }
+    
+    section {
+        padding: 0 3%;
+    }
+    
+    .grid {
+        grid-template-columns: 1fr !important;
+        gap: 1rem;
+    }
+    
+    .meio {
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+        min-width: auto;
+    }
+    
+    .texto h1 {
+        font-size: 2rem;
+    }
+    
+    .texto p {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+    
+    .meio h2 {
+        font-size: 24px;
+    }
+    
+    .meio p {
+        font-size: 15px;
+    }
+    
+    button {
+        font-size: 15px;
+        padding: 12px 20px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .menu {
+        padding: 0px 3%;
+    }
+    
+    #inicio {
+        padding: 4rem 3% 1rem;
+    }
+    
+    .meio {
+        padding: 1rem;
+    }
+    
+    .texto h1 {
+        font-size: 1.8rem;
+    }
+    
+    .meio h2 {
+        font-size: 22px;
+    }
+    
+    .meio p {
+        font-size: 14px;
+    }
+    
+    button {
+        font-size: 14px;
+        padding: 10px 18px;
+    }
 }
