@@ -2,7 +2,6 @@ body{
     font-family: Arial, sans-serif;
     color: #1f2937;
     background: #F2FFF7;
-    overflow-x: hidden;
 }
 
 .logo{
@@ -34,7 +33,6 @@ body{
     flex-direction: column;
     cursor: pointer;
     gap: 4px;
-    z-index: 1001;
     margin-left: auto;
 }
 
@@ -57,7 +55,6 @@ body{
     background-color: rgb(255, 255, 255, 0.9);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     top: 0;
-    z-index: 1000;
     min-height: 70px;
     box-sizing: border-box;
 }
@@ -102,7 +99,7 @@ li{
 }
 
 #inicio {
-    padding: 7rem 5% 2.5rem;
+    padding: 7rem 1rem 2.5rem;
 }
 
 .meio{
@@ -150,7 +147,7 @@ li{
 }
 
 section{
-    padding: 0 5%;
+    padding: 0 1rem;
 }
 
 .meio h2{
@@ -191,7 +188,7 @@ button{
 
 @media (max-width: 768px){
     .menu {
-        padding: 0px 3%;
+        padding: 0px 1rem;
     }
     
     .menu-li{
@@ -199,11 +196,11 @@ button{
     }
     
     #inicio{
-        padding: 6rem 3% 2rem;
+        padding: 6rem 1rem 2rem;
     }
     
     section{
-        padding: 0 3%;
+        padding: 0 1rem;
     }
     
     .grid{
@@ -240,7 +237,7 @@ button{
 
 @media (max-width: 480px) {
     .menu{
-        padding: 0px 5%;
+        padding: 0px 1rem;
     }
     
     .logo{
@@ -272,11 +269,11 @@ button{
     }
     
     #inicio{
-        padding: 5rem 3% 1.5rem;
+        padding: 5rem 1rem 1.5rem;
     }
     
     section{
-        padding: 0 3%;
+        padding: 0 1rem;
     }
     
     .grid{
@@ -316,11 +313,11 @@ button{
 
 @media (max-width: 320px) {
     .menu{
-        padding: 0px 3%;
+        padding: 0px 1rem;
     }
     
     #inicio{
-        padding: 4rem 3% 1rem;
+        padding: 4rem 1rem 1rem;
     }
     
     .meio{
